@@ -12,8 +12,9 @@ model = ModelConfig(
 )
 
 train = dict(
-    batch_size=32,
-    grad_accum=8,            # 유효 배치 = 32*8*1024 ≈ 0.26M tokens
+    # 벤치마크: 마이크로배치 8이 최적 (83K tok/s / VRAM 6GB)
+    batch_size=8,
+    grad_accum=32,           # 유효 배치 = 8*32*1024 ≈ 0.26M tokens
     max_lr=6e-4,
     min_lr=6e-5,
     warmup_steps=1000,

@@ -12,8 +12,10 @@ model = ModelConfig(
 )
 
 train = dict(
-    batch_size=16,
-    grad_accum=16,           # 유효 배치 = 16*16*2048 ≈ 0.52M tokens
+    # 벤치마크(RTX 6000 Ada + torch.compile) 결과 마이크로배치 4가 최적:
+    # 34.7K tok/s / VRAM 14GB (배치 8·12는 오히려 느리고 메모리만 2~3배)
+    batch_size=4,
+    grad_accum=64,           # 유효 배치 = 4*64*2048 ≈ 0.52M tokens
     max_lr=3e-4,
     min_lr=3e-5,
     warmup_steps=2000,
