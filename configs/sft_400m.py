@@ -11,6 +11,7 @@ train = dict(
     epochs=2,
     weight_decay=0.0,      # SFT에서는 보통 끔
     grad_clip=1.0,
+    loss_chunk=8192,       # 청크 CE — 64K vocab logits 메모리 절감
     eval_every=200,
     save_every=500,
     max_len=1024,          # instruction 데이터는 대부분 짧다

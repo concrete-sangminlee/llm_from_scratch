@@ -64,6 +64,30 @@ def main():
     assert torch.equal(gen_cache, out), "KV cache 생성 결과 불일치"
     print("4) KV cache 생성 == full forward greedy")
 
+    # 5) 청크 CE == 일반 CE (loss 값과 gradient 모두)
+    model.zero_grad()
+    _, loss_plain = model(x, y)
+    loss_plain.backward()
+    g_plain = model.tok_emb.weight.grad.clone()
+    model.zero_grad()
+    _, loss_chunked = model(x, y, loss_chunk=64)
+    loss_chunked.backward()
+    g_chunked = model.tok_emb.weight.grad.clone()
+    assert abs(loss_plain.item() - loss_chunked.item()) < 1e-4, \
+        f"loss 불일치: {loss_plain.item()} vs {loss_chunked.item()}"
+    gdiff = (g_plain - g_chunked).abs().max().item()
+    assert gdiff < 1e-4, f"gradient 불일치: {gdiff}"
+    print(f"5) 청크 CE == 일반 CE (loss diff {abs(loss_plain.item()-loss_chunked.item()):.2e}, "
+          f"grad diff {gdiff:.2e})")
+
+    # 6) ignore_index(-100) 마스킹이 청크 경계를 넘어도 정확한지
+    y_masked = y.clone()
+    y_masked[:, ::3] = -100
+    _, lp = model(x, y_masked)
+    _, lc = model(x, y_masked, loss_chunk=64)
+    assert abs(lp.item() - lc.item()) < 1e-4, f"마스킹 불일치: {lp.item()} vs {lc.item()}"
+    print(f"6) loss 마스킹 일치 (diff {abs(lp.item()-lc.item()):.2e})")
+
     print("\n모든 검증 통과")
 
 

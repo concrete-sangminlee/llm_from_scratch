@@ -20,6 +20,7 @@ train = dict(
     max_steps=10000,         # ~2.6B tokens
     weight_decay=0.1,
     grad_clip=1.0,
+    loss_chunk=8192,       # 청크 CE — 64K vocab logits 메모리 절감
     eval_every=250,
     save_every=1000,
 )

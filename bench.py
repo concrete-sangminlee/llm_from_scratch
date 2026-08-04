@@ -41,7 +41,7 @@ def main():
             torch.cuda.synchronize()
             t0 = time.time()
         with torch.autocast(device_type=device, dtype=torch.bfloat16):
-            _, loss = model(x, y)
+            _, loss = model(x, y, loss_chunk=tcfg.get("loss_chunk"))
         loss.backward()
         opt.step()
         opt.zero_grad(set_to_none=True)

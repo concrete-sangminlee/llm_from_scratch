@@ -39,13 +39,13 @@ def lr_at(step, cfg):
 
 
 @torch.no_grad()
-def estimate_val_loss(model, loader, iters, device_type):
+def estimate_val_loss(model, loader, iters, device_type, loss_chunk=None):
     model.eval()
     losses = []
     for _ in range(iters):
         x, y = loader.next_batch()
         with torch.autocast(device_type=device_type, dtype=torch.bfloat16):
-            _, loss = model(x, y)
+            _, loss = model(x, y, loss_chunk=loss_chunk)
         losses.append(loss.item())
     model.train()
     return sum(losses) / len(losses)
@@ -120,7 +120,7 @@ def main():
         for micro in range(tcfg["grad_accum"]):
             x, y = train_loader.next_batch()
             with torch.autocast(device_type=device_type, dtype=torch.bfloat16):
-                _, loss = model(x, y)
+                _, loss = model(x, y, loss_chunk=tcfg.get("loss_chunk"))
             (loss / tcfg["grad_accum"]).backward()
             loss_acc += loss.item() / tcfg["grad_accum"]
         torch.nn.utils.clip_grad_norm_(model.parameters(), tcfg["grad_clip"])
@@ -135,7 +135,7 @@ def main():
 
         val_loss = ""
         if step > 0 and step % tcfg["eval_every"] == 0:
-            val_loss = estimate_val_loss(model, val_loader, 20, device_type)
+            val_loss = estimate_val_loss(model, val_loader, 20, device_type, tcfg.get("loss_chunk"))
             print(f"step {step:6d} | val loss {val_loss:.4f}")
             # 생성 샘플로 정성 확인
             raw = getattr(model, "_orig_mod", model)

@@ -142,6 +142,34 @@ class SwiGLU(nn.Module):
         return self.w_down(F.silu(self.w_gate(x)) * self.w_up(x))
 
 
+def _chunk_loss(h_chunk, t_chunk, w):
+    """한 청크의 logits를 만들어 loss 합을 반환. 체크포인팅으로 감싸 쓰인다."""
+    logits = F.linear(h_chunk, w).float()
+    return F.cross_entropy(logits, t_chunk, ignore_index=-100, reduction="sum")
+
+
+def chunked_cross_entropy(h, targets, w, chunk: int):
+    """vocab이 클 때 logits 전체를 메모리에 올리지 않는 cross-entropy.
+
+    64K vocab · 32K 토큰이면 fp32 logits만 8.6GB라 그대로는 48GB GPU도 터진다.
+    시퀀스를 청크로 쪼개 계산하고, gradient checkpointing으로 backward 때
+    청크 하나씩만 다시 만들어 쓴다 — 순간 메모리가 1/N로 줄고 결과는 동일하다.
+    """
+    h = h.reshape(-1, h.size(-1))
+    t = targets.reshape(-1)
+    total = h.new_zeros((), dtype=torch.float32)
+    n_valid = (t != -100).sum()
+    for i in range(0, h.size(0), chunk):
+        hc, tc = h[i : i + chunk], t[i : i + chunk]
+        if torch.is_grad_enabled() and h.requires_grad:
+            total = total + torch.utils.checkpoint.checkpoint(
+                _chunk_loss, hc, tc, w, use_reentrant=False
+            )
+        else:
+            total = total + _chunk_loss(hc, tc, w)
+    return total / n_valid.clamp(min=1)
+
+
 class Block(nn.Module):
     def __init__(self, cfg: ModelConfig):
         super().__init__()
@@ -182,12 +210,14 @@ class GPT(nn.Module):
         elif isinstance(m, nn.Embedding):
             nn.init.normal_(m.weight, std=0.02)
 
-    def forward(self, idx, targets=None, explicit=False):
+    def forward(self, idx, targets=None, explicit=False, loss_chunk=None):
         x = self.tok_emb(idx)
         for block in self.blocks:
             x, _ = block(x, self.rope, explicit=explicit)
         x = self.final_norm(x)
         if targets is not None:
+            if loss_chunk:
+                return None, chunked_cross_entropy(x, targets, self.lm_head.weight, loss_chunk)
             logits = self.lm_head(x)
             loss = F.cross_entropy(
                 logits.float().reshape(-1, logits.size(-1)), targets.reshape(-1), ignore_index=-100

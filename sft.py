@@ -134,7 +134,7 @@ def main():
                 x, y = next(it)
                 x, y = x.to(device), y.to(device)
                 with torch.autocast(device_type=device_type, dtype=torch.bfloat16):
-                    _, loss = model(x, y)
+                    _, loss = model(x, y, loss_chunk=tcfg.get("loss_chunk"))
                 (loss / tcfg["grad_accum"]).backward()
                 loss_acc += loss.item() / tcfg["grad_accum"]
             torch.nn.utils.clip_grad_norm_(model.parameters(), tcfg["grad_clip"])
