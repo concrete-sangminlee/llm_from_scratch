@@ -20,6 +20,14 @@ from .pretokenize import pretokenize
 SPECIAL_TOKENS = ["<|bos|>", "<|eos|>", "<|pad|>", "<|im_start|>", "<|im_end|>"]
 
 
+def _count_batch(texts: list[str]) -> Counter:
+    """멀티프로세스 워커용: 텍스트 배치의 pretoken 빈도 집계."""
+    c: Counter[str] = Counter()
+    for t in texts:
+        c.update(pretokenize(t))
+    return c
+
+
 class ByteBPETokenizer:
     def __init__(self, merges: list[tuple[int, int]], special_tokens: list[str] | None = None):
         self.merges = merges
@@ -106,16 +114,35 @@ class ByteBPETokenizer:
         vocab_size: int,
         special_tokens: list[str] | None = None,
         verbose_every: int = 1000,
+        workers: int = 1,
     ) -> "ByteBPETokenizer":
         """texts(문자열 iterable)로부터 BPE merge 규칙을 학습한다."""
         special_tokens = special_tokens or SPECIAL_TOKENS
         num_merges = vocab_size - 256 - len(special_tokens)
         assert num_merges > 0
 
-        # 1) pretoken 빈도 집계 — 동일 어절은 한 번만 처리하면 되므로 대폭 절약
+        # 1) pretoken 빈도 집계 — 동일 어절은 한 번만 처리하면 되므로 대폭 절약.
+        #    집계는 병렬화 가능 (merge 루프는 순차적이라 불가).
         chunk_counts: Counter[str] = Counter()
-        for text in texts:
-            chunk_counts.update(pretokenize(text))
+        if workers > 1:
+            from multiprocessing import Pool
+
+            def batches():
+                buf = []
+                for t in texts:
+                    buf.append(t)
+                    if len(buf) >= 256:
+                        yield buf
+                        buf = []
+                if buf:
+                    yield buf
+
+            with Pool(workers) as pool:
+                for c in pool.imap_unordered(_count_batch, batches()):
+                    chunk_counts.update(c)
+        else:
+            for text in texts:
+                chunk_counts.update(pretokenize(text))
 
         # words[i] = (토큰 id 리스트, 코퍼스 내 빈도)
         words: list[list[int]] = []

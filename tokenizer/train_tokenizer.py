@@ -13,6 +13,7 @@
 """
 
 import argparse
+import os
 import time
 
 from datasets import load_dataset
@@ -48,10 +49,12 @@ def main():
     ap.add_argument("--sample-mb", type=float, default=500)
     ap.add_argument("--vocab-size", type=int, default=65536)
     ap.add_argument("--out", default="tokenizer/tokenizer.json")
+    ap.add_argument("--workers", type=int, default=os.cpu_count())
     args = ap.parse_args()
 
     t0 = time.time()
-    tok = ByteBPETokenizer.train(iter_corpus(args.sample_mb), vocab_size=args.vocab_size)
+    tok = ByteBPETokenizer.train(iter_corpus(args.sample_mb), vocab_size=args.vocab_size,
+                                 workers=args.workers)
     tok.save(args.out)
     print(f"\n학습 완료: vocab {tok.vocab_size}, {time.time()-t0:.0f}s → {args.out}")
 
