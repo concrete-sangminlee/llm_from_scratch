@@ -138,11 +138,14 @@ class ByteBPETokenizer:
                     yield buf
 
             with Pool(workers) as pool:
-                for c in pool.imap_unordered(_count_batch, batches()):
+                for i, c in enumerate(pool.imap_unordered(_count_batch, batches())):
                     chunk_counts.update(c)
+                    if i % 1000 == 0:
+                        print(f"  집계: {i*256}개 문서, 고유 pretoken {len(chunk_counts):,}", flush=True)
         else:
             for text in texts:
                 chunk_counts.update(pretokenize(text))
+        print(f"집계 완료: 고유 pretoken {len(chunk_counts):,}개", flush=True)
 
         # words[i] = (토큰 id 리스트, 코퍼스 내 빈도)
         words: list[list[int]] = []
@@ -163,7 +166,11 @@ class ByteBPETokenizer:
         # 3) lazy-deletion max-heap
         heap = [(-c, pair) for pair, c in pair_counts.items()]
         heapq.heapify(heap)
+        print(f"merge 루프 시작: 단어 {len(words):,}개, 초기 쌍 {len(pair_counts):,}개", flush=True)
 
+        import time as _time
+
+        t_start = _time.time()
         merges: list[tuple[int, int]] = []
         while len(merges) < num_merges and heap:
             neg_c, pair = heapq.heappop(heap)
@@ -210,7 +217,11 @@ class ByteBPETokenizer:
 
             if verbose_every and len(merges) % verbose_every == 0:
                 tok = cls._render(merges, pair)
-                print(f"merge {len(merges)}/{num_merges}: {tok!r} (빈도 {-neg_c})")
+                elapsed = _time.time() - t_start
+                rate = len(merges) / elapsed
+                eta = (num_merges - len(merges)) / rate / 60
+                print(f"merge {len(merges)}/{num_merges}: {tok!r} (빈도 {-neg_c}) "
+                      f"| {rate:.1f} merge/s | 남은 시간 ~{eta:.0f}분", flush=True)
 
         return cls(merges, special_tokens)
 
