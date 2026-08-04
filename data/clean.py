@@ -73,18 +73,23 @@ class MinHashDeduper:
         ]
         return [min((a * h + b) % self._MERSENNE for h in hashes) for a, b in self.perms]
 
+    def band_keys(self, text: str) -> list[bytes]:
+        """밴드별 해시 키 — 계산 비용의 대부분이 여기라 워커에서 병렬 실행 가능."""
+        sig = self._signature(text)
+        return [
+            hashlib.blake2b(str(sig[b * self.rows : (b + 1) * self.rows]).encode(),
+                            digest_size=8).digest()
+            for b in range(self.bands)
+        ]
+
+    def check_keys(self, keys: list[bytes]) -> bool:
+        """미리 계산된 키로 중복 판정 + 등록. 집합 조회뿐이라 매우 빠르다."""
+        dup = any(k in self.seen[b] for b, k in enumerate(keys))
+        if not dup:
+            for b, k in enumerate(keys):
+                self.seen[b].add(k)
+        return dup
+
     def is_duplicate(self, text: str) -> bool:
         """중복이면 True. 아니면 등록하고 False."""
-        sig = self._signature(text)
-        keys = []
-        dup = False
-        for b in range(self.bands):
-            band = sig[b * self.rows : (b + 1) * self.rows]
-            key = hashlib.blake2b(str(band).encode(), digest_size=8).digest()
-            if key in self.seen[b]:
-                dup = True
-            keys.append(key)
-        if not dup:
-            for b, key in enumerate(keys):
-                self.seen[b].add(key)
-        return dup
+        return self.check_keys(self.band_keys(text))

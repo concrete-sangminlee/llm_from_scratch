@@ -17,6 +17,7 @@
 import argparse
 import json
 import os
+import time
 from multiprocessing import Pool
 
 import numpy as np
@@ -36,15 +37,26 @@ MIX = [
 SHARD_TOKENS = 50_000_000  # shard당 5천만 토큰 = 100MB(uint16)
 
 _tok = None
+_deduper = None
 
 
 def _init_worker(tok_path):
-    global _tok
+    global _tok, _deduper
     _tok = ByteBPETokenizer.load(tok_path)
+    _deduper = MinHashDeduper()  # 서명 계산 전용 (중복 판정은 메인 프로세스가 담당)
 
 
-def _encode_doc(text):
-    return _tok.encode(text) + [_tok.special_tokens["<|eos|>"]]
+def _process_doc(job):
+    """워커: 필터 → MinHash 서명 → 토크나이즈까지 전부 수행.
+
+    중복 판정 자체는 전역 상태(지금까지 본 서명)가 필요해 메인 프로세스가 하지만,
+    비싼 연산(해싱·인코딩)은 전부 여기서 병렬로 끝낸다.
+    """
+    text, korean = job
+    if not keep_document(text, korean_source=korean):
+        return None, None
+    keys = _deduper.band_keys(text[:2000])
+    return keys, _tok.encode(text) + [_tok.special_tokens["<|eos|>"]]
 
 
 class ShardWriter:
@@ -102,16 +114,17 @@ def main():
     train_w = ShardWriter(args.out_dir, "train")
     val_w = ShardWriter(args.out_dir, "val")
     n_docs = n_filtered = n_dup = 0
+    t_start = time.time()
 
     def doc_stream():
-        """소스 라운드로빈 + 필터링된 문서 텍스트를 생산."""
-        nonlocal n_docs, n_filtered, n_dup
+        """소스 라운드로빈으로 원문을 생산 (필터·해싱·인코딩은 워커가 담당)."""
+        nonlocal n_docs
         active = list(streams)
         while active:
             for s in list(active):
                 if s["got"] >= s["budget"]:
                     active.remove(s)
-                    print(f"[{s['name']}] 목표 도달 ({s['got']/1e6:.0f}M tokens)")
+                    print(f"[{s['name']}] 목표 도달 ({s['got']/1e6:.0f}M tokens)", flush=True)
                     continue
                 try:
                     text = next(s["it"])["text"]
@@ -119,25 +132,25 @@ def main():
                     active.remove(s)
                     continue
                 n_docs += 1
-                if not keep_document(text, korean_source=s["korean"]):
-                    n_filtered += 1
-                    continue
-                if deduper.is_duplicate(text[:2000]):
-                    n_dup += 1
-                    continue
                 yield s, text
 
     with Pool(args.workers, initializer=_init_worker, initargs=(args.tokenizer,)) as pool:
         # imap의 순서 보존을 이용해 (소스, 결과)를 짝지어 예산을 갱신한다
         pending_sources = []
 
-        def texts():
+        def jobs():
             for s, text in doc_stream():
                 pending_sources.append(s)
-                yield text
+                yield (text, s["korean"])
 
-        for ids in pool.imap(_encode_doc, texts(), chunksize=16):
+        for keys, ids in pool.imap(_process_doc, jobs(), chunksize=16):
             s = pending_sources.pop(0)
+            if keys is None:
+                n_filtered += 1
+                continue
+            if deduper.check_keys(keys):
+                n_dup += 1
+                continue
             s["got"] += len(ids)
             # 문서 단위로 train/val 분리 (같은 문서가 양쪽에 걸치지 않게)
             if val_w.total < target * args.val_ratio:
@@ -146,8 +159,12 @@ def main():
                 train_w.add(ids)
             if (train_w.total + val_w.total) % 10_000_000 < len(ids):
                 done = train_w.total + val_w.total
+                elapsed = time.time() - t_start
+                rate = done / elapsed
+                eta = (target - done) / rate / 3600
                 print(f"진행: {done/1e6:.0f}M / {target/1e6:.0f}M tokens "
-                      f"(문서 {n_docs}, 필터 {n_filtered}, 중복 {n_dup})")
+                      f"(문서 {n_docs}, 필터 {n_filtered}, 중복 {n_dup}) "
+                      f"| {rate/1e6:.2f}M tok/s | 남은 시간 ~{eta:.1f}시간", flush=True)
 
     train_w.close()
     val_w.close()
