@@ -44,9 +44,11 @@ class ShardedDataLoader:
             xs[i] = self._read(int(start), self.T + 1)
         batch = torch.from_numpy(xs)
         x, y = batch[:, :-1], batch[:, 1:]
-        if self.device != "cpu":
+        if self.device.startswith("cuda"):
             x = x.pin_memory().to(self.device, non_blocking=True)
             y = y.pin_memory().to(self.device, non_blocking=True)
+        elif self.device != "cpu":
+            x, y = x.to(self.device), y.to(self.device)
         return x, y
 
     def _read(self, start: int, n: int) -> np.ndarray:

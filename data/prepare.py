@@ -163,7 +163,10 @@ def main():
     }
     with open(os.path.join(args.out_dir, "meta.json"), "w") as f:
         json.dump(meta, f, indent=2)
-    print(f"\n완료: train {train_w.total/1e6:.1f}M / val {val_w.total/1e6:.1f}M tokens")
+    print(f"\n완료: train {train_w.total/1e6:.1f}M / val {val_w.total/1e6:.1f}M tokens", flush=True)
+    # pyarrow 스레드풀이 인터프리터 종료 시 데드락에 걸리는 문제(macOS)가 있어
+    # 모든 산출물을 flush한 뒤 강제 종료한다.
+    os._exit(0)
 
 
 if __name__ == "__main__":
