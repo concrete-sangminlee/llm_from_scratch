@@ -154,15 +154,28 @@ def main():
 
         if step > 0 and step % tcfg["save_every"] == 0 or step == tcfg["max_steps"] - 1:
             raw = getattr(model, "_orig_mod", model)
-            torch.save({
+            ckpt = {
                 "model": raw.state_dict(),
                 "optimizer": opt.state_dict(),
                 "train_loader": train_loader.state_dict(),
                 "step": step,
                 "config": args.config,
-            }, os.path.join(ckpt_dir, "latest.pt"))
+            }
+            # 원자적 저장: 임시 파일에 다 쓴 뒤 rename.
+            # 그냥 덮어쓰면 저장 중 중단됐을 때 체크포인트가 깨져 학습 전체를 잃는다.
+            path = os.path.join(ckpt_dir, "latest.pt")
+            tmp = path + ".tmp"
+            torch.save(ckpt, tmp)
+            os.replace(tmp, path)
             metrics_f.flush()
-            print(f"체크포인트 저장: {ckpt_dir}/latest.pt")
+            print(f"체크포인트 저장: {path} (step {step})")
+
+            # 장기 학습용 스냅샷 — 덮어쓰지 않고 따로 남겨 되돌릴 수 있게 한다
+            ms = tcfg.get("milestone_every")
+            if ms and step % ms == 0:
+                snap = os.path.join(ckpt_dir, f"step_{step:06d}.pt")
+                torch.save(ckpt, snap)
+                print(f"스냅샷 저장: {snap}")
 
     metrics_f.close()
     print("학습 완료")
