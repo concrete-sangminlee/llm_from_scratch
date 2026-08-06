@@ -21,17 +21,19 @@ model = ModelConfig(
 )
 
 train = dict(
-    # 마이크로 배치는 벤치마크로 확정 (bench.py --config base_1b)
-    batch_size=4,
-    grad_accum=128,          # 유효 배치 = 4*128*2048 ≈ 1.05M tokens
+    # 벤치마크 실측: 마이크로배치 2 → 6.8K tok/s / VRAM 26.1GB.
+    # 배치 4는 같은 GPU의 vLLM 서버(14GB)와 겹쳐 OOM.
+    batch_size=2,
+    grad_accum=256,          # 유효 배치 = 2*256*2048 ≈ 1.05M tokens
     max_lr=3e-4,
     min_lr=3e-5,
     warmup_steps=2000,
-    max_steps=24000,         # ≈ 25.2B tokens
+    max_steps=24000,         # ≈ 25.2B tokens (step당 약 154초, 총 43일)
     weight_decay=0.1,
     grad_clip=1.0,
     loss_chunk=8192,
-    eval_every=500,
-    save_every=500,          # 한 달짜리 학습이라 자주 저장
-    milestone_every=5000,    # 별도 보관용 스냅샷 (덮어쓰지 않음)
+    # step 하나가 2.6분이라 500 step은 21시간. 크래시 시 손실이 너무 커서 100으로.
+    eval_every=100,          # 약 4.3시간마다
+    save_every=100,          # 약 4.3시간마다 (체크포인트 14GB)
+    milestone_every=4000,    # 약 7일마다 스냅샷 보관
 )
