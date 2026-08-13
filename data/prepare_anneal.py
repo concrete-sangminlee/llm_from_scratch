@@ -29,23 +29,38 @@ from .clean import MinHashDeduper, keep_document
 from .prepare import SHARD_TOKENS, ShardWriter
 from .quality import QualityClassifier
 
-# repeat: 코퍼스가 예산보다 작을 때 반복 횟수. annealing에서 고품질 데이터를
-# 몇 번 반복하는 건 표준 관행이다.
+# maywell/korean_textbooks 중 실제로 데이터가 있는 구성만.
+# 나머지 mmlu_* 구성들은 업스트림이 깨져 있다 (필드명이 '0'이고 내용이 빈 문자열).
+TEXTBOOK_PARTS = [("maywell/korean_textbooks", c) for c in [
+    "ko_wikidata", "tiny-textbooks", "claude_evol", "normal_instructions",
+    "helpsteer", "code-alpaca",
+    "mmlu_all", "mmlu_abstract_algebra", "mmlu_anatomy", "mmlu_astronomy",
+    "mmlu_business_ethics", "mmlu_clinical_knowledge", "mmlu_college_biology",
+    "mmlu_college_chemistry", "mmlu_college_computer_science",
+    "mmlu_college_mathematics", "mmlu_college_medicine",
+]]
+
+# 비율은 data.measure_sources 실측 + 1차 준비 실행의 실제 산출량을 근거로 정했다.
+# 1회분 가용량: 위키백과 260M / 나무위키 540M / 교과서 1,300M / instruction 67M.
+#   (위키백과는 스트리밍 앞부분에 긴 문서가 몰려 있어 표본 추정이 5배 부풀려진다.
+#    1차 실행에서 실제로 나온 260M을 쓴다.)
+# repeat는 예산에 도달하면 자동으로 멈추므로 넉넉히 준다.
+# dedup: 웹·나무위키에만 적용. 정제된 코퍼스는 의도적으로 반복 투입하므로 끈다.
 SOURCES = [
-    dict(label="위키백과", name="wikimedia/wikipedia", config="20231101.ko",
-         ratio=0.30, threshold=None, repeat=3, korean=True),
-    dict(label="나무위키", name="heegyu/namuwiki-extracted", config=None,
-         ratio=0.20, threshold=0.3, repeat=1, korean=True),
-    dict(label="교과서(wikidata)", name="maywell/korean_textbooks", config="ko_wikidata",
-         ratio=0.10, threshold=None, repeat=1, korean=True),
-    dict(label="교과서(tiny)", name="maywell/korean_textbooks", config="tiny-textbooks",
-         ratio=0.10, threshold=None, repeat=1, korean=True),
-    dict(label="선별 웹", name="HuggingFaceFW/fineweb-2", config="kor_Hang",
-         ratio=0.15, threshold=0.3, repeat=1, korean=True),
-    dict(label="영어 Edu", name="HuggingFaceFW/fineweb-edu", config="sample-10BT",
-         ratio=0.10, threshold=None, repeat=1, korean=False),
-    dict(label="instruction", name="nlpai-lab/kullm-v2", config=None,
-         ratio=0.05, threshold=None, repeat=4, korean=True, instruction=True),
+    dict(label="교과서", parts=TEXTBOOK_PARTS,
+         ratio=0.33, threshold=None, repeat=3, korean=True, dedup=False),
+    dict(label="위키백과", parts=[("wikimedia/wikipedia", "20231101.ko")],
+         ratio=0.15, threshold=None, repeat=5, korean=True, dedup=False),
+    dict(label="나무위키", parts=[("heegyu/namuwiki-extracted", None)],
+         ratio=0.15, threshold=0.3, repeat=2, korean=True, dedup=True),
+    dict(label="선별 웹", parts=[("HuggingFaceFW/fineweb-2", "kor_Hang")],
+         ratio=0.23, threshold=0.3, repeat=1, korean=True, dedup=True),
+    dict(label="영어 Edu", parts=[("HuggingFaceFW/fineweb-edu", "sample-10BT")],
+         ratio=0.10, threshold=None, repeat=1, korean=False, dedup=True),
+    dict(label="instruction", parts=[("nlpai-lab/kullm-v2", None),
+                                     ("beomi/KoAlpaca-v1.1a", None)],
+         ratio=0.04, threshold=None, repeat=4, korean=True, dedup=False,
+         instruction=True),
 ]
 
 _tok = None
@@ -81,24 +96,38 @@ def _process(job):
     return keys, _tok.encode(text) + [_tok.special_tokens["<|eos|>"]]
 
 
-def build_stream(src, target_tokens):
-    """한 소스에서 (원문, 임계값, 한국어여부, instruction여부)를 repeat만큼 생산."""
+def build_stream(src):
+    """한 소스의 모든 part를 repeat만큼 순회하며 작업 단위를 생산.
+
+    한 소스가 여러 데이터셋/구성(parts)으로 이뤄질 수 있다. 예: 교과서는 17개 구성,
+    instruction은 두 데이터셋. 예산에 도달하면 호출 측에서 중단하므로
+    repeat는 넉넉히 잡아도 된다.
+    """
     from datasets import load_dataset
 
-    for r in range(src["repeat"]):
-        ds = load_dataset(src["name"], src["config"], split="train", streaming=True)
-        for row in ds:
-            if src.get("instruction"):
-                user = row["instruction"]
-                if row.get("input"):
-                    user += "\n\n" + row["input"]
-                text = (f"<|im_start|>user\n{user}<|im_end|>\n"
-                        f"<|im_start|>assistant\n{row['output']}<|im_end|>")
-            else:
-                text = row["text"]
-            if text:
-                yield (text, src["threshold"], src["korean"],
-                       bool(src.get("instruction")), src.get("dedup", True))
+    for _ in range(src["repeat"]):
+        for name, config in src["parts"]:
+            try:
+                ds = load_dataset(name, config, split="train", streaming=True)
+            except Exception as e:
+                print(f"  [{src['label']}] {name}/{config} 열기 실패: "
+                      f"{type(e).__name__}", flush=True)
+                continue
+            for row in ds:
+                if src.get("instruction"):
+                    user = row.get("instruction") or ""
+                    if row.get("input"):
+                        user += "\n\n" + row["input"]
+                    ans = row.get("output") or ""
+                    if not user or not ans:
+                        continue
+                    text = (f"<|im_start|>user\n{user}<|im_end|>\n"
+                            f"<|im_start|>assistant\n{ans}<|im_end|>")
+                else:
+                    text = row.get("text")
+                if text:
+                    yield (text, src["threshold"], src["korean"],
+                           bool(src.get("instruction")), src.get("dedup", True))
 
 
 def main():
@@ -118,7 +147,7 @@ def main():
     for src in SOURCES:
         budget = int(target * src["ratio"])
         streams.append({**src, "budget": budget, "got": 0,
-                        "it": build_stream(src, budget), "seen": 0, "kept": 0})
+                        "it": build_stream(src), "seen": 0, "kept": 0})
 
     deduper = MinHashDeduper()
     train_w = ShardWriter(args.out_dir, "train")
@@ -190,9 +219,10 @@ def main():
             "train_tokens": train_w.total,
             "val_tokens": val_w.total,
             "docs": n_docs, "filtered": n_filtered, "duplicates": n_dup,
-            "sources": [{k: s[k] for k in ("label", "name", "config", "ratio",
-                                           "threshold", "repeat")} | {"got": s["got"],
-                        "seen": s["seen"], "kept": s["kept"]} for s in streams],
+            "sources": [{"label": s["label"], "parts": s["parts"], "ratio": s["ratio"],
+                         "threshold": s["threshold"], "repeat": s["repeat"],
+                         "dedup": s.get("dedup", True), "got": s["got"],
+                         "seen": s["seen"], "kept": s["kept"]} for s in streams],
         }, f, ensure_ascii=False, indent=2)
     print(f"\n완료: train {train_w.total/1e6:.1f}M / val {val_w.total/1e6:.1f}M tokens", flush=True)
     os._exit(0)  # pyarrow 스레드풀 종료 데드락 우회 (prepare.py와 동일)
