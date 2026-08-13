@@ -57,6 +57,8 @@ def main():
     ap.add_argument("--shard-dir", default="data/shards")
     ap.add_argument("--tokenizer", default="tokenizer/tokenizer.json")
     ap.add_argument("--resume", default=None)
+    ap.add_argument("--anneal-shard-dir", default=None,
+                    help="decay 구간에서 쓸 고품질 shard 디렉토리 (config로도 지정 가능)")
     ap.add_argument("--compile", action="store_true", default=None)
     ap.add_argument("--wandb", action="store_true")
     args = ap.parse_args()
@@ -73,10 +75,26 @@ def main():
     os.makedirs(ckpt_dir, exist_ok=True)
 
     tok = ByteBPETokenizer.load(args.tokenizer)
-    train_loader = ShardedDataLoader(args.shard_dir, "train", tcfg["batch_size"], mcfg.max_seq_len,
-                                     device=device)
-    val_loader = ShardedDataLoader(args.shard_dir, "val", tcfg["batch_size"], mcfg.max_seq_len,
-                                   seed=123, device=device)
+
+    def make_loaders(shard_dir):
+        return (
+            ShardedDataLoader(shard_dir, "train", tcfg["batch_size"], mcfg.max_seq_len,
+                              device=device),
+            ShardedDataLoader(shard_dir, "val", tcfg["batch_size"], mcfg.max_seq_len,
+                              seed=123, device=device),
+        )
+
+    # Annealing(=학습률 decay 구간)에서는 고품질 데이터로 갈아탄다.
+    # 학습률이 높은 구간에서 배운 건 이후 데이터에 덮어써지지만, decay 구간에서
+    # 배운 건 거의 그대로 남는다. 그래서 최신 모델들은 마지막 구간에 웹 데이터 대신
+    # 위키·교과서 같은 지식 밀도 높은 데이터를 쓴다.
+    anneal_dir = args.anneal_shard_dir or tcfg.get("anneal_shard_dir")
+    anneal_from = tcfg.get("anneal_from_step")
+    if anneal_dir and anneal_from is None:
+        anneal_from = int(tcfg["max_steps"] * 0.8)  # WSD decay 시작 지점과 맞춘다
+
+    train_loader, val_loader = make_loaders(args.shard_dir)
+    annealing = False
 
     model = GPT(mcfg).to(device)
     print(f"모델: {model.num_params()/1e6:.1f}M 파라미터 (임베딩 제외) | device: {device}")
@@ -112,6 +130,13 @@ def main():
     model.train()
     t0 = time.time()
     for step in range(start_step, tcfg["max_steps"]):
+        # 재개했을 때도 올바른 데이터를 쓰도록 매 step 조건을 확인한다
+        if anneal_dir and not annealing and step >= anneal_from:
+            train_loader, val_loader = make_loaders(anneal_dir)
+            train_loader.step = step  # (seed, step) 결정론 유지 — 재개해도 같은 순서
+            annealing = True
+            print(f"=== step {step}: annealing 데이터로 전환 ({anneal_dir}) ===", flush=True)
+
         lr = lr_at(step, tcfg)
         for g in opt.param_groups:
             g["lr"] = lr
