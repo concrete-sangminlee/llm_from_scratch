@@ -41,4 +41,8 @@ train = dict(
     eval_every=100,          # 약 4.3시간마다
     save_every=100,          # 약 4.3시간마다 (체크포인트 14GB)
     milestone_every=4000,    # 약 7일마다 스냅샷 보관
+    # 학습률 decay 구간(마지막 20%)에서 고품질 데이터로 전환한다.
+    # 이 구간에서 배운 건 이후 데이터에 덮어써지지 않아 사실 정확도에 크게 기여한다.
+    anneal_shard_dir="data/shards_anneal",
+    anneal_from_step=19200,  # max_steps의 80% = WSD decay 시작 지점
 )
