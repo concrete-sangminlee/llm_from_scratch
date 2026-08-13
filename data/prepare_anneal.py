@@ -61,17 +61,24 @@ def _init_worker(tok_path, qc_path):
 
 
 def _process(job):
-    """워커: 필터 → 품질 점수 → MinHash 서명 → 토크나이즈."""
-    text, threshold, korean, is_instruction = job
+    """워커: 필터 → 품질 점수 → (필요시) MinHash 서명 → 토크나이즈.
+
+    dedup=False인 소스는 서명을 만들지 않는다. 위키·교과서처럼 이미 정제된
+    코퍼스는 내부 중복이 없고, 오히려 **의도적으로 여러 번 반복해서 넣는다**.
+    여기에 중복 제거를 걸면 2회차부터 전부 버려져 반복이 무효가 된다
+    (2026-08-13에 실제로 발생: 위키 3회 반복이 1회분만 남았다).
+    """
+    text, threshold, korean, is_instruction, dedup = job
     if is_instruction:
         # SFT와 같은 chat 형식으로 넣는다 — 이후 SFT 효과가 좋아진다는 게 최신 관행
         ids = _tok.encode(text, allowed_special=True) + [_tok.special_tokens["<|eos|>"]]
-        return _deduper.band_keys(text[:2000]), ids
+        return (_deduper.band_keys(text[:2000]) if dedup else []), ids
     if not keep_document(text, korean_source=korean):
         return None, None
     if threshold is not None and _qc.score(text) < threshold:
         return None, None
-    return _deduper.band_keys(text[:2000]), _tok.encode(text) + [_tok.special_tokens["<|eos|>"]]
+    keys = _deduper.band_keys(text[:2000]) if dedup else []
+    return keys, _tok.encode(text) + [_tok.special_tokens["<|eos|>"]]
 
 
 def build_stream(src, target_tokens):
@@ -90,7 +97,8 @@ def build_stream(src, target_tokens):
             else:
                 text = row["text"]
             if text:
-                yield (text, src["threshold"], src["korean"], bool(src.get("instruction")))
+                yield (text, src["threshold"], src["korean"],
+                       bool(src.get("instruction")), src.get("dedup", True))
 
 
 def main():
@@ -154,7 +162,7 @@ def main():
             if keys is None:
                 n_filtered += 1
                 continue
-            if deduper.check_keys(keys):
+            if keys and deduper.check_keys(keys):  # keys가 비면 dedup 대상이 아니다
                 n_dup += 1
                 continue
             s["got"] += len(ids)
