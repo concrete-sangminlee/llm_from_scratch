@@ -76,8 +76,12 @@ def main():
 
             scores = {}
             for task in FORMATTERS:
-                acc, _ = eval_kobest(model, tok, task, args.shots, "cpu", args.limit)
+                acc, _, preds = eval_kobest(model, tok, task, args.shots, "cpu", args.limit)
                 scores[task] = acc
+                # 예측이 한 선택지로 쏠리면 정확도는 라벨 분포일 뿐이다
+                top = max(preds.values()) / sum(preds.values())
+                if top > 0.9:
+                    print(f"    경고: {task} 예측이 한쪽으로 쏠림 {dict(preds)}", flush=True)
 
             tokens = step * conf.train["batch_size"] * conf.train["grad_accum"] * conf.model.max_seq_len
             row = [step, tokens, f"{ppl:.2f}",
