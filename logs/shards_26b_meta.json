@@ -1,0 +1,26 @@
+{
+  "tokenizer": "tokenizer/tokenizer.json",
+  "shard_tokens": 50000000,
+  "train_tokens": 23530877916,
+  "val_tokens": 130012036,
+  "docs": 35823968,
+  "filtered": 1109742,
+  "duplicates": 1752887,
+  "mix": [
+    [
+      "HuggingFaceFW/fineweb-2",
+      "kor_Hang",
+      0.75
+    ],
+    [
+      "wikimedia/wikipedia",
+      "20231101.ko",
+      0.1
+    ],
+    [
+      "HuggingFaceFW/fineweb-edu",
+      "sample-10BT",
+      0.15
+    ]
+  ]
+}

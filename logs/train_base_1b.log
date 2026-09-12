@@ -1,0 +1,2773 @@
+=== [2026-08-06 10:48:05] 시작 ===
+모델: 1063.4M 파라미터 (임베딩 제외) | device: cuda
+step      0 | loss 11.5031 | lr 1.50e-07 | 5K tok/s
+step     10 | loss 11.2265 | lr 1.65e-06 | 5K tok/s
+step     20 | loss 10.5795 | lr 3.15e-06 | 5K tok/s
+step     30 | loss 10.2361 | lr 4.65e-06 | 7K tok/s
+step     40 | loss 9.9847 | lr 6.15e-06 | 11K tok/s
+step     50 | loss 9.7824 | lr 7.65e-06 | 11K tok/s
+step     60 | loss 9.5190 | lr 9.15e-06 | 11K tok/s
+step     70 | loss 9.3771 | lr 1.06e-05 | 11K tok/s
+step     80 | loss 9.1707 | lr 1.21e-05 | 11K tok/s
+step     90 | loss 9.0278 | lr 1.36e-05 | 11K tok/s
+step    100 | loss 8.8209 | lr 1.51e-05 | 11K tok/s
+step    100 | val loss 8.6811
+샘플: 대한민국의 수도는 있을.
+ 시청하실 관련 199 4 5 1.2월 9 1 ( 8.2 2 2.5, 2.6.2 자주.3.9.6.5. single
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 100)
+step    110 | loss 8.6555 | lr 1.66e-05 | 10K tok/s
+step    120 | loss 8.5391 | lr 1.82e-05 | 11K tok/s
+step    130 | loss 8.3631 | lr 1.96e-05 | 11K tok/s
+step    140 | loss 8.2477 | lr 2.11e-05 | 11K tok/s
+step    150 | loss 8.1354 | lr 2.26e-05 | 11K tok/s
+step    160 | loss 8.0065 | lr 2.41e-05 | 11K tok/s
+step    170 | loss 7.9105 | lr 2.57e-05 | 11K tok/s
+step    180 | loss 7.7925 | lr 2.71e-05 | 11K tok/s
+step    190 | loss 7.6636 | lr 2.86e-05 | 7K tok/s
+step    200 | loss 7.5729 | lr 3.01e-05 | 10K tok/s
+step    200 | val loss 7.4848
+샘플: 대한민국의 수도는 중단. 지정들은, are that itly on the d참고 years, theirts, and suffering to help and grow it. And, or a various air and space. It is age as you are to do, there, and
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 200)
+step    210 | loss 7.4566 | lr 3.16e-05 | 6K tok/s
+step    220 | loss 7.4008 | lr 3.31e-05 | 6K tok/s
+step    230 | loss 7.3051 | lr 3.47e-05 | 9K tok/s
+step    240 | loss 7.2174 | lr 3.61e-05 | 11K tok/s
+step    250 | loss 7.0949 | lr 3.76e-05 | 11K tok/s
+step    260 | loss 7.0658 | lr 3.91e-05 | 11K tok/s
+step    270 | loss 6.9326 | lr 4.06e-05 | 11K tok/s
+step    280 | loss 6.8913 | lr 4.21e-05 | 11K tok/s
+step    290 | loss 6.8122 | lr 4.36e-05 | 11K tok/s
+step    300 | loss 6.7266 | lr 4.51e-05 | 11K tok/s
+step    300 | val loss 6.3159
+샘플: 대한민국의 수도는 특성을 관련. 빠른에서, N)를 테스트인 등이 여러 프로그램의하는, 컴퓨터, 방사선할때, 큰, 그리고 거대로, ‘민주당하시’을, 조달, 가상, 퇴, 유튜브, 소프트웨어, 각 시장, 독일, ‘B
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 300)
+step    310 | loss 6.6344 | lr 4.66e-05 | 11K tok/s
+step    320 | loss 6.5808 | lr 4.81e-05 | 11K tok/s
+step    330 | loss 6.5534 | lr 4.96e-05 | 11K tok/s
+step    340 | loss 6.4666 | lr 5.11e-05 | 11K tok/s
+step    350 | loss 6.4204 | lr 5.26e-05 | 11K tok/s
+step    360 | loss 6.3973 | lr 5.41e-05 | 11K tok/s
+step    370 | loss 6.3688 | lr 5.56e-05 | 11K tok/s
+step    380 | loss 6.2449 | lr 5.71e-05 | 11K tok/s
+step    390 | loss 6.2727 | lr 5.86e-05 | 11K tok/s
+step    400 | loss 6.1523 | lr 6.01e-05 | 11K tok/s
+step    400 | val loss 6.0387
+샘플: 대한민국의 수도는 케"치 홍보라는 균해야 한다.
+필요일 서울·10대 장기농업체험시설을 상향 연장구역 대여처리에는 해당 대상로 인한 요구됐다.
+하지만 올해 4월 후반 11일까지 오후 6시까지 신청하여 불과
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 400)
+step    410 | loss 6.1087 | lr 6.16e-05 | 10K tok/s
+step    420 | loss 6.0946 | lr 6.32e-05 | 11K tok/s
+step    430 | loss 6.0025 | lr 6.46e-05 | 11K tok/s
+step    440 | loss 5.9913 | lr 6.61e-05 | 11K tok/s
+step    450 | loss 5.9272 | lr 6.76e-05 | 11K tok/s
+step    460 | loss 5.8516 | lr 6.91e-05 | 11K tok/s
+step    470 | loss 5.8392 | lr 7.06e-05 | 11K tok/s
+step    480 | loss 5.7909 | lr 7.21e-05 | 11K tok/s
+step    490 | loss 5.7586 | lr 7.36e-05 | 11K tok/s
+step    500 | loss 5.7320 | lr 7.51e-05 | 11K tok/s
+step    500 | val loss 5.6385
+샘플: 대한민국의 수도는 중입니다 있습니다. 3,5,5,5,5,5,8,5,6,8,7,9,6,8,7,8,7,9,9,9,8,8,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 500)
+step    510 | loss 5.7048 | lr 7.66e-05 | 10K tok/s
+step    520 | loss 5.5909 | lr 7.82e-05 | 11K tok/s
+step    530 | loss 5.5870 | lr 7.96e-05 | 11K tok/s
+step    540 | loss 5.5813 | lr 8.11e-05 | 11K tok/s
+step    550 | loss 5.5164 | lr 8.26e-05 | 11K tok/s
+step    560 | loss 5.4693 | lr 8.41e-05 | 11K tok/s
+step    570 | loss 5.4770 | lr 8.56e-05 | 11K tok/s
+step    580 | loss 5.4114 | lr 8.71e-05 | 11K tok/s
+step    590 | loss 5.3880 | lr 8.86e-05 | 11K tok/s
+step    600 | loss 5.3395 | lr 9.01e-05 | 11K tok/s
+step    600 | val loss 5.2692
+샘플: 대한민국의 수도는에 반내는 우리나라라는 점시를 바탕으로 봉에 빠진 그 어느 한 번의 습지로 그새 어떤 양인지 미리 준비했다.
+우리 아이, 외국인 팀 정치에도 많은 기대를 하고 있니?
+'모두' 카테고리의 다른 글
+|오너
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 600)
+step    610 | loss 5.3321 | lr 9.16e-05 | 10K tok/s
+step    620 | loss 5.2464 | lr 9.32e-05 | 11K tok/s
+step    630 | loss 5.2052 | lr 9.46e-05 | 10K tok/s
+step    640 | loss 5.2012 | lr 9.61e-05 | 11K tok/s
+step    650 | loss 5.1441 | lr 9.76e-05 | 11K tok/s
+step    660 | loss 5.1355 | lr 9.91e-05 | 11K tok/s
+step    670 | loss 5.0403 | lr 1.01e-04 | 11K tok/s
+step    680 | loss 5.0820 | lr 1.02e-04 | 11K tok/s
+step    690 | loss 5.0043 | lr 1.04e-04 | 10K tok/s
+step    700 | loss 4.9871 | lr 1.05e-04 | 11K tok/s
+step    700 | val loss 4.8761
+샘플: 대한민국의 수도는에 흠뻑 주어지고 있습니다. 이 시체와 시계는 부실한 몸은 물론 그 자체의 아픈 부위와도 섞을 수 있습니다. 전형적인 질병은 환자는 예방의 한 형태로 나타납니다. 즉, 바깥에서 초기 발치나 부상은 원각
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 700)
+step    710 | loss 4.9363 | lr 1.07e-04 | 10K tok/s
+step    720 | loss 4.9266 | lr 1.08e-04 | 11K tok/s
+step    730 | loss 4.8800 | lr 1.10e-04 | 11K tok/s
+step    740 | loss 4.8626 | lr 1.11e-04 | 11K tok/s
+step    750 | loss 4.7833 | lr 1.13e-04 | 11K tok/s
+step    760 | loss 4.7786 | lr 1.14e-04 | 11K tok/s
+step    770 | loss 4.7256 | lr 1.16e-04 | 11K tok/s
+step    780 | loss 4.7251 | lr 1.17e-04 | 11K tok/s
+step    790 | loss 4.7354 | lr 1.19e-04 | 11K tok/s
+step    800 | loss 4.6770 | lr 1.20e-04 | 11K tok/s
+step    800 | val loss 4.6066
+샘플: 대한민국의 수도는α, 리낭니 리, 발레 가이트 등이 다. 푸릇한 사진을 촬영하기 위해 흘러나왔다. 그때부터 달리기에도 몇 번 간 사람들이 늘 보였다. 여기 디모 리움을 보고 있던 그 현장을 보고 난 후, 나는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 800)
+step    810 | loss 4.7154 | lr 1.22e-04 | 10K tok/s
+step    820 | loss 4.6417 | lr 1.23e-04 | 11K tok/s
+step    830 | loss 4.6067 | lr 1.25e-04 | 11K tok/s
+step    840 | loss 4.6150 | lr 1.26e-04 | 11K tok/s
+step    850 | loss 4.5598 | lr 1.28e-04 | 11K tok/s
+step    860 | loss 4.5426 | lr 1.29e-04 | 11K tok/s
+step    870 | loss 4.5535 | lr 1.31e-04 | 11K tok/s
+step    880 | loss 4.5017 | lr 1.32e-04 | 6K tok/s
+step    890 | loss 4.5706 | lr 1.34e-04 | 5K tok/s
+step    900 | loss 4.5139 | lr 1.35e-04 | 5K tok/s
+step    900 | val loss 4.4286
+샘플: 대한민국의 수도는)<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 900)
+step    910 | loss 4.4841 | lr 1.37e-04 | 5K tok/s
+step    920 | loss 4.4559 | lr 1.38e-04 | 5K tok/s
+step    930 | loss 4.5142 | lr 1.40e-04 | 5K tok/s
+step    940 | loss 4.4213 | lr 1.41e-04 | 5K tok/s
+step    950 | loss 4.4345 | lr 1.43e-04 | 5K tok/s
+step    960 | loss 4.3953 | lr 1.44e-04 | 5K tok/s
+step    970 | loss 4.4036 | lr 1.46e-04 | 5K tok/s
+step    980 | loss 4.3724 | lr 1.47e-04 | 7K tok/s
+step    990 | loss 4.3535 | lr 1.49e-04 | 11K tok/s
+step   1000 | loss 4.3526 | lr 1.50e-04 | 11K tok/s
+step   1000 | val loss 4.1002
+샘플: 대한민국의 수도는의 노예가 있다는 사실에 대한 질문
+“우리는 축복합니다”
+“우리는 ‘현재 우리’를 위해 한 단계 더 도약하고 있습니다. 하나님은 우리를 구원하시기로 결심하셨습니다. 더 나은 모습으로 사람을 데려갈 수 있게 도와주셨습니다.”
+어머니께서 앞서
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1000)
+step   1010 | loss 4.3542 | lr 1.52e-04 | 10K tok/s
+step   1020 | loss 4.3348 | lr 1.53e-04 | 11K tok/s
+step   1030 | loss 4.3063 | lr 1.55e-04 | 11K tok/s
+step   1040 | loss 4.2925 | lr 1.56e-04 | 11K tok/s
+step   1050 | loss 4.2711 | lr 1.58e-04 | 11K tok/s
+step   1060 | loss 4.2694 | lr 1.59e-04 | 11K tok/s
+step   1070 | loss 4.2284 | lr 1.61e-04 | 11K tok/s
+step   1080 | loss 4.2271 | lr 1.62e-04 | 11K tok/s
+step   1090 | loss 4.2223 | lr 1.64e-04 | 11K tok/s
+step   1100 | loss 4.2440 | lr 1.65e-04 | 11K tok/s
+step   1100 | val loss 4.1170
+샘플: 대한민국의 수도는 선포에 발맞겨진 다섯 살짜리 어떤 직업이 우리를 강타했는가를 잘 보여준다고 여겼다.
+14일(현지시간) 미 연방의회 (National Council of Nixon) 환구상
+그의 아들 프란체스코이모티에게 1억
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1100)
+step   1110 | loss 4.2451 | lr 1.67e-04 | 10K tok/s
+step   1120 | loss 4.1681 | lr 1.68e-04 | 11K tok/s
+step   1130 | loss 4.1876 | lr 1.70e-04 | 11K tok/s
+step   1140 | loss 4.1851 | lr 1.71e-04 | 11K tok/s
+step   1150 | loss 4.2111 | lr 1.73e-04 | 11K tok/s
+step   1160 | loss 4.1946 | lr 1.74e-04 | 11K tok/s
+step   1170 | loss 4.1301 | lr 1.76e-04 | 11K tok/s
+step   1180 | loss 4.1564 | lr 1.77e-04 | 11K tok/s
+step   1190 | loss 4.1104 | lr 1.79e-04 | 11K tok/s
+step   1200 | loss 4.1423 | lr 1.80e-04 | 11K tok/s
+step   1200 | val loss 4.1692
+샘플: 대한민국의 수도는indoire, a trader will be able to put on one side of the tower in a room. In 1936, Hastings were invited to the Royal Tourist Cover Center and began to serve as a pleasant
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1200)
+step   1210 | loss 4.1004 | lr 1.82e-04 | 11K tok/s
+step   1220 | loss 4.1116 | lr 1.83e-04 | 11K tok/s
+step   1230 | loss 4.1324 | lr 1.85e-04 | 11K tok/s
+step   1240 | loss 4.0992 | lr 1.86e-04 | 11K tok/s
+step   1250 | loss 4.0901 | lr 1.88e-04 | 11K tok/s
+step   1260 | loss 4.0749 | lr 1.89e-04 | 11K tok/s
+step   1270 | loss 4.0715 | lr 1.91e-04 | 11K tok/s
+step   1280 | loss 4.0918 | lr 1.92e-04 | 11K tok/s
+step   1290 | loss 4.0636 | lr 1.94e-04 | 11K tok/s
+step   1300 | loss 4.0314 | lr 1.95e-04 | 11K tok/s
+step   1300 | val loss 3.8967
+샘플: 대한민국의 수도는 꼽히는, 연방, 일본, 독일, 독일, 이탈리아, 미국, 일본, 인도, 일본, 인도, 호주, 태국, 필리핀, 방글라데시, 일본, 독일, 일본, 인도, 독일, 일본, 태국, 태국, 필리핀,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1300)
+step   1310 | loss 4.0590 | lr 1.97e-04 | 10K tok/s
+step   1320 | loss 4.0107 | lr 1.98e-04 | 11K tok/s
+step   1330 | loss 4.0007 | lr 2.00e-04 | 11K tok/s
+step   1340 | loss 4.0429 | lr 2.01e-04 | 11K tok/s
+step   1350 | loss 4.0359 | lr 2.03e-04 | 11K tok/s
+step   1360 | loss 4.0077 | lr 2.04e-04 | 11K tok/s
+step   1370 | loss 3.9867 | lr 2.06e-04 | 11K tok/s
+step   1380 | loss 3.9961 | lr 2.07e-04 | 11K tok/s
+step   1390 | loss 4.0547 | lr 2.09e-04 | 11K tok/s
+step   1400 | loss 4.0916 | lr 2.10e-04 | 11K tok/s
+step   1400 | val loss 3.9856
+샘플: 대한민국의 수도는 삭제＊석대가 말을 이어와 국민의 기본권 보호권 부여를 위해 개인이 새로운 면허를 취득할 수 있게 한 과세명령의 효력을 박탈하는 경우와 그 처분이 불가하다는 대법원 판결이 나왔다. 이 판결에서 대법원은 근로·근로·
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1400)
+step   1410 | loss 4.0505 | lr 2.12e-04 | 10K tok/s
+step   1420 | loss 4.0608 | lr 2.13e-04 | 11K tok/s
+step   1430 | loss 3.9813 | lr 2.15e-04 | 11K tok/s
+step   1440 | loss 3.9856 | lr 2.16e-04 | 11K tok/s
+step   1450 | loss 3.9629 | lr 2.18e-04 | 11K tok/s
+step   1460 | loss 3.9169 | lr 2.19e-04 | 11K tok/s
+step   1470 | loss 3.9629 | lr 2.21e-04 | 11K tok/s
+step   1480 | loss 3.9734 | lr 2.22e-04 | 11K tok/s
+step   1490 | loss 3.9242 | lr 2.24e-04 | 11K tok/s
+step   1500 | loss 3.9337 | lr 2.25e-04 | 11K tok/s
+step   1500 | val loss 3.8686
+샘플: 대한민국의 수도는 : 영국
+스페인어 : 이탈리아어, 러시아어, 중국어, 프랑스어, 영어, 중국어(번체)
+프랑스어 : 러시아어, 한국어, 영어, 프랑스어, 러시아어, 히브리어, 말레이어, 타밀어, 타밀어, 타밀어,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1500)
+step   1510 | loss 3.9538 | lr 2.27e-04 | 10K tok/s
+step   1520 | loss 3.9541 | lr 2.28e-04 | 11K tok/s
+step   1530 | loss 3.9118 | lr 2.30e-04 | 11K tok/s
+step   1540 | loss 3.9058 | lr 2.31e-04 | 10K tok/s
+step   1550 | loss 3.9389 | lr 2.33e-04 | 10K tok/s
+step   1560 | loss 3.9129 | lr 2.34e-04 | 10K tok/s
+step   1570 | loss 3.8821 | lr 2.36e-04 | 10K tok/s
+step   1580 | loss 3.8896 | lr 2.37e-04 | 10K tok/s
+step   1590 | loss 3.8924 | lr 2.39e-04 | 10K tok/s
+step   1600 | loss 3.8792 | lr 2.40e-04 | 10K tok/s
+step   1600 | val loss 3.7743
+샘플: 대한민국의 수도는 이슬람 신학 24페이지
+- ---------------------------------------------- Ⅰ. 서론- 기독교 복음의 이해 -1. 기독교 기독교의 신앙은 ... ---------------------------------------------- Ⅱ. 본론- 기독교 신앙에 대하여 ... . 기독교 신앙의 이해를 바탕으로 기독교 신앙
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1600)
+step   1610 | loss 3.9214 | lr 2.42e-04 | 10K tok/s
+step   1620 | loss 3.8789 | lr 2.43e-04 | 11K tok/s
+step   1630 | loss 3.8767 | lr 2.45e-04 | 11K tok/s
+step   1640 | loss 3.8976 | lr 2.46e-04 | 11K tok/s
+step   1650 | loss 3.8735 | lr 2.48e-04 | 11K tok/s
+step   1660 | loss 3.9089 | lr 2.49e-04 | 11K tok/s
+step   1670 | loss 3.8723 | lr 2.51e-04 | 11K tok/s
+step   1680 | loss 3.8447 | lr 2.52e-04 | 11K tok/s
+step   1690 | loss 3.8045 | lr 2.54e-04 | 11K tok/s
+step   1700 | loss 3.8323 | lr 2.55e-04 | 11K tok/s
+step   1700 | val loss 3.7370
+샘플: 대한민국의 수도는 11을 초과하지 않습니다. 즉, 저성능의 강력한 그래픽 카드를 7과 함께 사용하는 경우 문제가되지 않습니다. 따라서 AMD 라이젠 7 5세대/레드 오브 로직 4 4세대 라이젠은 하드웨어
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1700)
+step   1710 | loss 3.8142 | lr 2.57e-04 | 10K tok/s
+step   1720 | loss 3.8363 | lr 2.58e-04 | 11K tok/s
+step   1730 | loss 3.8522 | lr 2.60e-04 | 11K tok/s
+step   1740 | loss 3.7662 | lr 2.61e-04 | 11K tok/s
+step   1750 | loss 3.8068 | lr 2.63e-04 | 11K tok/s
+step   1760 | loss 3.7709 | lr 2.64e-04 | 11K tok/s
+step   1770 | loss 3.8076 | lr 2.66e-04 | 11K tok/s
+step   1780 | loss 3.7977 | lr 2.67e-04 | 11K tok/s
+step   1790 | loss 3.8039 | lr 2.69e-04 | 11K tok/s
+step   1800 | loss 3.7975 | lr 2.70e-04 | 11K tok/s
+step   1800 | val loss 3.6672
+샘플: 대한민국의 수도는 발생한 관허적 이익, 즉 이익입니다.
+그리고 경영상의 이익을 위한 법인이란 사람이 아니라 경영상의 이익입니다. 법인은 경영상의 이익을 추구하기 때문에 이익 그 자체가 가치입니다. 이익만 추구해서는 이익이 생깁니다. 법인은
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1800)
+step   1810 | loss 3.7644 | lr 2.72e-04 | 10K tok/s
+step   1820 | loss 3.7594 | lr 2.73e-04 | 11K tok/s
+step   1830 | loss 3.7999 | lr 2.75e-04 | 11K tok/s
+step   1840 | loss 3.7601 | lr 2.76e-04 | 11K tok/s
+step   1850 | loss 3.7547 | lr 2.78e-04 | 11K tok/s
+step   1860 | loss 3.7529 | lr 2.79e-04 | 11K tok/s
+step   1870 | loss 3.7386 | lr 2.81e-04 | 11K tok/s
+step   1880 | loss 3.7858 | lr 2.82e-04 | 11K tok/s
+step   1890 | loss 3.7463 | lr 2.84e-04 | 11K tok/s
+step   1900 | loss 3.8094 | lr 2.85e-04 | 11K tok/s
+step   1900 | val loss 3.6158
+샘플: 대한민국의 수도는 ‘미’왕이 되고 말았습니다. 거꾸로 나라에 사람이 살기 좋아졌습니다. 남들 앞에서 결혼하는 것이 아니라 서로 결혼할 수 있도록 배려해줬습니다. 똑똑한 약재들이 넘쳐났습니다. 신랑과 신부 모두 이런 경험을 했습니다. “내가
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 1900)
+step   1910 | loss 3.7652 | lr 2.87e-04 | 10K tok/s
+step   1920 | loss 3.7538 | lr 2.88e-04 | 11K tok/s
+step   1930 | loss 3.7976 | lr 2.90e-04 | 11K tok/s
+step   1940 | loss 3.7249 | lr 2.91e-04 | 11K tok/s
+step   1950 | loss 3.7068 | lr 2.93e-04 | 11K tok/s
+step   1960 | loss 3.7669 | lr 2.94e-04 | 11K tok/s
+step   1970 | loss 3.7205 | lr 2.96e-04 | 11K tok/s
+step   1980 | loss 3.7616 | lr 2.97e-04 | 11K tok/s
+step   1990 | loss 3.6963 | lr 2.99e-04 | 11K tok/s
+step   2000 | loss 3.7403 | lr 3.00e-04 | 11K tok/s
+step   2000 | val loss 3.7376
+샘플: 대한민국의 수도는 신의 힘을 가졌다. 1916년 4월 11일∼1918년 4월 13일 사이에 발생한 일설에는 다음과 같은 내용이 있다. ①황제에 대한 처벌이 완전해지되 ②일제의 만
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2000)
+step   2010 | loss 3.7043 | lr 3.00e-04 | 10K tok/s
+step   2020 | loss 3.6994 | lr 3.00e-04 | 11K tok/s
+step   2030 | loss 3.6864 | lr 3.00e-04 | 11K tok/s
+step   2040 | loss 3.7423 | lr 3.00e-04 | 11K tok/s
+step   2050 | loss 3.7125 | lr 3.00e-04 | 11K tok/s
+step   2060 | loss 3.6862 | lr 3.00e-04 | 11K tok/s
+step   2070 | loss 3.6515 | lr 3.00e-04 | 11K tok/s
+step   2080 | loss 3.7229 | lr 3.00e-04 | 11K tok/s
+step   2090 | loss 3.6711 | lr 3.00e-04 | 10K tok/s
+step   2100 | loss 3.6810 | lr 3.00e-04 | 10K tok/s
+step   2100 | val loss 3.6536
+샘플: 대한민국의 수도는 저거 없이 문자발송만 2시간 이상 걸리고, 2시간 이상 걸리는 경우는 아래 링크를 참고해주세요.
+- http://www.1004.kr/reports/archive/1309
+- http://bit.ly/2B
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2100)
+step   2110 | loss 3.6552 | lr 3.00e-04 | 10K tok/s
+step   2120 | loss 3.6252 | lr 3.00e-04 | 11K tok/s
+step   2130 | loss 3.6901 | lr 3.00e-04 | 11K tok/s
+step   2140 | loss 3.6965 | lr 3.00e-04 | 11K tok/s
+step   2150 | loss 3.6382 | lr 3.00e-04 | 11K tok/s
+step   2160 | loss 3.6318 | lr 3.00e-04 | 11K tok/s
+step   2170 | loss 3.6571 | lr 3.00e-04 | 11K tok/s
+step   2180 | loss 3.6676 | lr 3.00e-04 | 11K tok/s
+step   2190 | loss 3.6525 | lr 3.00e-04 | 10K tok/s
+step   2200 | loss 3.6782 | lr 3.00e-04 | 10K tok/s
+step   2200 | val loss 3.6876
+샘플: 대한민국의 수도는 2를 대신하는 2가 됩니다.
+기존 아파트의 경우 동과 위수가 다르거나, 위쪽에 1가 추가되는 경우가 있습니다.
+따라서
+2가 추가 되는 경우, 2에서 1로 추가 되는 경우, 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2200)
+step   2210 | loss 3.6312 | lr 3.00e-04 | 10K tok/s
+step   2220 | loss 3.6443 | lr 3.00e-04 | 10K tok/s
+step   2230 | loss 3.6583 | lr 3.00e-04 | 10K tok/s
+step   2240 | loss 3.6263 | lr 3.00e-04 | 11K tok/s
+step   2250 | loss 3.6135 | lr 3.00e-04 | 11K tok/s
+step   2260 | loss 3.6524 | lr 3.00e-04 | 11K tok/s
+step   2270 | loss 3.6917 | lr 3.00e-04 | 10K tok/s
+step   2280 | loss 3.6091 | lr 3.00e-04 | 11K tok/s
+step   2290 | loss 3.6291 | lr 3.00e-04 | 10K tok/s
+step   2300 | loss 3.6428 | lr 3.00e-04 | 10K tok/s
+step   2300 | val loss 3.5219
+샘플: 대한민국의 수도는 약 30억 달러라는 공통점이 있다. 한 시장조사업체 이베이는 “암호화폐 시장이 그 어느 때보다 가상자산 및 가상자산 관련 시장의 붐을 타고 있다”며 “암호화폐 시장이 2008년 같은 기간보다 2.5
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2300)
+step   2310 | loss 3.6452 | lr 3.00e-04 | 10K tok/s
+step   2320 | loss 3.6001 | lr 3.00e-04 | 11K tok/s
+step   2330 | loss 3.5911 | lr 3.00e-04 | 10K tok/s
+step   2340 | loss 3.5895 | lr 3.00e-04 | 10K tok/s
+step   2350 | loss 3.5981 | lr 3.00e-04 | 11K tok/s
+step   2360 | loss 3.6128 | lr 3.00e-04 | 11K tok/s
+step   2370 | loss 3.5911 | lr 3.00e-04 | 11K tok/s
+step   2380 | loss 3.6176 | lr 3.00e-04 | 11K tok/s
+step   2390 | loss 3.5849 | lr 3.00e-04 | 11K tok/s
+step   2400 | loss 3.5851 | lr 3.00e-04 | 11K tok/s
+step   2400 | val loss 3.6091
+샘플: 대한민국의 수도는 다름없이 이곳 중국에서 가장 큰 중국의 수도이며, 세계에서 가장 높은 수준의 강철과 콘크리트로 지은 이 도시를 구성하는 10개의 지형은 1인당 GDP와 맞먹는 수준으로, 수 세기 동안 이 도시를 100개의 도시로 통합하는 데 결정적인
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2400)
+step   2410 | loss 3.5788 | lr 3.00e-04 | 10K tok/s
+step   2420 | loss 3.5888 | lr 3.00e-04 | 11K tok/s
+step   2430 | loss 3.5805 | lr 3.00e-04 | 11K tok/s
+step   2440 | loss 3.5684 | lr 3.00e-04 | 11K tok/s
+step   2450 | loss 3.5450 | lr 3.00e-04 | 11K tok/s
+step   2460 | loss 3.5386 | lr 3.00e-04 | 11K tok/s
+step   2470 | loss 3.5719 | lr 3.00e-04 | 11K tok/s
+step   2480 | loss 3.5131 | lr 3.00e-04 | 11K tok/s
+step   2490 | loss 3.5742 | lr 3.00e-04 | 11K tok/s
+step   2500 | loss 3.5381 | lr 3.00e-04 | 11K tok/s
+step   2500 | val loss 3.4770
+샘플: 대한민국의 수도는슈 교회의 주요 사역을 이루고 있습니다. 또한 선교학, 문화 사역, 청소년 사역, 교육 사역, 하나님의 말씀 사역, 선교사역, 선교, 참자녀 사역, 선교 등을 하고 있습니다. 특히, 미국 나사렛을 비롯한 세계적인 지도자들에
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2500)
+step   2510 | loss 3.5922 | lr 3.00e-04 | 10K tok/s
+step   2520 | loss 3.5474 | lr 3.00e-04 | 11K tok/s
+step   2530 | loss 3.5344 | lr 3.00e-04 | 11K tok/s
+step   2540 | loss 3.5281 | lr 3.00e-04 | 11K tok/s
+step   2550 | loss 3.5670 | lr 3.00e-04 | 10K tok/s
+step   2560 | loss 3.5460 | lr 3.00e-04 | 10K tok/s
+step   2570 | loss 3.5820 | lr 3.00e-04 | 10K tok/s
+step   2580 | loss 3.5529 | lr 3.00e-04 | 10K tok/s
+step   2590 | loss 3.5134 | lr 3.00e-04 | 10K tok/s
+step   2600 | loss 3.5591 | lr 3.00e-04 | 10K tok/s
+step   2600 | val loss 3.4468
+샘플: 대한민국의 수도는 2003년 1월부터 2015년 9월까지 2년간 1만 8,400㎞를 왕복하는 내용이며, 이는 2년 22개월입니다. 이번 기사에서는 이번 2017년
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2600)
+step   2610 | loss 3.5577 | lr 3.00e-04 | 10K tok/s
+step   2620 | loss 3.5071 | lr 3.00e-04 | 10K tok/s
+step   2630 | loss 3.5296 | lr 3.00e-04 | 10K tok/s
+step   2640 | loss 3.5003 | lr 3.00e-04 | 10K tok/s
+step   2650 | loss 3.5017 | lr 3.00e-04 | 10K tok/s
+step   2660 | loss 3.5306 | lr 3.00e-04 | 10K tok/s
+step   2670 | loss 3.5068 | lr 3.00e-04 | 10K tok/s
+step   2680 | loss 3.5048 | lr 3.00e-04 | 10K tok/s
+step   2690 | loss 3.5147 | lr 3.00e-04 | 10K tok/s
+step   2700 | loss 3.5025 | lr 3.00e-04 | 10K tok/s
+step   2700 | val loss 3.4233
+샘플: 대한민국의 수도는 지난 3월, 중국 시안(西安)성 닝푸쿠이옌(威汽苑仔)에서 열린 제20차 세계보건기구(WHO) 총회에서 '세계보건의 날'을 선포했다. WHO는 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2700)
+step   2710 | loss 3.5031 | lr 3.00e-04 | 10K tok/s
+step   2720 | loss 3.4959 | lr 3.00e-04 | 10K tok/s
+step   2730 | loss 3.5640 | lr 3.00e-04 | 10K tok/s
+step   2740 | loss 3.4827 | lr 3.00e-04 | 10K tok/s
+step   2750 | loss 3.5182 | lr 3.00e-04 | 10K tok/s
+step   2760 | loss 3.4708 | lr 3.00e-04 | 10K tok/s
+step   2770 | loss 3.5014 | lr 3.00e-04 | 10K tok/s
+step   2780 | loss 3.4731 | lr 3.00e-04 | 10K tok/s
+step   2790 | loss 3.4895 | lr 3.00e-04 | 10K tok/s
+step   2800 | loss 3.4332 | lr 3.00e-04 | 11K tok/s
+step   2800 | val loss 3.4223
+샘플: 대한민국의 수도는 아닙니다. 반드시 도착 하여야 하는것을 각각 작성하여 주시고 동사무소에서 보내주시기 바랍니다.<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2800)
+step   2810 | loss 3.5155 | lr 3.00e-04 | 10K tok/s
+step   2820 | loss 3.5053 | lr 3.00e-04 | 10K tok/s
+step   2830 | loss 3.4990 | lr 3.00e-04 | 10K tok/s
+step   2840 | loss 3.4484 | lr 3.00e-04 | 10K tok/s
+step   2850 | loss 3.4529 | lr 3.00e-04 | 10K tok/s
+step   2860 | loss 3.4818 | lr 3.00e-04 | 10K tok/s
+step   2870 | loss 3.4448 | lr 3.00e-04 | 10K tok/s
+step   2880 | loss 3.5100 | lr 3.00e-04 | 10K tok/s
+step   2890 | loss 3.4565 | lr 3.00e-04 | 10K tok/s
+step   2900 | loss 3.4850 | lr 3.00e-04 | 10K tok/s
+step   2900 | val loss 3.4720
+샘플: 대한민국의 수도는 유엔 문화 기본계획에 따라 대사관 건물을 제외한 모든 공공시설의 범위를 제한한 채, 그리고 관련 부처가 국회의 승인을 얻어 별도로 공공시설의 설치 근거가 되는 법률은 ‘공공기관의 운영에 관한 법률’에 위임되어 있다.
+즉, 공공시설의 설치 근거
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 2900)
+step   2910 | loss 3.5192 | lr 3.00e-04 | 10K tok/s
+step   2920 | loss 3.4720 | lr 3.00e-04 | 10K tok/s
+step   2930 | loss 3.4825 | lr 3.00e-04 | 10K tok/s
+step   2940 | loss 3.4505 | lr 3.00e-04 | 10K tok/s
+step   2950 | loss 3.4601 | lr 3.00e-04 | 10K tok/s
+step   2960 | loss 3.4443 | lr 3.00e-04 | 10K tok/s
+step   2970 | loss 3.4774 | lr 3.00e-04 | 10K tok/s
+step   2980 | loss 3.4286 | lr 3.00e-04 | 10K tok/s
+step   2990 | loss 3.4758 | lr 3.00e-04 | 10K tok/s
+step   3000 | loss 3.4123 | lr 3.00e-04 | 10K tok/s
+step   3000 | val loss 3.3948
+샘플: 대한민국의 수도는 미래에 도움이 될 것이며, 우리의 지혜를 통해 내일은 더 나은 내일을 만들 것이며, 내일은 지금보다 더 나은 내일을 만들 것입니다.”라고 하고 있다.
+Copyright(c) 2017 by The Hanchary Styles Foundation. All Rights Reserved. This material
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3000)
+step   3010 | loss 3.4855 | lr 3.00e-04 | 10K tok/s
+step   3020 | loss 3.4491 | lr 3.00e-04 | 10K tok/s
+step   3030 | loss 3.4055 | lr 3.00e-04 | 10K tok/s
+step   3040 | loss 3.4546 | lr 3.00e-04 | 11K tok/s
+step   3050 | loss 3.4725 | lr 3.00e-04 | 10K tok/s
+step   3060 | loss 3.4641 | lr 3.00e-04 | 10K tok/s
+step   3070 | loss 3.4469 | lr 3.00e-04 | 10K tok/s
+step   3080 | loss 3.4543 | lr 3.00e-04 | 10K tok/s
+step   3090 | loss 3.4475 | lr 3.00e-04 | 10K tok/s
+step   3100 | loss 3.4003 | lr 3.00e-04 | 10K tok/s
+step   3100 | val loss 3.3262
+샘플: 대한민국의 수도는 1일 무비자, 3일 무비자로, 4일 무사증, 5일 무사증
+선적
+약 4,500만불의 보증금과 4,000만불의 기타 장비, 그리고 약 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3100)
+step   3110 | loss 3.4466 | lr 3.00e-04 | 10K tok/s
+step   3120 | loss 3.4522 | lr 3.00e-04 | 10K tok/s
+step   3130 | loss 3.3880 | lr 3.00e-04 | 10K tok/s
+step   3140 | loss 3.4026 | lr 3.00e-04 | 10K tok/s
+step   3150 | loss 3.4407 | lr 3.00e-04 | 11K tok/s
+step   3160 | loss 3.4421 | lr 3.00e-04 | 10K tok/s
+step   3170 | loss 3.4651 | lr 3.00e-04 | 10K tok/s
+step   3180 | loss 3.3852 | lr 3.00e-04 | 10K tok/s
+step   3190 | loss 3.4180 | lr 3.00e-04 | 10K tok/s
+step   3200 | loss 3.4459 | lr 3.00e-04 | 10K tok/s
+step   3200 | val loss 3.3958
+샘플: 대한민국의 수도는 갈수록 자나깨나, 자유주의 교육원, 성경, 역사, 문맹을 비롯한 4대 ‘3대’ 과목 관련 책을 강력히 반대했던 적이 있습니다. 하나님을 믿고 구원받은 사람으로서 하나님께서 주신 사명, 곧 구원의 길을 가겠다는 마음은
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3200)
+step   3210 | loss 3.4324 | lr 3.00e-04 | 10K tok/s
+step   3220 | loss 3.3604 | lr 3.00e-04 | 10K tok/s
+step   3230 | loss 3.4054 | lr 3.00e-04 | 10K tok/s
+step   3240 | loss 3.3852 | lr 3.00e-04 | 10K tok/s
+step   3250 | loss 3.4107 | lr 3.00e-04 | 10K tok/s
+step   3260 | loss 3.4105 | lr 3.00e-04 | 10K tok/s
+step   3270 | loss 3.3717 | lr 3.00e-04 | 10K tok/s
+step   3280 | loss 3.4067 | lr 3.00e-04 | 10K tok/s
+step   3290 | loss 3.3956 | lr 3.00e-04 | 10K tok/s
+step   3300 | loss 3.3802 | lr 3.00e-04 | 10K tok/s
+step   3300 | val loss 3.4020
+샘플: 대한민국의 수도는 22일부터 25일까지 8일간 러시아 모스크바에서 진행되는 모스크바 국제경기대회 기간 중 진행된다. 또한 23일부터 6일간 파주 종합경기장으로 이동해 9일간 북한 선수들이 출전하는 남자 핸드볼 올림픽 결승전을 치른다.
+
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3300)
+step   3310 | loss 3.3801 | lr 3.00e-04 | 10K tok/s
+step   3320 | loss 3.4499 | lr 3.00e-04 | 11K tok/s
+step   3330 | loss 3.3738 | lr 3.00e-04 | 11K tok/s
+step   3340 | loss 3.4091 | lr 3.00e-04 | 11K tok/s
+step   3350 | loss 3.3942 | lr 3.00e-04 | 11K tok/s
+step   3360 | loss 3.3637 | lr 3.00e-04 | 11K tok/s
+step   3370 | loss 3.4017 | lr 3.00e-04 | 11K tok/s
+step   3380 | loss 3.3777 | lr 3.00e-04 | 11K tok/s
+step   3390 | loss 3.3646 | lr 3.00e-04 | 11K tok/s
+step   3400 | loss 3.4251 | lr 3.00e-04 | 11K tok/s
+step   3400 | val loss 3.3348
+샘플: 대한민국의 수도는 서태평양 괌에 이르는 43개의 섬으로 이루어진 섬나라로 우리나라와 대만, 일본에 이어 4번째로 큰 섬나라다. 또 한국처럼 3개의 섬이 혼슈로, 5개의 섬이 서태평양으로 구분된다. 동서양의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3400)
+step   3410 | loss 3.4085 | lr 3.00e-04 | 10K tok/s
+step   3420 | loss 3.3593 | lr 3.00e-04 | 11K tok/s
+step   3430 | loss 3.3968 | lr 3.00e-04 | 11K tok/s
+step   3440 | loss 3.3838 | lr 3.00e-04 | 11K tok/s
+step   3450 | loss 3.4358 | lr 3.00e-04 | 11K tok/s
+step   3460 | loss 3.4013 | lr 3.00e-04 | 11K tok/s
+step   3470 | loss 3.3758 | lr 3.00e-04 | 11K tok/s
+step   3480 | loss 3.3834 | lr 3.00e-04 | 11K tok/s
+step   3490 | loss 3.3760 | lr 3.00e-04 | 11K tok/s
+step   3500 | loss 3.3867 | lr 3.00e-04 | 11K tok/s
+step   3500 | val loss 3.2224
+샘플: 대한민국의 수도는 인구 10만명당 45세 이상의 1명으로 OECD 평균인 33.2세보다 3.6년 앞섰다. 인구 10만명당 65세 이상 인구 비중이 0.7명인데 10
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3500)
+step   3510 | loss 3.3421 | lr 3.00e-04 | 10K tok/s
+step   3520 | loss 3.3682 | lr 3.00e-04 | 11K tok/s
+step   3530 | loss 3.3879 | lr 3.00e-04 | 11K tok/s
+step   3540 | loss 3.3965 | lr 3.00e-04 | 11K tok/s
+step   3550 | loss 3.3643 | lr 3.00e-04 | 11K tok/s
+step   3560 | loss 3.3408 | lr 3.00e-04 | 11K tok/s
+step   3570 | loss 3.3547 | lr 3.00e-04 | 11K tok/s
+step   3580 | loss 3.3472 | lr 3.00e-04 | 11K tok/s
+step   3590 | loss 3.3679 | lr 3.00e-04 | 11K tok/s
+step   3600 | loss 3.3760 | lr 3.00e-04 | 11K tok/s
+step   3600 | val loss 3.2535
+샘플: 대한민국의 수도는 아주 오래전이다. 집집마다 각자도생하며 태어난 곳도 다 제각각이다. 지금 부모, 조상, 조상, 조상님들, 그리고 우리 조상님들. 그럼에도 아득히 먼 옛날의 고향이 생각난다. 그것은 새들이 울
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3600)
+step   3610 | loss 3.3587 | lr 3.00e-04 | 10K tok/s
+step   3620 | loss 3.3538 | lr 3.00e-04 | 11K tok/s
+step   3630 | loss 3.3410 | lr 3.00e-04 | 11K tok/s
+step   3640 | loss 3.3757 | lr 3.00e-04 | 11K tok/s
+step   3650 | loss 3.4179 | lr 3.00e-04 | 11K tok/s
+step   3660 | loss 3.3742 | lr 3.00e-04 | 11K tok/s
+step   3670 | loss 3.3601 | lr 3.00e-04 | 11K tok/s
+step   3680 | loss 3.3403 | lr 3.00e-04 | 11K tok/s
+step   3690 | loss 3.3268 | lr 3.00e-04 | 11K tok/s
+step   3700 | loss 3.3121 | lr 3.00e-04 | 11K tok/s
+step   3700 | val loss 3.3394
+샘플: 대한민국의 수도는 모두 6구역으로 나뉘어 있다. 6구역은 3구역에 속한다. 1구역은 3구역에 속하여 1구역(1964년)이 1구역 1구역(1978년)으로 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3700)
+step   3710 | loss 3.3484 | lr 3.00e-04 | 10K tok/s
+step   3720 | loss 3.3480 | lr 3.00e-04 | 11K tok/s
+step   3730 | loss 3.3319 | lr 3.00e-04 | 11K tok/s
+step   3740 | loss 3.3634 | lr 3.00e-04 | 11K tok/s
+step   3750 | loss 3.3546 | lr 3.00e-04 | 10K tok/s
+step   3760 | loss 3.3309 | lr 3.00e-04 | 11K tok/s
+step   3770 | loss 3.3382 | lr 3.00e-04 | 11K tok/s
+step   3780 | loss 3.3350 | lr 3.00e-04 | 10K tok/s
+step   3790 | loss 3.3651 | lr 3.00e-04 | 10K tok/s
+step   3800 | loss 3.3496 | lr 3.00e-04 | 11K tok/s
+step   3800 | val loss 3.2251
+샘플: 대한민국의 수도는 ‘제1회 세계한인여성대회’가 16일 오전 서울 중구 동대문운동장에서 열렸다. ‘여성과 함께하는 세계요람’ 제1회 세계한인여성대회 조직위원회가 주최한 이날 대회는 ‘성평등 세계대회’라는 주제로 한
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3800)
+step   3810 | loss 3.3749 | lr 3.00e-04 | 10K tok/s
+step   3820 | loss 3.3029 | lr 3.00e-04 | 11K tok/s
+step   3830 | loss 3.3464 | lr 3.00e-04 | 11K tok/s
+step   3840 | loss 3.3468 | lr 3.00e-04 | 10K tok/s
+step   3850 | loss 3.3731 | lr 3.00e-04 | 11K tok/s
+step   3860 | loss 3.3266 | lr 3.00e-04 | 10K tok/s
+step   3870 | loss 3.3167 | lr 3.00e-04 | 10K tok/s
+step   3880 | loss 3.3473 | lr 3.00e-04 | 10K tok/s
+step   3890 | loss 3.3443 | lr 3.00e-04 | 10K tok/s
+step   3900 | loss 3.3125 | lr 3.00e-04 | 10K tok/s
+step   3900 | val loss 3.2339
+샘플: 대한민국의 수도는 당일치으로 운영되고 있습니다.
+타우랑가
+태국이 낳은 가장 사랑받는 건축물 중 하나죠.
+타우랑가에는 네팔이 지닌 우수한 건축 기술과 건축을 경험할 수 있는 네팔 전통가옥인 타우랑가 호박이 있습니다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 3900)
+step   3910 | loss 3.3635 | lr 3.00e-04 | 10K tok/s
+step   3920 | loss 3.3570 | lr 3.00e-04 | 10K tok/s
+step   3930 | loss 3.3102 | lr 3.00e-04 | 11K tok/s
+step   3940 | loss 3.3390 | lr 3.00e-04 | 10K tok/s
+step   3950 | loss 3.3195 | lr 3.00e-04 | 11K tok/s
+step   3960 | loss 3.2768 | lr 3.00e-04 | 11K tok/s
+step   3970 | loss 3.3302 | lr 3.00e-04 | 10K tok/s
+step   3980 | loss 3.3373 | lr 3.00e-04 | 11K tok/s
+step   3990 | loss 3.3189 | lr 3.00e-04 | 11K tok/s
+step   4000 | loss 3.3066 | lr 3.00e-04 | 10K tok/s
+step   4000 | val loss 3.3272
+샘플: 대한민국의 수도는 해주에 있다. 廠州는 龍川이 惏加하고 있으며 合山, 这山, 殸山, 漁山, 恐山, 晾山,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4000)
+스냅샷 저장: checkpoints/base_1b/step_004000.pt
+step   4010 | loss 3.3539 | lr 3.00e-04 | 10K tok/s
+step   4020 | loss 3.2954 | lr 3.00e-04 | 11K tok/s
+step   4030 | loss 3.3567 | lr 3.00e-04 | 10K tok/s
+step   4040 | loss 3.3121 | lr 3.00e-04 | 11K tok/s
+step   4050 | loss 3.2885 | lr 3.00e-04 | 11K tok/s
+step   4060 | loss 3.3132 | lr 3.00e-04 | 11K tok/s
+step   4070 | loss 3.3492 | lr 3.00e-04 | 11K tok/s
+step   4080 | loss 3.2629 | lr 3.00e-04 | 11K tok/s
+step   4090 | loss 3.2742 | lr 3.00e-04 | 11K tok/s
+step   4100 | loss 3.3565 | lr 3.00e-04 | 11K tok/s
+step   4100 | val loss 3.3398
+샘플: 대한민국의 수도는 현재의 이탈리아령에서 탈출해 네덜란드로 향했습니다. 네덜란드에 도착한 일행은 프랑스와 네덜란드 간의 교역에서 패배를 피해 벨기에로 향했습니다. 벨기에 사람들이 독일에 도착하자 네덜란드는 거대한 식민지로 바뀌었습니다. 1809년 네덜란드는 벨기에
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4100)
+step   4110 | loss 3.3098 | lr 3.00e-04 | 10K tok/s
+step   4120 | loss 3.3089 | lr 3.00e-04 | 10K tok/s
+step   4130 | loss 3.2709 | lr 3.00e-04 | 10K tok/s
+step   4140 | loss 3.2621 | lr 3.00e-04 | 10K tok/s
+step   4150 | loss 3.2834 | lr 3.00e-04 | 10K tok/s
+step   4160 | loss 3.3135 | lr 3.00e-04 | 10K tok/s
+step   4170 | loss 3.3374 | lr 3.00e-04 | 11K tok/s
+step   4180 | loss 3.2831 | lr 3.00e-04 | 11K tok/s
+step   4190 | loss 3.3004 | lr 3.00e-04 | 11K tok/s
+step   4200 | loss 3.3320 | lr 3.00e-04 | 11K tok/s
+step   4200 | val loss 3.1730
+샘플: 대한민국의 수도는 북위와는 해륙양해대를 상시적으로 유지하여 오고 있으며, 4차 세계대전 당시 미국은 해륙군의 증원 및 지원을 위해 미국의 육해공군 지원을 위해 4차 대전에 참전한 미국 제 1함대의 승조원
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4200)
+step   4210 | loss 3.3160 | lr 3.00e-04 | 10K tok/s
+step   4220 | loss 3.3201 | lr 3.00e-04 | 11K tok/s
+step   4230 | loss 3.2526 | lr 3.00e-04 | 11K tok/s
+step   4240 | loss 3.2983 | lr 3.00e-04 | 11K tok/s
+step   4250 | loss 3.2969 | lr 3.00e-04 | 11K tok/s
+step   4260 | loss 3.2894 | lr 3.00e-04 | 11K tok/s
+step   4270 | loss 3.2554 | lr 3.00e-04 | 11K tok/s
+step   4280 | loss 3.2854 | lr 3.00e-04 | 11K tok/s
+step   4290 | loss 3.2567 | lr 3.00e-04 | 11K tok/s
+step   4300 | loss 3.2669 | lr 3.00e-04 | 11K tok/s
+step   4300 | val loss 3.2376
+샘플: 대한민국의 수도는 매우 넓고 많은 사람들이 살고 있는 곳 중 한 곳인데요.
+이 도시는 아름다운 자연과 다양한 문화가 어우러진 곳으로 흔히 평화, 자연, 문명의 중심지로 잘 알려져 있습니다. 그만큼 이슬람 문화의 중심지이기도 합니다.
+그래서 해마다 10월 4일 이슬람
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4300)
+step   4310 | loss 3.2566 | lr 3.00e-04 | 10K tok/s
+step   4320 | loss 3.2700 | lr 3.00e-04 | 11K tok/s
+step   4330 | loss 3.2560 | lr 3.00e-04 | 11K tok/s
+step   4340 | loss 3.2982 | lr 3.00e-04 | 11K tok/s
+step   4350 | loss 3.2927 | lr 3.00e-04 | 11K tok/s
+step   4360 | loss 3.2885 | lr 3.00e-04 | 11K tok/s
+step   4370 | loss 3.3092 | lr 3.00e-04 | 11K tok/s
+step   4380 | loss 3.3293 | lr 3.00e-04 | 11K tok/s
+step   4390 | loss 3.2815 | lr 3.00e-04 | 11K tok/s
+step   4400 | loss 3.2968 | lr 3.00e-04 | 11K tok/s
+step   4400 | val loss 3.1965
+샘플: 대한민국의 수도는 우리나라의 관문이었다. 대한민국 최초로 3000m가 넘는 비경을 볼 수 있는 곳이라는 점, 그 안에 많은 문화가 숨어 있다는 점, 이 지역의 역사와 문화적 가치를 제대로 알게 해준다는 점에서 이곳을 찾는 관광객들의 발길이 끊이지 않았다.
+“
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4400)
+step   4410 | loss 3.2507 | lr 3.00e-04 | 10K tok/s
+step   4420 | loss 3.2584 | lr 3.00e-04 | 11K tok/s
+step   4430 | loss 3.2759 | lr 3.00e-04 | 11K tok/s
+step   4440 | loss 3.2917 | lr 3.00e-04 | 11K tok/s
+step   4450 | loss 3.3111 | lr 3.00e-04 | 11K tok/s
+step   4460 | loss 3.2817 | lr 3.00e-04 | 11K tok/s
+step   4470 | loss 3.2802 | lr 3.00e-04 | 11K tok/s
+step   4480 | loss 3.3001 | lr 3.00e-04 | 11K tok/s
+step   4490 | loss 3.2779 | lr 3.00e-04 | 11K tok/s
+step   4500 | loss 3.2978 | lr 3.00e-04 | 11K tok/s
+step   4500 | val loss 3.3232
+샘플: 대한민국의 수도는 전 세계적으로 1,500여개가 넘을 만큼 넓은 편입니다. 뿐만 아니라 미주는 물론 유럽과 미국, 일본 등 1,600여개의 다른 나라가 인접해 있어 저렴한 해외직구를 통해 편리하게 미국 매장을 이용할 수 있습니다. 따라서 해외직구를
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4500)
+step   4510 | loss 3.2556 | lr 3.00e-04 | 10K tok/s
+step   4520 | loss 3.2963 | lr 3.00e-04 | 11K tok/s
+step   4530 | loss 3.2882 | lr 3.00e-04 | 11K tok/s
+step   4540 | loss 3.2633 | lr 3.00e-04 | 11K tok/s
+step   4550 | loss 3.2844 | lr 3.00e-04 | 11K tok/s
+step   4560 | loss 3.2747 | lr 3.00e-04 | 11K tok/s
+step   4570 | loss 3.2481 | lr 3.00e-04 | 11K tok/s
+step   4580 | loss 3.2743 | lr 3.00e-04 | 11K tok/s
+step   4590 | loss 3.2732 | lr 3.00e-04 | 11K tok/s
+step   4600 | loss 3.2666 | lr 3.00e-04 | 11K tok/s
+step   4600 | val loss 3.1662
+샘플: 대한민국의 수도는 전우치이다.
+전우치
+전우치
+전우치
+전우치란,
+전우치가,
+전우치가,
+전우치가,
+전우치라는 뜻은,
+전우치가
+전우치가,
+전우치가,
+전우
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4600)
+step   4610 | loss 3.2624 | lr 3.00e-04 | 10K tok/s
+step   4620 | loss 3.2100 | lr 3.00e-04 | 11K tok/s
+step   4630 | loss 3.2556 | lr 3.00e-04 | 11K tok/s
+step   4640 | loss 3.2690 | lr 3.00e-04 | 11K tok/s
+step   4650 | loss 3.2336 | lr 3.00e-04 | 11K tok/s
+step   4660 | loss 3.2410 | lr 3.00e-04 | 11K tok/s
+step   4670 | loss 3.2442 | lr 3.00e-04 | 11K tok/s
+step   4680 | loss 3.2594 | lr 3.00e-04 | 11K tok/s
+step   4690 | loss 3.2563 | lr 3.00e-04 | 11K tok/s
+step   4700 | loss 3.2948 | lr 3.00e-04 | 11K tok/s
+step   4700 | val loss 3.1613
+샘플: 대한민국의 수도는 수단에 지나지 않았다. 수단은 하나님이었다. 수단은 창조주와 피조물이라는 이중적인 인격의 관계 속에서 존재하였다. 수단은 하나님의 소유물로서 하나님 자신이라는 하나님의 존재를 포함하였다. 수단은 또 다른 하나님이라고 하는 하나님의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4700)
+step   4710 | loss 3.2607 | lr 3.00e-04 | 10K tok/s
+step   4720 | loss 3.2511 | lr 3.00e-04 | 11K tok/s
+step   4730 | loss 3.2770 | lr 3.00e-04 | 11K tok/s
+step   4740 | loss 3.2546 | lr 3.00e-04 | 11K tok/s
+step   4750 | loss 3.2418 | lr 3.00e-04 | 11K tok/s
+step   4760 | loss 3.2355 | lr 3.00e-04 | 11K tok/s
+step   4770 | loss 3.2581 | lr 3.00e-04 | 11K tok/s
+step   4780 | loss 3.2067 | lr 3.00e-04 | 11K tok/s
+step   4790 | loss 3.2875 | lr 3.00e-04 | 11K tok/s
+step   4800 | loss 3.2485 | lr 3.00e-04 | 11K tok/s
+step   4800 | val loss 3.1491
+샘플: 대한민국의 수도는 내전이 있었을 때, 그 위기를 극복하기 위해 1949년 독일에 파견된 나치에 대한 항거로, 독일은 제2차 세계대전에서 패하고 소련과 손을 잡을 수밖에 없었던 비운의 역사를 가지고 있다. 또한, 1950년 발생한
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4800)
+step   4810 | loss 3.2414 | lr 3.00e-04 | 10K tok/s
+step   4820 | loss 3.2552 | lr 3.00e-04 | 11K tok/s
+step   4830 | loss 3.2830 | lr 3.00e-04 | 11K tok/s
+step   4840 | loss 3.2838 | lr 3.00e-04 | 11K tok/s
+step   4850 | loss 3.2452 | lr 3.00e-04 | 11K tok/s
+step   4860 | loss 3.2641 | lr 3.00e-04 | 11K tok/s
+step   4870 | loss 3.2642 | lr 3.00e-04 | 11K tok/s
+step   4880 | loss 3.2621 | lr 3.00e-04 | 11K tok/s
+step   4890 | loss 3.2221 | lr 3.00e-04 | 11K tok/s
+step   4900 | loss 3.2333 | lr 3.00e-04 | 11K tok/s
+step   4900 | val loss 3.0980
+샘플: 대한민국의 수도는 미국
+[더,오래] 민진홍의 단소리: 만화로 보는 일본문화(하) 14페이지
+- ..FILE:일본문화ppt ..FILE:일본문화ppt ..FILE:일본문화
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 4900)
+step   4910 | loss 3.2449 | lr 3.00e-04 | 10K tok/s
+step   4920 | loss 3.2336 | lr 3.00e-04 | 11K tok/s
+step   4930 | loss 3.2243 | lr 3.00e-04 | 11K tok/s
+step   4940 | loss 3.2254 | lr 3.00e-04 | 11K tok/s
+step   4950 | loss 3.2255 | lr 3.00e-04 | 11K tok/s
+step   4960 | loss 3.2503 | lr 3.00e-04 | 10K tok/s
+step   4970 | loss 3.2360 | lr 3.00e-04 | 10K tok/s
+step   4980 | loss 3.2538 | lr 3.00e-04 | 10K tok/s
+step   4990 | loss 3.2047 | lr 3.00e-04 | 10K tok/s
+step   5000 | loss 3.2489 | lr 3.00e-04 | 10K tok/s
+step   5000 | val loss 3.2351
+샘플: 대한민국의 수도는 시베리아로 일본보다 훨씬 좁은데, 에도시대 때 이미 러시아는 고대 도시라는 기록이 있다. 3세기 무렵 중세 이탈리아에 둘러싸여 있던 러시아는 서슬라브 왕국의 지배권을 놓고 당시 이탈리아 열도가 갖는 지리적ㆍ경제적ㆍ문화적ㆍ문화적
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5000)
+step   5010 | loss 3.1987 | lr 3.00e-04 | 10K tok/s
+step   5020 | loss 3.1942 | lr 3.00e-04 | 11K tok/s
+step   5030 | loss 3.1995 | lr 3.00e-04 | 11K tok/s
+step   5040 | loss 3.2718 | lr 3.00e-04 | 11K tok/s
+step   5050 | loss 3.2279 | lr 3.00e-04 | 11K tok/s
+step   5060 | loss 3.2361 | lr 3.00e-04 | 11K tok/s
+step   5070 | loss 3.2245 | lr 3.00e-04 | 11K tok/s
+step   5080 | loss 3.2335 | lr 3.00e-04 | 11K tok/s
+step   5090 | loss 3.1984 | lr 3.00e-04 | 11K tok/s
+step   5100 | loss 3.2323 | lr 3.00e-04 | 11K tok/s
+step   5100 | val loss 3.1822
+샘플: 대한민국의 수도는 헌법 제10조에 따라 국회에서 처리된 국회의사당이다. 국회의사당 이외에 국회 본청, 각 상임위원회, 법원, 검찰, 헌법재판소, 선거관리위원회, 감사원, 국무총리, 행정중심복합도시건설청, 서울특별시 교육청, 경기도 교육청이
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5100)
+step   5110 | loss 3.2866 | lr 3.00e-04 | 10K tok/s
+step   5120 | loss 3.2394 | lr 3.00e-04 | 11K tok/s
+step   5130 | loss 3.2638 | lr 3.00e-04 | 11K tok/s
+step   5140 | loss 3.2053 | lr 3.00e-04 | 11K tok/s
+step   5150 | loss 3.2062 | lr 3.00e-04 | 11K tok/s
+step   5160 | loss 3.2650 | lr 3.00e-04 | 11K tok/s
+step   5170 | loss 3.2174 | lr 3.00e-04 | 11K tok/s
+step   5180 | loss 3.2341 | lr 3.00e-04 | 11K tok/s
+step   5190 | loss 3.2299 | lr 3.00e-04 | 11K tok/s
+step   5200 | loss 3.2340 | lr 3.00e-04 | 11K tok/s
+step   5200 | val loss 3.1741
+샘플: 대한민국의 수도는 네덜란드이며, 수도는 코펜하겐이다.
+
+역사 
+네덜란드의 수도는 1124년에 네덜란드 왕국의 수도로서 현재의 네덜란드의 수도이벨리누크 (Belgium)로 옮겨졌다. 이후 네덜란드의 수도는 쇠망하여 지금은 빈에 위치하게
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5200)
+step   5210 | loss 3.2106 | lr 3.00e-04 | 10K tok/s
+step   5220 | loss 3.2108 | lr 3.00e-04 | 11K tok/s
+step   5230 | loss 3.2367 | lr 3.00e-04 | 11K tok/s
+step   5240 | loss 3.2189 | lr 3.00e-04 | 11K tok/s
+step   5250 | loss 3.1353 | lr 3.00e-04 | 11K tok/s
+step   5260 | loss 3.2532 | lr 3.00e-04 | 11K tok/s
+step   5270 | loss 3.2768 | lr 3.00e-04 | 11K tok/s
+step   5280 | loss 3.2401 | lr 3.00e-04 | 11K tok/s
+step   5290 | loss 3.2109 | lr 3.00e-04 | 11K tok/s
+step   5300 | loss 3.1918 | lr 3.00e-04 | 11K tok/s
+step   5300 | val loss 3.0993
+샘플: 대한민국의 수도는 로마제국 때 이베리아 반도에서 프랑스로 넘어온 부르군트인들이 모여 사는 주들로, 오늘날의 독일처럼 완전한 독일 민족 자치체였다. 토인비는 [게르만 인들이 세운 민족 자치단]이라고 불렀다.[2]
+
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5300)
+step   5310 | loss 3.2002 | lr 3.00e-04 | 10K tok/s
+step   5320 | loss 3.2004 | lr 3.00e-04 | 11K tok/s
+step   5330 | loss 3.1882 | lr 3.00e-04 | 11K tok/s
+step   5340 | loss 3.1775 | lr 3.00e-04 | 11K tok/s
+step   5350 | loss 3.2008 | lr 3.00e-04 | 11K tok/s
+step   5360 | loss 3.1729 | lr 3.00e-04 | 11K tok/s
+step   5370 | loss 3.2274 | lr 3.00e-04 | 11K tok/s
+step   5380 | loss 3.1836 | lr 3.00e-04 | 11K tok/s
+step   5390 | loss 3.2244 | lr 3.00e-04 | 11K tok/s
+step   5400 | loss 3.2010 | lr 3.00e-04 | 11K tok/s
+step   5400 | val loss 3.1960
+샘플: 대한민국의 수도는 ‘댈러스’이며, 뉴욕의 인구는 100만 명에 불과하다. 런던에서 90만 명이 살고 있는 것도 아니다. 하지만 대척점이 있다. 파리다. 프랑스의 수 많은 도시 중에서도 가장 유명한 도시다. 17세기와 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5400)
+step   5410 | loss 3.2505 | lr 3.00e-04 | 10K tok/s
+step   5420 | loss 3.2229 | lr 3.00e-04 | 11K tok/s
+step   5430 | loss 3.1852 | lr 3.00e-04 | 11K tok/s
+step   5440 | loss 3.2158 | lr 3.00e-04 | 11K tok/s
+step   5450 | loss 3.1766 | lr 3.00e-04 | 11K tok/s
+step   5460 | loss 3.1996 | lr 3.00e-04 | 11K tok/s
+step   5470 | loss 3.1990 | lr 3.00e-04 | 11K tok/s
+step   5480 | loss 3.1843 | lr 3.00e-04 | 11K tok/s
+step   5490 | loss 3.2298 | lr 3.00e-04 | 11K tok/s
+step   5500 | loss 3.2190 | lr 3.00e-04 | 11K tok/s
+step   5500 | val loss 3.1025
+샘플: 대한민국의 수도는 현재에도 여전히 존재하고 있으며, 1996년 이전에도 광산업 분야에서의 새로운 물류단지 개발이 이루어졌다. 그러나, 경제 및 산업적인 측면에서 아직 잠재적으로 유망한 2개의 주요 물류단지(베이징, 상하이, 베이징 항)가 존재한다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5500)
+step   5510 | loss 3.2096 | lr 3.00e-04 | 10K tok/s
+step   5520 | loss 3.2119 | lr 3.00e-04 | 11K tok/s
+step   5530 | loss 3.1945 | lr 3.00e-04 | 11K tok/s
+step   5540 | loss 3.1823 | lr 3.00e-04 | 11K tok/s
+step   5550 | loss 3.1959 | lr 3.00e-04 | 11K tok/s
+step   5560 | loss 3.2061 | lr 3.00e-04 | 11K tok/s
+step   5570 | loss 3.1611 | lr 3.00e-04 | 11K tok/s
+step   5580 | loss 3.2208 | lr 3.00e-04 | 11K tok/s
+step   5590 | loss 3.2049 | lr 3.00e-04 | 11K tok/s
+step   5600 | loss 3.1898 | lr 3.00e-04 | 11K tok/s
+step   5600 | val loss 3.0727
+샘플: 대한민국의 수도는 현지 사정에 따라 변경될 수 있으니 여행하기 전 현지 정보를 확인하는 것이 좋다.
+태국의 수도 방콕은 전통적인 태국풍 건물들로 둘러싸인 도시다. 화려한 색채와 다양한 색을 배경으로 현대적인 카페와 바, 레스토랑, 바 등이 곳곳에 자리해 있다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5600)
+step   5610 | loss 3.1976 | lr 3.00e-04 | 10K tok/s
+step   5620 | loss 3.1750 | lr 3.00e-04 | 11K tok/s
+step   5630 | loss 3.2226 | lr 3.00e-04 | 11K tok/s
+step   5640 | loss 3.1604 | lr 3.00e-04 | 11K tok/s
+step   5650 | loss 3.1760 | lr 3.00e-04 | 11K tok/s
+step   5660 | loss 3.1967 | lr 3.00e-04 | 11K tok/s
+step   5670 | loss 3.1802 | lr 3.00e-04 | 11K tok/s
+step   5680 | loss 3.1785 | lr 3.00e-04 | 11K tok/s
+step   5690 | loss 3.1906 | lr 3.00e-04 | 10K tok/s
+step   5700 | loss 3.2235 | lr 3.00e-04 | 10K tok/s
+step   5700 | val loss 3.1054
+샘플: 대한민국의 수도는 그 다음으로 큰 도시이다. 서울은 서쪽으로 에루살렘을 경계로 하는 고대 수도이며, 예루살렘은 예루살렘 성문에서 북서쪽으로 약 20km 떨어져 있는 "안식처"이다. 예루살렘에서 북서쪽 8km 떨어진 모퉁이에
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5700)
+step   5710 | loss 3.1947 | lr 3.00e-04 | 10K tok/s
+step   5720 | loss 3.1765 | lr 3.00e-04 | 10K tok/s
+step   5730 | loss 3.1763 | lr 3.00e-04 | 11K tok/s
+step   5740 | loss 3.2038 | lr 3.00e-04 | 11K tok/s
+step   5750 | loss 3.1519 | lr 3.00e-04 | 10K tok/s
+step   5760 | loss 3.1666 | lr 3.00e-04 | 11K tok/s
+step   5770 | loss 3.1977 | lr 3.00e-04 | 10K tok/s
+step   5780 | loss 3.1563 | lr 3.00e-04 | 10K tok/s
+step   5790 | loss 3.2038 | lr 3.00e-04 | 10K tok/s
+step   5800 | loss 3.2010 | lr 3.00e-04 | 10K tok/s
+step   5800 | val loss 3.1399
+샘플: 대한민국의 수도는 서울 외곽에 위치하면서 서울 시민들에게는 불편함을 끼치는 것.
+2.4.2. 수도권
+- 수도권
+- 수도권 광역시, 경기도와 같이 수도권에 위치하고 있으며, 2018년 기준 광역자치단체 중 가장 많은 인구를 가지고 있다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5800)
+step   5810 | loss 3.1403 | lr 3.00e-04 | 10K tok/s
+step   5820 | loss 3.1710 | lr 3.00e-04 | 10K tok/s
+step   5830 | loss 3.2071 | lr 3.00e-04 | 10K tok/s
+step   5840 | loss 3.1616 | lr 3.00e-04 | 10K tok/s
+step   5850 | loss 3.1698 | lr 3.00e-04 | 10K tok/s
+step   5860 | loss 3.1683 | lr 3.00e-04 | 10K tok/s
+step   5870 | loss 3.1810 | lr 3.00e-04 | 10K tok/s
+step   5880 | loss 3.1709 | lr 3.00e-04 | 10K tok/s
+step   5890 | loss 3.1749 | lr 3.00e-04 | 10K tok/s
+step   5900 | loss 3.1461 | lr 3.00e-04 | 10K tok/s
+step   5900 | val loss 3.2016
+샘플: 대한민국의 수도는 부산광역시에 있다.<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 5900)
+step   5910 | loss 3.1909 | lr 3.00e-04 | 10K tok/s
+step   5920 | loss 3.1792 | lr 3.00e-04 | 10K tok/s
+step   5930 | loss 3.1889 | lr 3.00e-04 | 11K tok/s
+step   5940 | loss 3.2050 | lr 3.00e-04 | 11K tok/s
+step   5950 | loss 3.2007 | lr 3.00e-04 | 11K tok/s
+step   5960 | loss 3.1502 | lr 3.00e-04 | 11K tok/s
+step   5970 | loss 3.2113 | lr 3.00e-04 | 11K tok/s
+step   5980 | loss 3.1500 | lr 3.00e-04 | 10K tok/s
+step   5990 | loss 3.1602 | lr 3.00e-04 | 10K tok/s
+step   6000 | loss 3.1810 | lr 3.00e-04 | 10K tok/s
+step   6000 | val loss 3.1353
+샘플: 대한민국의 수도는 부산이다. 대한민국에서 부산이 관광지로 더 각광받는 이유, 국제도시 부산의 매력을 알아보자.
+부산의 상징, ‘국제도시’
+부산은 대한민국의 중앙에 위치하고 있다. 대한민국 수도인 서울은 대한민국의 수도이다. 대한민국 수도 서울에는 여러 가지 상징물들이
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6000)
+step   6010 | loss 3.1390 | lr 3.00e-04 | 10K tok/s
+step   6020 | loss 3.1866 | lr 3.00e-04 | 10K tok/s
+step   6030 | loss 3.1841 | lr 3.00e-04 | 11K tok/s
+step   6040 | loss 3.1802 | lr 3.00e-04 | 10K tok/s
+step   6050 | loss 3.1830 | lr 3.00e-04 | 10K tok/s
+step   6060 | loss 3.1490 | lr 3.00e-04 | 10K tok/s
+step   6070 | loss 3.1584 | lr 3.00e-04 | 11K tok/s
+step   6080 | loss 3.2008 | lr 3.00e-04 | 11K tok/s
+step   6090 | loss 3.1550 | lr 3.00e-04 | 11K tok/s
+step   6100 | loss 3.1698 | lr 3.00e-04 | 11K tok/s
+step   6100 | val loss 3.0402
+샘플: 대한민국의 수도는 다양한 문화와 함께 역사와 문화가 살아 숨 쉬는 도시이다.
+고양시가 가장 우선으로 강조하는 것은 문화·관광에 대한 끊임없는 열정이다. 고양시에 오래 전부터 사람들이 모여들었던 유명한 마두동은 당시 고양시의 가장 대표적인 거리였다. 그 시대에
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6100)
+step   6110 | loss 3.1597 | lr 3.00e-04 | 10K tok/s
+step   6120 | loss 3.1139 | lr 3.00e-04 | 11K tok/s
+step   6130 | loss 3.1710 | lr 3.00e-04 | 11K tok/s
+step   6140 | loss 3.1554 | lr 3.00e-04 | 11K tok/s
+step   6150 | loss 3.1666 | lr 3.00e-04 | 11K tok/s
+step   6160 | loss 3.1669 | lr 3.00e-04 | 11K tok/s
+step   6170 | loss 3.1686 | lr 3.00e-04 | 11K tok/s
+step   6180 | loss 3.1983 | lr 3.00e-04 | 11K tok/s
+step   6190 | loss 3.1834 | lr 3.00e-04 | 11K tok/s
+step   6200 | loss 3.1470 | lr 3.00e-04 | 11K tok/s
+step   6200 | val loss 2.9693
+샘플: 대한민국의 수도는 미국이다. 그러나 미국이라는 나라는 서구만의 독특한 문화를 갖고 있다. 미국이라는 나라는 이 때문에 예부터 ‘스타디움’이라 불렸다.
+- 예) 브루클린의 탄생, ‘누구나 도시다’
+- 뉴욕이란 도시는 도시가 아니라 도시로 사람이 몰려
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6200)
+step   6210 | loss 3.1573 | lr 3.00e-04 | 10K tok/s
+step   6220 | loss 3.1509 | lr 3.00e-04 | 11K tok/s
+step   6230 | loss 3.1976 | lr 3.00e-04 | 11K tok/s
+step   6240 | loss 3.1460 | lr 3.00e-04 | 11K tok/s
+step   6250 | loss 3.1698 | lr 3.00e-04 | 11K tok/s
+step   6260 | loss 3.1688 | lr 3.00e-04 | 10K tok/s
+step   6270 | loss 3.1864 | lr 3.00e-04 | 10K tok/s
+step   6280 | loss 3.1198 | lr 3.00e-04 | 11K tok/s
+step   6290 | loss 3.1375 | lr 3.00e-04 | 11K tok/s
+step   6300 | loss 3.1459 | lr 3.00e-04 | 11K tok/s
+step   6300 | val loss 3.0941
+샘플: 대한민국의 수도는 1949년 러시아, 1960년 유고슬라비아, 1978년 카자흐스탄에서 1992년 유고연방으로 합병됐다. 2008년 나토 가입으로 나토 회원국이 됐으며, 러시아는 2012년 유고 연방
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6300)
+=== [2026-08-13 21:17:42] 비정상 종료(코드 137, 642577초 만에), 120초 후 재시도 ===
+=== [2026-08-13 21:19:42] 재개 (시도 1) ===
+모델: 1063.4M 파라미터 (임베딩 제외) | device: cuda
+재개: step 6301부터
+step   6310 | loss 3.1854 | lr 3.00e-04 | 10K tok/s
+step   6320 | loss 3.1898 | lr 3.00e-04 | 11K tok/s
+step   6330 | loss 3.1301 | lr 3.00e-04 | 11K tok/s
+step   6340 | loss 3.1644 | lr 3.00e-04 | 10K tok/s
+step   6350 | loss 3.1303 | lr 3.00e-04 | 10K tok/s
+step   6360 | loss 3.1449 | lr 3.00e-04 | 10K tok/s
+step   6370 | loss 3.1591 | lr 3.00e-04 | 10K tok/s
+step   6380 | loss 3.1834 | lr 3.00e-04 | 10K tok/s
+step   6390 | loss 3.1283 | lr 3.00e-04 | 11K tok/s
+step   6400 | loss 3.1238 | lr 3.00e-04 | 11K tok/s
+step   6400 | val loss 3.0744
+샘플: 대한민국의 수도는 정하성(鄭夏城, 지금의 하남성, 지금의 안후이성) 근처였다. ‘홍인’이라는 이름은 고구려가 멸망한 뒤 이곳에 거주하던 수차(水車)들이 쓰는 명칭에서 유래하였다.
+고구려의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6400)
+step   6410 | loss 3.1643 | lr 3.00e-04 | 10K tok/s
+step   6420 | loss 3.1827 | lr 3.00e-04 | 11K tok/s
+step   6430 | loss 3.1256 | lr 3.00e-04 | 11K tok/s
+step   6440 | loss 3.1699 | lr 3.00e-04 | 10K tok/s
+step   6450 | loss 3.1387 | lr 3.00e-04 | 11K tok/s
+step   6460 | loss 3.1984 | lr 3.00e-04 | 11K tok/s
+step   6470 | loss 3.1683 | lr 3.00e-04 | 11K tok/s
+step   6480 | loss 3.1767 | lr 3.00e-04 | 11K tok/s
+step   6490 | loss 3.1290 | lr 3.00e-04 | 11K tok/s
+step   6500 | loss 3.2192 | lr 3.00e-04 | 10K tok/s
+step   6500 | val loss 3.2035
+샘플: 대한민국의 수도는 프랑스를, 프랑스는 유럽을, 프랑스는 미국을, 미국은 일본을 의미한다. 즉, 50억 인구를 자랑하는 미국의 수도는 미국의 수도이며, 미국의 수도는 미국의 수도이다. 이러한 미국의 수도에는 세계의 부와 문화의 중심이 집중되어 있는 것은 미국만의 문제가 아니다. 그렇다면
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6500)
+step   6510 | loss 3.1297 | lr 3.00e-04 | 10K tok/s
+step   6520 | loss 3.1724 | lr 3.00e-04 | 10K tok/s
+step   6530 | loss 3.1648 | lr 3.00e-04 | 10K tok/s
+step   6540 | loss 3.1707 | lr 3.00e-04 | 11K tok/s
+step   6550 | loss 3.1719 | lr 3.00e-04 | 10K tok/s
+step   6560 | loss 3.1858 | lr 3.00e-04 | 10K tok/s
+step   6570 | loss 3.1585 | lr 3.00e-04 | 10K tok/s
+step   6580 | loss 3.1904 | lr 3.00e-04 | 10K tok/s
+step   6590 | loss 3.1329 | lr 3.00e-04 | 10K tok/s
+step   6600 | loss 3.1306 | lr 3.00e-04 | 10K tok/s
+step   6600 | val loss 2.9385
+샘플: 대한민국의 수도는 베이징입니다. 그 결과 베이징의 인구는 1천만 명을 넘어섰습니다.
+베이징에 사람이 몰린 이유는 무엇일까요?
+장쩌민은 1천8백만의 중국인들이 이 베이징에 몰려들어 “빈곤과 굶주림에서 벗어나자”고 외
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6600)
+step   6610 | loss 3.1454 | lr 3.00e-04 | 10K tok/s
+step   6620 | loss 3.1476 | lr 3.00e-04 | 11K tok/s
+step   6630 | loss 3.1515 | lr 3.00e-04 | 10K tok/s
+step   6640 | loss 3.1576 | lr 3.00e-04 | 11K tok/s
+step   6650 | loss 3.1184 | lr 3.00e-04 | 10K tok/s
+step   6660 | loss 3.1292 | lr 3.00e-04 | 11K tok/s
+step   6670 | loss 3.1854 | lr 3.00e-04 | 11K tok/s
+step   6680 | loss 3.1754 | lr 3.00e-04 | 11K tok/s
+step   6690 | loss 3.1988 | lr 3.00e-04 | 11K tok/s
+step   6700 | loss 3.1479 | lr 3.00e-04 | 10K tok/s
+step   6700 | val loss 3.1474
+샘플: 대한민국의 수도는 1만 3000㎞의 직선도로를 중심으로 남북을 잇는 교통로와 남북을 잇는 도로, 그리고 남북을 잇는 철도와 여객선, 남북을 잇는 철도와 화물선, 남북을 잇는 철도가 나래에 잇
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6700)
+step   6710 | loss 3.1266 | lr 3.00e-04 | 10K tok/s
+step   6720 | loss 3.1475 | lr 3.00e-04 | 10K tok/s
+step   6730 | loss 3.1436 | lr 3.00e-04 | 10K tok/s
+step   6740 | loss 3.1334 | lr 3.00e-04 | 10K tok/s
+step   6750 | loss 3.1355 | lr 3.00e-04 | 10K tok/s
+step   6760 | loss 3.1287 | lr 3.00e-04 | 10K tok/s
+step   6770 | loss 3.1124 | lr 3.00e-04 | 11K tok/s
+step   6780 | loss 3.0753 | lr 3.00e-04 | 11K tok/s
+step   6790 | loss 3.1480 | lr 3.00e-04 | 11K tok/s
+step   6800 | loss 3.1473 | lr 3.00e-04 | 11K tok/s
+step   6800 | val loss 3.1356
+샘플: 대한민국의 수도는 여기도 1번 말라가입니다.
+14세기 초에 이 도시는 수세기 동안 요새로 사용되었으며, 방어를 위해 14개의 도시 요새가 세워졌습니다. 오늘날 이 도시는 제2차 세계대전 이후 UNESCO 세계유산으로 지정되었습니다.
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6800)
+step   6810 | loss 3.1287 | lr 3.00e-04 | 10K tok/s
+step   6820 | loss 3.2075 | lr 3.00e-04 | 11K tok/s
+step   6830 | loss 3.1852 | lr 3.00e-04 | 11K tok/s
+step   6840 | loss 3.1508 | lr 3.00e-04 | 11K tok/s
+step   6850 | loss 3.1047 | lr 3.00e-04 | 11K tok/s
+step   6860 | loss 3.1632 | lr 3.00e-04 | 10K tok/s
+step   6870 | loss 3.0913 | lr 3.00e-04 | 11K tok/s
+step   6880 | loss 3.1077 | lr 3.00e-04 | 11K tok/s
+step   6890 | loss 3.1175 | lr 3.00e-04 | 11K tok/s
+step   6900 | loss 3.1118 | lr 3.00e-04 | 11K tok/s
+step   6900 | val loss 3.0731
+샘플: 대한민국의 수도는 "아르바트" 이다. 베를린에 이어 세계에서 두 번째로 큰 수도이며, 베를린 도심으로부터 2,700m, 베를린에서 1,500m 떨어진 곳에 위치해 있다.
+이 글은 베를린의 빈터투어 에 한 번 참가
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 6900)
+step   6910 | loss 3.1149 | lr 3.00e-04 | 10K tok/s
+step   6920 | loss 3.0887 | lr 3.00e-04 | 10K tok/s
+step   6930 | loss 3.1292 | lr 3.00e-04 | 11K tok/s
+step   6940 | loss 3.1642 | lr 3.00e-04 | 11K tok/s
+step   6950 | loss 3.1397 | lr 3.00e-04 | 11K tok/s
+step   6960 | loss 3.1142 | lr 3.00e-04 | 11K tok/s
+step   6970 | loss 3.1176 | lr 3.00e-04 | 10K tok/s
+step   6980 | loss 3.1475 | lr 3.00e-04 | 11K tok/s
+step   6990 | loss 3.1255 | lr 3.00e-04 | 11K tok/s
+step   7000 | loss 3.1290 | lr 3.00e-04 | 11K tok/s
+step   7000 | val loss 3.0864
+샘플: 대한민국의 수도는 미국이다.
+영국의 로마인들은 자치를 행했지만, 이탈리아와 달리 강력한 중앙집권국가였다. 로마는 1225년 유럽 사상 처음으로 정부를 구성하였다. 이 때 로마제국 내의 로마는 독일, 프랑스, 스페인 등과 함께 내부적으로는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7000)
+step   7010 | loss 3.1639 | lr 3.00e-04 | 10K tok/s
+step   7020 | loss 3.1213 | lr 3.00e-04 | 11K tok/s
+step   7030 | loss 3.1221 | lr 3.00e-04 | 11K tok/s
+step   7040 | loss 3.1460 | lr 3.00e-04 | 11K tok/s
+step   7050 | loss 3.1378 | lr 3.00e-04 | 11K tok/s
+step   7060 | loss 3.1129 | lr 3.00e-04 | 11K tok/s
+step   7070 | loss 3.1305 | lr 3.00e-04 | 11K tok/s
+step   7080 | loss 3.1232 | lr 3.00e-04 | 11K tok/s
+step   7090 | loss 3.1231 | lr 3.00e-04 | 11K tok/s
+step   7100 | loss 3.1276 | lr 3.00e-04 | 11K tok/s
+step   7100 | val loss 3.0965
+샘플: 대한민국의 수도는 미국이다. 워싱턴 주는 미국의 수도이자 미국 남서부의 중요한 지리적 중심지 중 하나이다. 워싱턴 주에는 약 1,500만 명의 인구가 있으며 이는 미국 인구의 2.3% 정도이다. 워싱턴 주는 미국의 수도이자 미국의 심장부 중
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7100)
+step   7110 | loss 3.1344 | lr 3.00e-04 | 10K tok/s
+step   7120 | loss 3.1032 | lr 3.00e-04 | 11K tok/s
+step   7130 | loss 3.1334 | lr 3.00e-04 | 11K tok/s
+step   7140 | loss 3.1302 | lr 3.00e-04 | 10K tok/s
+step   7150 | loss 3.1176 | lr 3.00e-04 | 11K tok/s
+step   7160 | loss 3.1490 | lr 3.00e-04 | 11K tok/s
+step   7170 | loss 3.1249 | lr 3.00e-04 | 11K tok/s
+step   7180 | loss 3.0803 | lr 3.00e-04 | 11K tok/s
+step   7190 | loss 3.1260 | lr 3.00e-04 | 11K tok/s
+step   7200 | loss 3.0921 | lr 3.00e-04 | 11K tok/s
+step   7200 | val loss 3.0820
+샘플: 대한민국의 수도는, 나가사키의 나가사키항이나 홋카이도의 아사히카와나 삿포로시, 도야마와 기후가 비슷해, 도쿄를 유달리 닮았습니다. 그 때문에, 이 도시의 도시가 이 특별한 인상을 줍니다. 이 도시에 있는 이 박물관에는, 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7200)
+step   7210 | loss 3.1221 | lr 3.00e-04 | 10K tok/s
+step   7220 | loss 3.1162 | lr 3.00e-04 | 11K tok/s
+step   7230 | loss 3.1302 | lr 3.00e-04 | 11K tok/s
+step   7240 | loss 3.1400 | lr 3.00e-04 | 11K tok/s
+step   7250 | loss 3.1025 | lr 3.00e-04 | 11K tok/s
+step   7260 | loss 3.1747 | lr 3.00e-04 | 11K tok/s
+step   7270 | loss 3.1254 | lr 3.00e-04 | 11K tok/s
+step   7280 | loss 3.1183 | lr 3.00e-04 | 11K tok/s
+step   7290 | loss 3.0987 | lr 3.00e-04 | 10K tok/s
+step   7300 | loss 3.1133 | lr 3.00e-04 | 10K tok/s
+step   7300 | val loss 2.9415
+샘플: 대한민국의 수도는 확실히 알 수 없습니다.
+그리고
+구수하게 잘 지어놓은 멋진 건축물들의 기준도 완전히 틀립니다.
+"중앙고속도로에 위치한 대한민국 대표급 여행지" "대중교통으로 유명한 대한민국 대표 관광지"
+"산업단지가 발달해 있고 생활
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7300)
+step   7310 | loss 3.1359 | lr 3.00e-04 | 10K tok/s
+step   7320 | loss 3.1114 | lr 3.00e-04 | 11K tok/s
+step   7330 | loss 3.1304 | lr 3.00e-04 | 10K tok/s
+step   7340 | loss 3.1132 | lr 3.00e-04 | 11K tok/s
+step   7350 | loss 3.1110 | lr 3.00e-04 | 11K tok/s
+step   7360 | loss 3.0611 | lr 3.00e-04 | 10K tok/s
+step   7370 | loss 3.1124 | lr 3.00e-04 | 10K tok/s
+step   7380 | loss 3.0978 | lr 3.00e-04 | 10K tok/s
+step   7390 | loss 3.1242 | lr 3.00e-04 | 10K tok/s
+step   7400 | loss 3.1204 | lr 3.00e-04 | 11K tok/s
+step   7400 | val loss 3.0646
+샘플: 대한민국의 수도는 각각 달라요.
+중부 유럽: 모스크바, 모스크바
+중유럽: 피렌체, 프라하
+아프리카: 케이프타운, 케이프타운
+유럽 연합: 런던, 파리
+기타: 튀니스, 니제르, 모로코
+유럽 연합: 암스테르담,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7400)
+step   7410 | loss 3.0735 | lr 3.00e-04 | 10K tok/s
+step   7420 | loss 3.1259 | lr 3.00e-04 | 11K tok/s
+step   7430 | loss 3.1527 | lr 3.00e-04 | 10K tok/s
+step   7440 | loss 3.1202 | lr 3.00e-04 | 10K tok/s
+step   7450 | loss 3.0690 | lr 3.00e-04 | 10K tok/s
+step   7460 | loss 3.1374 | lr 3.00e-04 | 10K tok/s
+step   7470 | loss 3.1027 | lr 3.00e-04 | 10K tok/s
+step   7480 | loss 3.0875 | lr 3.00e-04 | 11K tok/s
+step   7490 | loss 3.1192 | lr 3.00e-04 | 10K tok/s
+step   7500 | loss 3.1027 | lr 3.00e-04 | 11K tok/s
+step   7500 | val loss 3.2210
+샘플: 대한민국의 수도는 서울이고, 제주도가 제주도를 거쳐 서울 근처로 오는 동안 계속 머무르다가 서울로 돌아오기 때문에 서울은 더 이상 발전되지 않는다. 제주도를 떠난 사람이 서울에서 제주도에 돌아오기 위해서는 더 이상 비행기를 타지 않는다. 서울과 제주를 연결하는 유일한
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7500)
+step   7510 | loss 3.1325 | lr 3.00e-04 | 10K tok/s
+step   7520 | loss 3.0962 | lr 3.00e-04 | 10K tok/s
+step   7530 | loss 3.0906 | lr 3.00e-04 | 10K tok/s
+step   7540 | loss 3.0966 | lr 3.00e-04 | 10K tok/s
+step   7550 | loss 3.1019 | lr 3.00e-04 | 10K tok/s
+step   7560 | loss 3.1204 | lr 3.00e-04 | 10K tok/s
+step   7570 | loss 3.1439 | lr 3.00e-04 | 10K tok/s
+step   7580 | loss 3.0907 | lr 3.00e-04 | 10K tok/s
+step   7590 | loss 3.0862 | lr 3.00e-04 | 10K tok/s
+step   7600 | loss 3.0975 | lr 3.00e-04 | 10K tok/s
+step   7600 | val loss 3.0035
+샘플: 대한민국의 수도는 서울이다. 그렇기에 서울사람들은 서울사람들의 옷차림을 두고 '서울사람'이라는 명칭을 사용하기 시작했다. 하지만 '서울사람'이라는 명칭이 주는 이미지가 그리 좋지만은 않다. 서울이 얼마나 거대한 도시인지, 서울사람들이 얼마나 소비적이고 열심히 살았는지를 강조하는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7600)
+step   7610 | loss 3.1169 | lr 3.00e-04 | 10K tok/s
+step   7620 | loss 3.1037 | lr 3.00e-04 | 10K tok/s
+step   7630 | loss 3.0983 | lr 3.00e-04 | 10K tok/s
+step   7640 | loss 3.0757 | lr 3.00e-04 | 10K tok/s
+step   7650 | loss 3.0996 | lr 3.00e-04 | 10K tok/s
+step   7660 | loss 3.0869 | lr 3.00e-04 | 11K tok/s
+step   7670 | loss 3.1306 | lr 3.00e-04 | 10K tok/s
+step   7680 | loss 3.0634 | lr 3.00e-04 | 10K tok/s
+step   7690 | loss 3.0987 | lr 3.00e-04 | 10K tok/s
+step   7700 | loss 3.0861 | lr 3.00e-04 | 10K tok/s
+step   7700 | val loss 3.0430
+샘플: 대한민국의 수도는 이탈리아 볼로냐, 옛 도시 이름은 볼로냐이며, 볼로냐 시와 움브리아 지방은 볼로냐에서 북쪽으로 1.6km 정도 떨어져 있습니다. 볼로냐의 면적은 442km2이며, 이는 1인 당 약 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7700)
+step   7710 | loss 3.0913 | lr 3.00e-04 | 10K tok/s
+step   7720 | loss 3.0987 | lr 3.00e-04 | 10K tok/s
+step   7730 | loss 3.1163 | lr 3.00e-04 | 10K tok/s
+step   7740 | loss 3.0726 | lr 3.00e-04 | 10K tok/s
+step   7750 | loss 3.0978 | lr 3.00e-04 | 10K tok/s
+step   7760 | loss 3.1210 | lr 3.00e-04 | 10K tok/s
+step   7770 | loss 3.1167 | lr 3.00e-04 | 10K tok/s
+step   7780 | loss 3.1276 | lr 3.00e-04 | 10K tok/s
+step   7790 | loss 3.1090 | lr 3.00e-04 | 10K tok/s
+step   7800 | loss 3.1013 | lr 3.00e-04 | 10K tok/s
+step   7800 | val loss 3.0736
+샘플: 대한민국의 수도는 전라남도 함안군입니다. 함안군은 진주시와 함안군 일대에서 면단위, 동단위로 나누어 집니다. 함안군은 자연환경과 인구가 밀집되어있고, 각종 관광지, 먹거리들이 많이 있습니다. 함안군의 대표적인 관광지로는 각 읍,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7800)
+step   7810 | loss 3.1409 | lr 3.00e-04 | 10K tok/s
+step   7820 | loss 3.1238 | lr 3.00e-04 | 10K tok/s
+step   7830 | loss 3.0766 | lr 3.00e-04 | 10K tok/s
+step   7840 | loss 3.1110 | lr 3.00e-04 | 10K tok/s
+step   7850 | loss 3.0687 | lr 3.00e-04 | 11K tok/s
+step   7860 | loss 3.0742 | lr 3.00e-04 | 11K tok/s
+step   7870 | loss 3.0673 | lr 3.00e-04 | 11K tok/s
+step   7880 | loss 3.0984 | lr 3.00e-04 | 11K tok/s
+step   7890 | loss 3.0866 | lr 3.00e-04 | 11K tok/s
+step   7900 | loss 3.0713 | lr 3.00e-04 | 11K tok/s
+step   7900 | val loss 2.9927
+샘플: 대한민국의 수도는 서울이 될 것이다. 이렇게 되면 한반도의 균형발전은 더욱더 앞당겨질 것이다. 그동안 우리나라는 경제성장에 따른 부작용으로 고통을 받았다. 반면 세계에서는 경제발전을 이뤄냈다. 이것이 바로 우리 모두 힘을 합쳐 이뤄낸 결과라고 본다. 지금까지 세계 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 7900)
+step   7910 | loss 3.1195 | lr 3.00e-04 | 10K tok/s
+step   7920 | loss 3.1252 | lr 3.00e-04 | 11K tok/s
+step   7930 | loss 3.1070 | lr 3.00e-04 | 11K tok/s
+step   7940 | loss 3.1328 | lr 3.00e-04 | 11K tok/s
+step   7950 | loss 3.0800 | lr 3.00e-04 | 11K tok/s
+step   7960 | loss 3.1312 | lr 3.00e-04 | 11K tok/s
+step   7970 | loss 3.0644 | lr 3.00e-04 | 11K tok/s
+step   7980 | loss 3.0665 | lr 3.00e-04 | 11K tok/s
+step   7990 | loss 3.0751 | lr 3.00e-04 | 11K tok/s
+step   8000 | loss 3.1528 | lr 3.00e-04 | 11K tok/s
+step   8000 | val loss 3.0465
+샘플: 대한민국의 수도는 아직 없지만, 에든버러에서 3시간 정도 떨어진 외곽에 위치하고 있다. 에딘버러에서는 기차로 2시간이나 걸리는 거리이고, 19세기 후반에 유럽 대륙에서 가장 부유한 지역 중 하나로 유명했다. 런던도
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8000)
+스냅샷 저장: checkpoints/base_1b/step_008000.pt
+step   8010 | loss 3.1159 | lr 3.00e-04 | 10K tok/s
+step   8020 | loss 3.0972 | lr 3.00e-04 | 10K tok/s
+step   8030 | loss 3.0783 | lr 3.00e-04 | 10K tok/s
+step   8040 | loss 3.0828 | lr 3.00e-04 | 11K tok/s
+step   8050 | loss 3.0639 | lr 3.00e-04 | 11K tok/s
+step   8060 | loss 3.0618 | lr 3.00e-04 | 10K tok/s
+step   8070 | loss 3.0696 | lr 3.00e-04 | 10K tok/s
+step   8080 | loss 3.0402 | lr 3.00e-04 | 10K tok/s
+step   8090 | loss 3.1080 | lr 3.00e-04 | 10K tok/s
+step   8100 | loss 3.0802 | lr 3.00e-04 | 10K tok/s
+step   8100 | val loss 2.9991
+샘플: 대한민국의 수도는 서울이 될 것이다.>서울을 부르는 말 - 조선 3대 태종
+역사는 변치 않는 한 사람을 가리킬 때 쓴다. 그가 바로 태조 이성계이다. 그가 없었다면 조선의 역사가 없었을 터이고, 그 전에 조선왕조
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8100)
+step   8110 | loss 3.0909 | lr 3.00e-04 | 10K tok/s
+step   8120 | loss 3.0921 | lr 3.00e-04 | 10K tok/s
+step   8130 | loss 3.0809 | lr 3.00e-04 | 11K tok/s
+step   8140 | loss 3.1021 | lr 3.00e-04 | 11K tok/s
+step   8150 | loss 3.1055 | lr 3.00e-04 | 10K tok/s
+step   8160 | loss 3.0884 | lr 3.00e-04 | 10K tok/s
+step   8170 | loss 3.1019 | lr 3.00e-04 | 10K tok/s
+step   8180 | loss 3.0953 | lr 3.00e-04 | 10K tok/s
+step   8190 | loss 3.0643 | lr 3.00e-04 | 10K tok/s
+step   8200 | loss 3.0971 | lr 3.00e-04 | 10K tok/s
+step   8200 | val loss 2.9835
+샘플: 대한민국의 수도는 1961년 12월 23일 대한민국의 제2대 대통령 선거구에 지정된 서울이다.
+
+이 중 서울특별시 중구 정동길은 1961년 12월 23일 대한민국 제2대 대통령 선거구에 지정된 서울 중구에
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8200)
+step   8210 | loss 3.0727 | lr 3.00e-04 | 10K tok/s
+step   8220 | loss 3.0899 | lr 3.00e-04 | 10K tok/s
+step   8230 | loss 3.0367 | lr 3.00e-04 | 10K tok/s
+step   8240 | loss 3.0927 | lr 3.00e-04 | 10K tok/s
+step   8250 | loss 3.0711 | lr 3.00e-04 | 10K tok/s
+step   8260 | loss 3.1061 | lr 3.00e-04 | 10K tok/s
+step   8270 | loss 3.1017 | lr 3.00e-04 | 10K tok/s
+step   8280 | loss 3.1214 | lr 3.00e-04 | 10K tok/s
+step   8290 | loss 3.1086 | lr 3.00e-04 | 10K tok/s
+step   8300 | loss 3.0416 | lr 3.00e-04 | 10K tok/s
+step   8300 | val loss 3.1167
+샘플: 대한민국의 수도는 어디입니까? 정답을 밝혀라.
+세계 2차대전이 끝난 후 한 청년은 군대에 가기 위해 집을 나섰습니다. 그러나 그의 아버지는 돈이 떨어지자 그를 헌병대 감방에 밀어 넣어 버렸습니다. 그리고 얼마 후, 이 청년은 어린
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8300)
+step   8310 | loss 3.0613 | lr 3.00e-04 | 10K tok/s
+step   8320 | loss 3.0838 | lr 3.00e-04 | 10K tok/s
+step   8330 | loss 3.1078 | lr 3.00e-04 | 10K tok/s
+step   8340 | loss 3.0341 | lr 3.00e-04 | 10K tok/s
+step   8350 | loss 3.0562 | lr 3.00e-04 | 10K tok/s
+step   8360 | loss 3.0633 | lr 3.00e-04 | 10K tok/s
+step   8370 | loss 3.1001 | lr 3.00e-04 | 10K tok/s
+step   8380 | loss 3.0790 | lr 3.00e-04 | 10K tok/s
+step   8390 | loss 3.0602 | lr 3.00e-04 | 10K tok/s
+step   8400 | loss 3.0966 | lr 3.00e-04 | 10K tok/s
+step   8400 | val loss 3.0593
+샘플: 대한민국의 수도는 경북이 맞았다. 중국과 통일 신라가 한반도 북부를 지배하면서 서쪽으로 918년(태조 6년) 8월에 낙양 성(요나라)에 도읍을 옮겼다. 낙양이 삼국통일 후 도읍지가 된 것은
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8400)
+step   8410 | loss 3.0884 | lr 3.00e-04 | 10K tok/s
+step   8420 | loss 3.0596 | lr 3.00e-04 | 10K tok/s
+step   8430 | loss 3.0890 | lr 3.00e-04 | 10K tok/s
+step   8440 | loss 3.0619 | lr 3.00e-04 | 11K tok/s
+step   8450 | loss 3.0824 | lr 3.00e-04 | 10K tok/s
+step   8460 | loss 3.1160 | lr 3.00e-04 | 10K tok/s
+step   8470 | loss 3.0967 | lr 3.00e-04 | 10K tok/s
+step   8480 | loss 3.0697 | lr 3.00e-04 | 10K tok/s
+step   8490 | loss 3.0874 | lr 3.00e-04 | 10K tok/s
+step   8500 | loss 3.1027 | lr 3.00e-04 | 10K tok/s
+step   8500 | val loss 3.1304
+샘플: 대한민국의 수도는 로마 혹은 이탈리아의 영향을 크게 받았다.
+사실 로마와 이탈리아는 신라와 백제의 영향을 크게 받았는데, 삼국시대에 화랑들이 신라로 가서 화랑 교육을 받았으며 화랑은 신라로 가서 가야의 영향을 받았다. 그러나 가야는 일본에서 들어와 일본으로 퍼져 나갔다. 더
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8500)
+step   8510 | loss 3.0792 | lr 3.00e-04 | 10K tok/s
+step   8520 | loss 3.0934 | lr 3.00e-04 | 10K tok/s
+step   8530 | loss 3.0700 | lr 3.00e-04 | 10K tok/s
+step   8540 | loss 3.0344 | lr 3.00e-04 | 10K tok/s
+step   8550 | loss 3.0642 | lr 3.00e-04 | 10K tok/s
+step   8560 | loss 3.0785 | lr 3.00e-04 | 10K tok/s
+step   8570 | loss 3.0835 | lr 3.00e-04 | 10K tok/s
+step   8580 | loss 3.1049 | lr 3.00e-04 | 10K tok/s
+step   8590 | loss 3.0872 | lr 3.00e-04 | 10K tok/s
+step   8600 | loss 3.0556 | lr 3.00e-04 | 10K tok/s
+step   8600 | val loss 3.0044
+샘플: 대한민국의 수도는 로마지만, 부자들은 세금과 돈을 벌기에 더 많은 세금을 내고, 수많은 사람들이 로마로 모여들고 있다. 왜 이런 현상이 발생하는 것일까? 부자들은 세금과 돈을 많이 벌고, 평범한 사람들은 세금과 돈을 내지 않는 이유는 무엇인가?
+이
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8600)
+step   8610 | loss 3.0489 | lr 3.00e-04 | 10K tok/s
+step   8620 | loss 3.0924 | lr 3.00e-04 | 10K tok/s
+step   8630 | loss 3.0735 | lr 3.00e-04 | 10K tok/s
+step   8640 | loss 3.1220 | lr 3.00e-04 | 10K tok/s
+step   8650 | loss 3.0964 | lr 3.00e-04 | 10K tok/s
+step   8660 | loss 3.0633 | lr 3.00e-04 | 10K tok/s
+step   8670 | loss 3.0327 | lr 3.00e-04 | 10K tok/s
+step   8680 | loss 3.0307 | lr 3.00e-04 | 10K tok/s
+step   8690 | loss 3.0605 | lr 3.00e-04 | 10K tok/s
+step   8700 | loss 3.0731 | lr 3.00e-04 | 10K tok/s
+step   8700 | val loss 3.1011
+샘플: 대한민국의 수도는 서울이다.
+3.2.3. 4대 강점[편집]
+정치적으로는 해방 직후까지 통일주체국민회의가 약간 우세했던 것 같다. 1946년 11월 7일 김규식, 조소앙 등 민족대표 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8700)
+step   8710 | loss 3.0565 | lr 3.00e-04 | 10K tok/s
+step   8720 | loss 3.0013 | lr 3.00e-04 | 10K tok/s
+step   8730 | loss 3.0880 | lr 3.00e-04 | 10K tok/s
+step   8740 | loss 3.0694 | lr 3.00e-04 | 10K tok/s
+step   8750 | loss 3.0798 | lr 3.00e-04 | 10K tok/s
+step   8760 | loss 3.0657 | lr 3.00e-04 | 10K tok/s
+step   8770 | loss 3.0640 | lr 3.00e-04 | 10K tok/s
+step   8780 | loss 3.0781 | lr 3.00e-04 | 10K tok/s
+step   8790 | loss 3.0276 | lr 3.00e-04 | 10K tok/s
+step   8800 | loss 3.0444 | lr 3.00e-04 | 10K tok/s
+step   8800 | val loss 3.0198
+샘플: 대한민국의 수도는 ‘뉴욕’이지요.
+‘뉴욕’은 세계 3대 박물관의 하나로 유네스코 세계 문화 유산에 등재된, 뉴욕의 메트로폴리탄 미술관과 메트로폴리탄 미술관에서 구입할 수 있는 미술품만 1천 여 점이라는 가장 큰 규모를 자랑하고 있습니다.
+
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8800)
+step   8810 | loss 3.0097 | lr 3.00e-04 | 10K tok/s
+step   8820 | loss 3.0584 | lr 3.00e-04 | 10K tok/s
+step   8830 | loss 3.0517 | lr 3.00e-04 | 10K tok/s
+step   8840 | loss 3.0549 | lr 3.00e-04 | 10K tok/s
+step   8850 | loss 3.0633 | lr 3.00e-04 | 10K tok/s
+step   8860 | loss 3.0281 | lr 3.00e-04 | 10K tok/s
+step   8870 | loss 3.0688 | lr 3.00e-04 | 10K tok/s
+step   8880 | loss 3.0195 | lr 3.00e-04 | 10K tok/s
+step   8890 | loss 3.0792 | lr 3.00e-04 | 10K tok/s
+step   8900 | loss 3.0653 | lr 3.00e-04 | 10K tok/s
+step   8900 | val loss 3.0055
+샘플: 대한민국의 수도는 1220년 일본의 수도였던 나라(奈良)이다. 나라(奈良)는 지금의 사쓰마(四真) 지방인 규슈(九州)를 기준으로 동쪽은 일본, 서쪽은 중국, 남쪽은 타이만과 마주보고
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 8900)
+step   8910 | loss 3.0824 | lr 3.00e-04 | 10K tok/s
+step   8920 | loss 3.0700 | lr 3.00e-04 | 10K tok/s
+step   8930 | loss 3.1082 | lr 3.00e-04 | 10K tok/s
+step   8940 | loss 3.0455 | lr 3.00e-04 | 10K tok/s
+step   8950 | loss 3.0554 | lr 3.00e-04 | 10K tok/s
+step   8960 | loss 3.0990 | lr 3.00e-04 | 10K tok/s
+step   8970 | loss 2.9796 | lr 3.00e-04 | 10K tok/s
+step   8980 | loss 3.0486 | lr 3.00e-04 | 10K tok/s
+step   8990 | loss 3.0771 | lr 3.00e-04 | 10K tok/s
+step   9000 | loss 3.0428 | lr 3.00e-04 | 10K tok/s
+step   9000 | val loss 2.9939
+샘플: 대한민국의 수도는 1902년 8월 15일에 개편된 대한민국이다. 1902년 10월 26일, 일본 제국 정부는 대한제국의 외교권을 박탈하고 대한제국의 외교권을 박탈하기 위한 조약인 조일신 협약에 서명
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9000)
+step   9010 | loss 3.0634 | lr 3.00e-04 | 10K tok/s
+step   9020 | loss 3.0726 | lr 3.00e-04 | 10K tok/s
+step   9030 | loss 3.1033 | lr 3.00e-04 | 10K tok/s
+step   9040 | loss 3.0660 | lr 3.00e-04 | 10K tok/s
+step   9050 | loss 3.0566 | lr 3.00e-04 | 10K tok/s
+step   9060 | loss 3.0554 | lr 3.00e-04 | 10K tok/s
+step   9070 | loss 3.0587 | lr 3.00e-04 | 10K tok/s
+step   9080 | loss 3.0378 | lr 3.00e-04 | 11K tok/s
+step   9090 | loss 3.0791 | lr 3.00e-04 | 11K tok/s
+step   9100 | loss 3.0314 | lr 3.00e-04 | 10K tok/s
+step   9100 | val loss 2.9915
+샘플: 대한민국의 수도는 로마가 아니라
+이집트(이집트)에서 비롯되었다. 이집트(이집트)의 역사는
+이집트의 역사라고 해도 과언이 아니다.
+이집트인은 현재
+이슬람교를 믿는 인구가 약 30,000명 정도 된다. 하지만 이집
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9100)
+step   9110 | loss 3.0239 | lr 3.00e-04 | 10K tok/s
+step   9120 | loss 3.0402 | lr 3.00e-04 | 10K tok/s
+step   9130 | loss 3.0978 | lr 3.00e-04 | 10K tok/s
+step   9140 | loss 3.0536 | lr 3.00e-04 | 10K tok/s
+step   9150 | loss 3.0497 | lr 3.00e-04 | 10K tok/s
+step   9160 | loss 3.0157 | lr 3.00e-04 | 10K tok/s
+step   9170 | loss 3.0438 | lr 3.00e-04 | 11K tok/s
+step   9180 | loss 3.1057 | lr 3.00e-04 | 10K tok/s
+step   9190 | loss 3.0605 | lr 3.00e-04 | 10K tok/s
+step   9200 | loss 3.0337 | lr 3.00e-04 | 11K tok/s
+step   9200 | val loss 3.0814
+샘플: 대한민국의 수도는 서울이라고 생각하여 1천만 서울시민을 뜨겁게 환영한다. 서울시민은 다시 한번, 해방 이후 우리민족이 외세에 의해 주권을 빼앗긴 상태에서 1953년 7월 4일 새벽, 이승만 대통령이 ‘한반도를
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9200)
+step   9210 | loss 3.0671 | lr 3.00e-04 | 10K tok/s
+step   9220 | loss 3.0466 | lr 3.00e-04 | 10K tok/s
+step   9230 | loss 3.0490 | lr 3.00e-04 | 10K tok/s
+step   9240 | loss 3.0709 | lr 3.00e-04 | 10K tok/s
+step   9250 | loss 3.0253 | lr 3.00e-04 | 10K tok/s
+step   9260 | loss 3.0270 | lr 3.00e-04 | 10K tok/s
+step   9270 | loss 3.0684 | lr 3.00e-04 | 10K tok/s
+step   9280 | loss 3.0488 | lr 3.00e-04 | 10K tok/s
+step   9290 | loss 3.0349 | lr 3.00e-04 | 10K tok/s
+step   9300 | loss 3.0172 | lr 3.00e-04 | 10K tok/s
+step   9300 | val loss 3.0291
+샘플: 대한민국의 수도는 코시칸나다.
+
+역사 
+ 1908년 3월 1일 - 일본 제국의 내각수반인 이토 히로부미가 제2차 세계 대전 승리를 선언하면서 초대 일본 제국 내각총리대신에 취임
+ 1931
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9300)
+step   9310 | loss 3.0615 | lr 3.00e-04 | 10K tok/s
+step   9320 | loss 3.0481 | lr 3.00e-04 | 10K tok/s
+step   9330 | loss 3.0534 | lr 3.00e-04 | 10K tok/s
+step   9340 | loss 3.0617 | lr 3.00e-04 | 10K tok/s
+step   9350 | loss 3.0374 | lr 3.00e-04 | 10K tok/s
+step   9360 | loss 3.0273 | lr 3.00e-04 | 10K tok/s
+step   9370 | loss 3.0165 | lr 3.00e-04 | 10K tok/s
+step   9380 | loss 3.0404 | lr 3.00e-04 | 10K tok/s
+step   9390 | loss 3.0290 | lr 3.00e-04 | 10K tok/s
+step   9400 | loss 3.0120 | lr 3.00e-04 | 10K tok/s
+step   9400 | val loss 2.9683
+샘플: 대한민국의 수도는 서울이며, 그 동쪽에 있는 성남시와 광주광역시가 모두 행정수도이다. 대한민국 정부가 전 세계 어디에나 인정했듯, 대한민국이 더이상 수도가 아니라 연방제라는 공식선언을 한 이상 더는 대한민국 정부는 국가원수이자 실질적인 행정수도로서 그
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9400)
+step   9410 | loss 3.0456 | lr 3.00e-04 | 10K tok/s
+step   9420 | loss 3.0066 | lr 3.00e-04 | 10K tok/s
+step   9430 | loss 3.1105 | lr 3.00e-04 | 10K tok/s
+step   9440 | loss 2.9905 | lr 3.00e-04 | 10K tok/s
+step   9450 | loss 3.0467 | lr 3.00e-04 | 11K tok/s
+step   9460 | loss 3.0551 | lr 3.00e-04 | 11K tok/s
+step   9470 | loss 3.0531 | lr 3.00e-04 | 11K tok/s
+step   9480 | loss 2.9974 | lr 3.00e-04 | 11K tok/s
+step   9490 | loss 3.0491 | lr 3.00e-04 | 11K tok/s
+step   9500 | loss 3.0317 | lr 3.00e-04 | 11K tok/s
+step   9500 | val loss 3.0415
+샘플: 대한민국의 수도는 전하지 않았으나, 황제가 칙명서를 내려 베이징으로 파견하였다. 1602년(숙종 38년) 즉위한 광해군의 뒤를 이어 능양군, 예조판서를 지냈으며, 1616년(광해군 2
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9500)
+step   9510 | loss 3.0590 | lr 3.00e-04 | 10K tok/s
+step   9520 | loss 3.0119 | lr 3.00e-04 | 11K tok/s
+step   9530 | loss 3.0456 | lr 3.00e-04 | 11K tok/s
+step   9540 | loss 3.0225 | lr 3.00e-04 | 11K tok/s
+step   9550 | loss 3.0338 | lr 3.00e-04 | 11K tok/s
+step   9560 | loss 3.0405 | lr 3.00e-04 | 11K tok/s
+step   9570 | loss 3.0053 | lr 3.00e-04 | 11K tok/s
+step   9580 | loss 3.0806 | lr 3.00e-04 | 11K tok/s
+step   9590 | loss 3.0640 | lr 3.00e-04 | 11K tok/s
+step   9600 | loss 3.0247 | lr 3.00e-04 | 11K tok/s
+step   9600 | val loss 3.0502
+샘플: 대한민국의 수도는 栠江汉郡이다.
+
+지리 
+해남성의 동부에 위치하고 있으며, 남쪽은 계림현, 북쪽은 현해현과 접하고 있다. 장산국(將山國)에서 동서로 87km, 서쪽으로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9600)
+step   9610 | loss 3.0184 | lr 3.00e-04 | 10K tok/s
+step   9620 | loss 3.0332 | lr 3.00e-04 | 11K tok/s
+step   9630 | loss 3.0219 | lr 3.00e-04 | 11K tok/s
+step   9640 | loss 3.0142 | lr 3.00e-04 | 11K tok/s
+step   9650 | loss 3.0389 | lr 3.00e-04 | 11K tok/s
+step   9660 | loss 3.0720 | lr 3.00e-04 | 11K tok/s
+step   9670 | loss 3.0206 | lr 3.00e-04 | 11K tok/s
+step   9680 | loss 3.0689 | lr 3.00e-04 | 11K tok/s
+step   9690 | loss 3.0223 | lr 3.00e-04 | 10K tok/s
+step   9700 | loss 3.0253 | lr 3.00e-04 | 10K tok/s
+step   9700 | val loss 3.0022
+샘플: 대한민국의 수도는서울로, 현재위치에서 100킬로미터 정도 떨어져 있습니다.
+원하시는 것이 있으신가요?
+이 숙박 시설에 대한 정보
+게스트하우스 바이 더 원
+게스트하우스 바이 더 원의 예약을 하실 수 있습니다. 이 숙박 시설에는 엘리베이터가 없습니다. 도미
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9700)
+step   9710 | loss 3.0537 | lr 3.00e-04 | 10K tok/s
+step   9720 | loss 2.9895 | lr 3.00e-04 | 11K tok/s
+step   9730 | loss 3.0462 | lr 3.00e-04 | 11K tok/s
+step   9740 | loss 3.0132 | lr 3.00e-04 | 11K tok/s
+step   9750 | loss 3.0211 | lr 3.00e-04 | 10K tok/s
+step   9760 | loss 3.0591 | lr 3.00e-04 | 10K tok/s
+step   9770 | loss 3.0078 | lr 3.00e-04 | 10K tok/s
+step   9780 | loss 3.0430 | lr 3.00e-04 | 11K tok/s
+step   9790 | loss 3.0517 | lr 3.00e-04 | 11K tok/s
+step   9800 | loss 3.0629 | lr 3.00e-04 | 11K tok/s
+step   9800 | val loss 2.9002
+샘플: 대한민국의 수도는 1개의 구로 되어 있으며, 도쿄에는 도도부현을 대표하는 8개의 구로 되어 있다. 도쿄의 1개 구는 도쿄도, 도쿄도 서부, 수도, 도쿄도 동부, 도쿄도 동부 서부, 도쿄도 북부
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9800)
+step   9810 | loss 3.0648 | lr 3.00e-04 | 10K tok/s
+step   9820 | loss 3.0262 | lr 3.00e-04 | 11K tok/s
+step   9830 | loss 3.0440 | lr 3.00e-04 | 11K tok/s
+step   9840 | loss 3.0469 | lr 3.00e-04 | 10K tok/s
+step   9850 | loss 3.0779 | lr 3.00e-04 | 11K tok/s
+step   9860 | loss 3.0008 | lr 3.00e-04 | 11K tok/s
+step   9870 | loss 2.9957 | lr 3.00e-04 | 11K tok/s
+step   9880 | loss 3.0136 | lr 3.00e-04 | 10K tok/s
+step   9890 | loss 3.0174 | lr 3.00e-04 | 10K tok/s
+step   9900 | loss 3.0250 | lr 3.00e-04 | 10K tok/s
+step   9900 | val loss 2.9526
+샘플: 대한민국의 수도는 대한민국이다.
+독일에서 출발한 통합 국민국가의 10대 산업은 서비스산업, 생명공학산업, 정보통신산업, 농업, 제조업, 첨단제조업, 지식산업 등이며, 한국 경제를 이끄는 기업 중 80% 이상이 서비스산업이다.
+한국
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 9900)
+step   9910 | loss 3.0629 | lr 3.00e-04 | 10K tok/s
+step   9920 | loss 3.0430 | lr 3.00e-04 | 10K tok/s
+step   9930 | loss 3.0713 | lr 3.00e-04 | 10K tok/s
+step   9940 | loss 3.0604 | lr 3.00e-04 | 11K tok/s
+step   9950 | loss 3.0427 | lr 3.00e-04 | 10K tok/s
+step   9960 | loss 3.0356 | lr 3.00e-04 | 10K tok/s
+step   9970 | loss 3.0282 | lr 3.00e-04 | 11K tok/s
+step   9980 | loss 3.0527 | lr 3.00e-04 | 11K tok/s
+step   9990 | loss 3.0380 | lr 3.00e-04 | 11K tok/s
+step  10000 | loss 3.0327 | lr 3.00e-04 | 10K tok/s
+step  10000 | val loss 3.0378
+샘플: 대한민국의 수도는 어디인가요?
+각 도시마다의 특성을 담은 다양한 명소들을 소개해드리겠습니다.
+EU 33개 회원국 가운데 유럽 제2의 경제 대국 자리를 굳건히 지키고 있는 독일의 수도를 소개합니다.
+세계 제2위의 인구 대국이자, 미국 다음으로 많은 1
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10000)
+step  10010 | loss 3.0443 | lr 3.00e-04 | 10K tok/s
+step  10020 | loss 3.0521 | lr 3.00e-04 | 10K tok/s
+step  10030 | loss 3.0290 | lr 3.00e-04 | 10K tok/s
+step  10040 | loss 3.0417 | lr 3.00e-04 | 10K tok/s
+step  10050 | loss 3.0354 | lr 3.00e-04 | 10K tok/s
+step  10060 | loss 3.0526 | lr 3.00e-04 | 10K tok/s
+step  10070 | loss 3.0459 | lr 3.00e-04 | 10K tok/s
+step  10080 | loss 3.0420 | lr 3.00e-04 | 10K tok/s
+step  10090 | loss 3.0045 | lr 3.00e-04 | 10K tok/s
+step  10100 | loss 3.0339 | lr 3.00e-04 | 11K tok/s
+step  10100 | val loss 2.9263
+샘플: 대한민국의 수도는 고대 그리스 신화에서 기원한 것으로 추정되고 있다.
+고대 그리스인들은 네로황제의 치세 동안 도시국가들을 건설했다. 네로는 2년 동안 수도를 한 번 옮겼고, 30년에 다시 수도로 삼았다. 30
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10100)
+step  10110 | loss 3.0834 | lr 3.00e-04 | 10K tok/s
+step  10120 | loss 3.0333 | lr 3.00e-04 | 11K tok/s
+step  10130 | loss 3.0369 | lr 3.00e-04 | 10K tok/s
+step  10140 | loss 3.0251 | lr 3.00e-04 | 10K tok/s
+step  10150 | loss 3.0486 | lr 3.00e-04 | 10K tok/s
+=== [2026-09-01 18:00:04] 재개 (시도 0) ===
+모델: 1063.4M 파라미터 (임베딩 제외) | device: cuda
+재개: step 10101부터
+step  10110 | loss 3.0834 | lr 3.00e-04 | 10K tok/s
+step  10120 | loss 3.0333 | lr 3.00e-04 | 11K tok/s
+step  10130 | loss 3.0369 | lr 3.00e-04 | 11K tok/s
+step  10140 | loss 3.0251 | lr 3.00e-04 | 11K tok/s
+step  10150 | loss 3.0486 | lr 3.00e-04 | 11K tok/s
+step  10160 | loss 3.0150 | lr 3.00e-04 | 11K tok/s
+step  10170 | loss 3.0323 | lr 3.00e-04 | 11K tok/s
+step  10180 | loss 3.0607 | lr 3.00e-04 | 11K tok/s
+step  10190 | loss 3.0082 | lr 3.00e-04 | 11K tok/s
+step  10200 | loss 3.0412 | lr 3.00e-04 | 11K tok/s
+step  10200 | val loss 2.9581
+샘플: 대한민국의 수도는 서울이다. 대한민국 정부에서 공식적으로 대한민국 수도를 표기한 것이다.
+
+대한민국에는 서울이라는 이름을 가진 도시 두 곳이 있는데, 그중 하나는 서울특별시이다. 그 중에서도 용산구는 대한민국의 수도로서 그 이름을 가지고 있다.
+
+지리 
+대한민국의 수도이며, 서울특별시라는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10200)
+step  10210 | loss 3.0299 | lr 3.00e-04 | 10K tok/s
+step  10220 | loss 3.0312 | lr 3.00e-04 | 11K tok/s
+step  10230 | loss 3.0458 | lr 3.00e-04 | 11K tok/s
+step  10240 | loss 2.9840 | lr 3.00e-04 | 11K tok/s
+step  10250 | loss 3.0551 | lr 3.00e-04 | 11K tok/s
+step  10260 | loss 2.9867 | lr 3.00e-04 | 11K tok/s
+step  10270 | loss 3.0554 | lr 3.00e-04 | 11K tok/s
+step  10280 | loss 3.0330 | lr 3.00e-04 | 11K tok/s
+step  10290 | loss 3.0449 | lr 3.00e-04 | 11K tok/s
+step  10300 | loss 2.9841 | lr 3.00e-04 | 11K tok/s
+step  10300 | val loss 3.1028
+샘플: 대한민국의 수도는 뉴욕이다. 뉴욕은 미국에서도 가장 부유한 도시이자 세계에서 가장 풍요로운 도시라고 할 수 있다. 세계 최대의 도시라는 타이틀을 갖고 있기도 하고 가장 광범위한 문화유산을 보유하고 있기도 하다. 뉴욕은 그 넓은 대륙과 다양한 인종으로 구성되어있다.
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10300)
+step  10310 | loss 3.0234 | lr 3.00e-04 | 10K tok/s
+step  10320 | loss 3.0444 | lr 3.00e-04 | 11K tok/s
+step  10330 | loss 3.0474 | lr 3.00e-04 | 11K tok/s
+step  10340 | loss 3.0372 | lr 3.00e-04 | 11K tok/s
+step  10350 | loss 3.0251 | lr 3.00e-04 | 11K tok/s
+step  10360 | loss 3.0133 | lr 3.00e-04 | 11K tok/s
+step  10370 | loss 3.0643 | lr 3.00e-04 | 11K tok/s
+step  10380 | loss 3.0250 | lr 3.00e-04 | 11K tok/s
+step  10390 | loss 3.0400 | lr 3.00e-04 | 11K tok/s
+step  10400 | loss 3.0218 | lr 3.00e-04 | 11K tok/s
+step  10400 | val loss 2.8178
+샘플: 대한민국의 수도는 도쿄(1926년)라고 전한다. 또, 일본의 국호이자 주권국으로서 '일본'이라는 국호가 '일본국'이며 '국호'는 '일본국'이다. 1945년 일본의 패전으로 사실상 소멸하였다.
+일본의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10400)
+step  10410 | loss 3.0265 | lr 3.00e-04 | 10K tok/s
+step  10420 | loss 3.0031 | lr 3.00e-04 | 11K tok/s
+step  10430 | loss 3.0680 | lr 3.00e-04 | 11K tok/s
+step  10440 | loss 3.0302 | lr 3.00e-04 | 11K tok/s
+step  10450 | loss 3.0329 | lr 3.00e-04 | 11K tok/s
+step  10460 | loss 2.9927 | lr 3.00e-04 | 11K tok/s
+step  10470 | loss 3.0645 | lr 3.00e-04 | 11K tok/s
+step  10480 | loss 3.0424 | lr 3.00e-04 | 11K tok/s
+step  10490 | loss 2.9888 | lr 3.00e-04 | 11K tok/s
+step  10500 | loss 3.0259 | lr 3.00e-04 | 11K tok/s
+step  10500 | val loss 3.0340
+샘플: 대한민국의 수도는 서울이 돼야 한다. 서울이 없는 동북아의 수도는 없다”고 강조했다. 이어 “2차 북미정상회담이 개최되는 것을 트럼프 대통령도 김정은 위원장과 함께 바라면서 한반도의 완전한 비핵화가 반드시 실현돼야 한다고 생각한다”고 말했다.
+문 대통령은 이날 오전 9
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10500)
+step  10510 | loss 3.0601 | lr 3.00e-04 | 10K tok/s
+step  10520 | loss 3.0232 | lr 3.00e-04 | 11K tok/s
+step  10530 | loss 2.9644 | lr 3.00e-04 | 11K tok/s
+step  10540 | loss 3.0352 | lr 3.00e-04 | 11K tok/s
+step  10550 | loss 3.0668 | lr 3.00e-04 | 11K tok/s
+step  10560 | loss 3.0126 | lr 3.00e-04 | 11K tok/s
+step  10570 | loss 2.9942 | lr 3.00e-04 | 11K tok/s
+step  10580 | loss 3.0339 | lr 3.00e-04 | 11K tok/s
+step  10590 | loss 3.0040 | lr 3.00e-04 | 10K tok/s
+step  10600 | loss 3.0488 | lr 3.00e-04 | 10K tok/s
+step  10600 | val loss 3.0290
+샘플: 대한민국의 수도는 말할 것도 없고, 코로나19로 인한 봉쇄조치로 문을 닫은 나라들도 많다. 그러나 여전히 전 세계에서 가장 많은 인구와 가장 많은 도시 인구를 가진, 세계 5대 인구 대국, 미국이다. 미국인들은 불경기 속에서도 앞으로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10600)
+step  10610 | loss 3.0016 | lr 3.00e-04 | 10K tok/s
+step  10620 | loss 3.0686 | lr 3.00e-04 | 10K tok/s
+step  10630 | loss 3.0654 | lr 3.00e-04 | 10K tok/s
+step  10640 | loss 2.9875 | lr 3.00e-04 | 10K tok/s
+step  10650 | loss 3.0373 | lr 3.00e-04 | 10K tok/s
+step  10660 | loss 3.0246 | lr 3.00e-04 | 10K tok/s
+step  10670 | loss 3.0359 | lr 3.00e-04 | 10K tok/s
+step  10680 | loss 3.0670 | lr 3.00e-04 | 10K tok/s
+step  10690 | loss 3.0159 | lr 3.00e-04 | 10K tok/s
+step  10700 | loss 3.0052 | lr 3.00e-04 | 11K tok/s
+step  10700 | val loss 2.9685
+샘플: 대한민국의 수도는 수도 서울의 역사가 말해주듯
+고귀한 역사와 전통을 가지고 있는 곳 입니다.
+한국 선교역사를 100년 가까이 이어온 나라 입니다.
+한반도는 한민족의 기질과 아름다운 문화를 가진 나라로
+세계 어느 나라보다 특별한 문화와 전통을 가지고 있습니다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10700)
+step  10710 | loss 3.0239 | lr 3.00e-04 | 10K tok/s
+step  10720 | loss 3.0449 | lr 3.00e-04 | 11K tok/s
+step  10730 | loss 3.0200 | lr 3.00e-04 | 11K tok/s
+step  10740 | loss 3.0627 | lr 3.00e-04 | 11K tok/s
+step  10750 | loss 3.0214 | lr 3.00e-04 | 11K tok/s
+step  10760 | loss 3.0035 | lr 3.00e-04 | 11K tok/s
+step  10770 | loss 3.0362 | lr 3.00e-04 | 11K tok/s
+step  10780 | loss 2.9847 | lr 3.00e-04 | 11K tok/s
+step  10790 | loss 3.0393 | lr 3.00e-04 | 10K tok/s
+step  10800 | loss 2.9958 | lr 3.00e-04 | 11K tok/s
+step  10800 | val loss 2.9856
+샘플: 대한민국의 수도는 서울에서 남쪽으로 약 60km가량 떨어진 곳에 위치해 있다.
+지난 1977년 8월 21일 개소한 삼성동 행정문화센터로 2006년 7월 22일 확대·개편한 행정문화센터로 승격됐다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10800)
+step  10810 | loss 3.0443 | lr 3.00e-04 | 10K tok/s
+step  10820 | loss 2.9887 | lr 3.00e-04 | 11K tok/s
+step  10830 | loss 3.0092 | lr 3.00e-04 | 11K tok/s
+step  10840 | loss 3.0030 | lr 3.00e-04 | 11K tok/s
+step  10850 | loss 2.9923 | lr 3.00e-04 | 11K tok/s
+step  10860 | loss 3.0441 | lr 3.00e-04 | 11K tok/s
+step  10870 | loss 3.0107 | lr 3.00e-04 | 11K tok/s
+step  10880 | loss 3.0454 | lr 3.00e-04 | 11K tok/s
+step  10890 | loss 3.0401 | lr 3.00e-04 | 11K tok/s
+step  10900 | loss 3.0320 | lr 3.00e-04 | 11K tok/s
+step  10900 | val loss 2.9960
+샘플: 대한민국의 수도는 서울입니다. 그러나 서울이라고 다 서울의 상징이 되는 것은 아닙니다. 서울의 상징이라 할 수 있는 광화문은 한국의 상징적인 이미지를 대표합니다. 1968년 문화재청 덕수궁관리소에서 경복궁과 함께 조선의 역대 왕들의 어진 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 10900)
+step  10910 | loss 3.0526 | lr 3.00e-04 | 10K tok/s
+step  10920 | loss 3.0264 | lr 3.00e-04 | 11K tok/s
+step  10930 | loss 3.0520 | lr 3.00e-04 | 10K tok/s
+step  10940 | loss 3.0348 | lr 3.00e-04 | 11K tok/s
+step  10950 | loss 3.0355 | lr 3.00e-04 | 11K tok/s
+step  10960 | loss 2.9872 | lr 3.00e-04 | 11K tok/s
+step  10970 | loss 3.0099 | lr 3.00e-04 | 11K tok/s
+step  10980 | loss 3.0044 | lr 3.00e-04 | 11K tok/s
+step  10990 | loss 3.0011 | lr 3.00e-04 | 11K tok/s
+step  11000 | loss 3.0195 | lr 3.00e-04 | 11K tok/s
+step  11000 | val loss 2.9802
+샘플: 대한민국의 수도는 서울의 옛 지명이다. 그러나 서울시는 2019년 9월 30일, '서울특별시 종로구' 명칭을 '서울특별시 종로구'로 바꾸었다. 이는 “서울시 종로구 명칭은 옛 청사를 포함한 옛 지명의 가칭이며, 종로구라는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11000)
+step  11010 | loss 3.0246 | lr 3.00e-04 | 10K tok/s
+step  11020 | loss 3.0200 | lr 3.00e-04 | 11K tok/s
+step  11030 | loss 3.0379 | lr 3.00e-04 | 11K tok/s
+step  11040 | loss 3.0229 | lr 3.00e-04 | 11K tok/s
+step  11050 | loss 2.9787 | lr 3.00e-04 | 11K tok/s
+step  11060 | loss 2.9961 | lr 3.00e-04 | 11K tok/s
+step  11070 | loss 3.0087 | lr 3.00e-04 | 11K tok/s
+step  11080 | loss 2.9873 | lr 3.00e-04 | 11K tok/s
+step  11090 | loss 3.0181 | lr 3.00e-04 | 10K tok/s
+step  11100 | loss 3.0281 | lr 3.00e-04 | 11K tok/s
+step  11100 | val loss 2.8530
+샘플: 대한민국의 수도는 서울특별시이다. 1992년 11월 17일부터 1993년 11월 17일까지 경기도 파주시 적성면, 화천군 북방면, 강원도 철원군 철원읍, 화천군 사내면, 강원도 철원읍,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11100)
+step  11110 | loss 3.0573 | lr 3.00e-04 | 10K tok/s
+step  11120 | loss 3.0017 | lr 3.00e-04 | 11K tok/s
+step  11130 | loss 2.9892 | lr 3.00e-04 | 11K tok/s
+step  11140 | loss 2.9828 | lr 3.00e-04 | 11K tok/s
+step  11150 | loss 2.9819 | lr 3.00e-04 | 11K tok/s
+step  11160 | loss 3.0136 | lr 3.00e-04 | 11K tok/s
+step  11170 | loss 3.0000 | lr 3.00e-04 | 11K tok/s
+step  11180 | loss 3.0080 | lr 3.00e-04 | 11K tok/s
+step  11190 | loss 3.0092 | lr 3.00e-04 | 11K tok/s
+step  11200 | loss 2.9876 | lr 3.00e-04 | 11K tok/s
+step  11200 | val loss 2.9652
+샘플: 대한민국의 수도는 서울이 될 것”이라고 강조했다. 최씨는 “한국은 3차 세계대전 후 세계 2위 경제 대국으로 성장했다. 일본이 한국을 강점했던 시기와 비교하면 70년 가까이 빨리 성장했다”고 말했다.이어 “문재인 정부 출범 이후 남북 관계가
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11200)
+step  11210 | loss 2.9822 | lr 3.00e-04 | 10K tok/s
+step  11220 | loss 2.9897 | lr 3.00e-04 | 11K tok/s
+step  11230 | loss 3.0195 | lr 3.00e-04 | 11K tok/s
+step  11240 | loss 2.9996 | lr 3.00e-04 | 11K tok/s
+step  11250 | loss 2.9934 | lr 3.00e-04 | 11K tok/s
+step  11260 | loss 2.9565 | lr 3.00e-04 | 11K tok/s
+step  11270 | loss 3.0013 | lr 3.00e-04 | 10K tok/s
+step  11280 | loss 3.0068 | lr 3.00e-04 | 11K tok/s
+step  11290 | loss 2.9765 | lr 3.00e-04 | 11K tok/s
+step  11300 | loss 3.0129 | lr 3.00e-04 | 11K tok/s
+step  11300 | val loss 3.1340
+샘플: 대한민국의 수도는 서울이다. 수도인 서울은 대한민국의 정치·경제·문화의 중심지이다. 대한민국의 제2의 수도이자 제2의 도시다.
+
+역사 
+삼국시대부터 조선시대에 걸쳐 강남은 고구려, 신라, 백제의 각축장이었다. 그 후 고려
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11300)
+step  11310 | loss 2.9886 | lr 3.00e-04 | 10K tok/s
+step  11320 | loss 3.0199 | lr 3.00e-04 | 10K tok/s
+step  11330 | loss 3.0327 | lr 3.00e-04 | 10K tok/s
+step  11340 | loss 3.0320 | lr 3.00e-04 | 10K tok/s
+step  11350 | loss 3.0014 | lr 3.00e-04 | 10K tok/s
+step  11360 | loss 3.0111 | lr 3.00e-04 | 10K tok/s
+step  11370 | loss 3.0225 | lr 3.00e-04 | 10K tok/s
+step  11380 | loss 2.9822 | lr 3.00e-04 | 10K tok/s
+step  11390 | loss 2.9575 | lr 3.00e-04 | 11K tok/s
+step  11400 | loss 2.9974 | lr 3.00e-04 | 10K tok/s
+step  11400 | val loss 2.9062
+샘플: 대한민국의 수도는 서울이다. 서울은 대한민국의 수도이자 대한민국의 수도이다.
+
+기후
+
+역사 
+대한민국의 수도는 1897년 9월 1일에 선포한 '대한제국(大韓帝國)'이다. '대한제국(大韓帝國)'은
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11400)
+step  11410 | loss 3.0209 | lr 3.00e-04 | 10K tok/s
+step  11420 | loss 3.0201 | lr 3.00e-04 | 10K tok/s
+step  11430 | loss 3.0135 | lr 3.00e-04 | 10K tok/s
+step  11440 | loss 3.0152 | lr 3.00e-04 | 10K tok/s
+step  11450 | loss 2.9889 | lr 3.00e-04 | 10K tok/s
+step  11460 | loss 2.9985 | lr 3.00e-04 | 10K tok/s
+step  11470 | loss 3.0394 | lr 3.00e-04 | 10K tok/s
+step  11480 | loss 3.0350 | lr 3.00e-04 | 11K tok/s
+step  11490 | loss 2.9861 | lr 3.00e-04 | 10K tok/s
+step  11500 | loss 3.0203 | lr 3.00e-04 | 10K tok/s
+step  11500 | val loss 2.9521
+샘플: 대한민국의 수도는 도쿄였다. 이유는 간단하다. 그것은 일본 제국이 식민지를 통치하던 1920년 무렵의 독립과 해방을 위한 투쟁에서 비롯되었다. 식민지의 독립과 해방이 갖는 의미와 그것이 갖는 역사적 의미를 되새기면서, 또한 이를 통해
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11500)
+step  11510 | loss 3.0194 | lr 3.00e-04 | 10K tok/s
+step  11520 | loss 3.0342 | lr 3.00e-04 | 10K tok/s
+step  11530 | loss 3.0107 | lr 3.00e-04 | 10K tok/s
+step  11540 | loss 3.0311 | lr 3.00e-04 | 10K tok/s
+step  11550 | loss 2.9927 | lr 3.00e-04 | 11K tok/s
+step  11560 | loss 3.0033 | lr 3.00e-04 | 11K tok/s
+step  11570 | loss 2.9792 | lr 3.00e-04 | 11K tok/s
+step  11580 | loss 2.9959 | lr 3.00e-04 | 11K tok/s
+step  11590 | loss 3.0210 | lr 3.00e-04 | 11K tok/s
+step  11600 | loss 3.0072 | lr 3.00e-04 | 11K tok/s
+step  11600 | val loss 2.9860
+샘플: 대한민국의 수도는 서울특별시다.
+대한민국의 영어: Seoul
+ 한국어: 서울특별시
+
+서울특별시의 행정 구역
+
+서울특별시의 상징 
+중앙청 : 서울특별시 종로구 세종대로 40, 서울특별시청
+세종문화회관 : 서울특별시 종로구 세종대로 42
+명동 : 서울특별시 중구 세종대로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11600)
+step  11610 | loss 2.9958 | lr 3.00e-04 | 10K tok/s
+step  11620 | loss 3.0403 | lr 3.00e-04 | 11K tok/s
+step  11630 | loss 2.9679 | lr 3.00e-04 | 10K tok/s
+step  11640 | loss 3.0064 | lr 3.00e-04 | 11K tok/s
+step  11650 | loss 2.9851 | lr 3.00e-04 | 11K tok/s
+step  11660 | loss 3.0185 | lr 3.00e-04 | 11K tok/s
+step  11670 | loss 2.9830 | lr 3.00e-04 | 11K tok/s
+step  11680 | loss 2.9835 | lr 3.00e-04 | 11K tok/s
+step  11690 | loss 2.9766 | lr 3.00e-04 | 11K tok/s
+step  11700 | loss 3.0169 | lr 3.00e-04 | 11K tok/s
+step  11700 | val loss 2.9178
+샘플: 대한민국의 수도는 서울특별시라고 생각하기 때문에, 해당글도 대한민국의 수도인 서울특별시에서 작성된 것입니다.
+다시 한번 말씀드리지만, '서울특별시'의 행정구역을 개조한것이 아니라, 서울시 행정구역을 개조한 것입니다.
+또한 '서울특별시'의 광역자치단체는 서울특별시의 자치행정
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11700)
+step  11710 | loss 2.9943 | lr 3.00e-04 | 10K tok/s
+step  11720 | loss 2.9683 | lr 3.00e-04 | 11K tok/s
+step  11730 | loss 2.9682 | lr 3.00e-04 | 11K tok/s
+step  11740 | loss 3.0161 | lr 3.00e-04 | 11K tok/s
+step  11750 | loss 2.9974 | lr 3.00e-04 | 11K tok/s
+step  11760 | loss 2.9975 | lr 3.00e-04 | 11K tok/s
+step  11770 | loss 3.0175 | lr 3.00e-04 | 11K tok/s
+step  11780 | loss 2.9382 | lr 3.00e-04 | 11K tok/s
+step  11790 | loss 3.0532 | lr 3.00e-04 | 11K tok/s
+step  11800 | loss 2.9702 | lr 3.00e-04 | 11K tok/s
+step  11800 | val loss 2.9621
+샘플: 대한민국의 수도는 한 번도 가지 못했다. 그놈들 때문에 지금 수많은 마을이 풍비박산 나고 있다. 3년 전 그놈들 때문에 마을 주민들이 죽을 맛이고, 사람들이 산을 산이라고 우기고 있다. 10년 전에는 그나마 조용했었는데
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11800)
+step  11810 | loss 2.9947 | lr 3.00e-04 | 10K tok/s
+step  11820 | loss 2.9884 | lr 3.00e-04 | 11K tok/s
+step  11830 | loss 3.0243 | lr 3.00e-04 | 11K tok/s
+step  11840 | loss 3.0297 | lr 3.00e-04 | 11K tok/s
+step  11850 | loss 2.9948 | lr 3.00e-04 | 11K tok/s
+step  11860 | loss 2.9821 | lr 3.00e-04 | 11K tok/s
+step  11870 | loss 2.9500 | lr 3.00e-04 | 11K tok/s
+step  11880 | loss 2.9954 | lr 3.00e-04 | 10K tok/s
+step  11890 | loss 2.9847 | lr 3.00e-04 | 11K tok/s
+step  11900 | loss 2.9767 | lr 3.00e-04 | 11K tok/s
+step  11900 | val loss 2.9220
+샘플: 대한민국의 수도는 현재 중국이다. 우리나라 국민은 3,500만 명이며, 북한 인구는 370만 명, 중화민족 총인구의 2/3가 중국인이다. 동북 3성의 인구는 2,700만 명으로 대한민국 총인구의 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 11900)
+step  11910 | loss 2.9928 | lr 3.00e-04 | 10K tok/s
+step  11920 | loss 2.9659 | lr 3.00e-04 | 11K tok/s
+step  11930 | loss 3.0101 | lr 3.00e-04 | 11K tok/s
+step  11940 | loss 2.9932 | lr 3.00e-04 | 11K tok/s
+step  11950 | loss 2.9909 | lr 3.00e-04 | 10K tok/s
+step  11960 | loss 2.9447 | lr 3.00e-04 | 11K tok/s
+step  11970 | loss 3.0020 | lr 3.00e-04 | 11K tok/s
+step  11980 | loss 3.0062 | lr 3.00e-04 | 10K tok/s
+step  11990 | loss 2.9810 | lr 3.00e-04 | 10K tok/s
+step  12000 | loss 2.9729 | lr 3.00e-04 | 10K tok/s
+step  12000 | val loss 2.9110
+샘플: 대한민국의 수도는 대한민국입니다.
+대한민국에서 사용자들은 검색 결과의 모든 페이지에 대하여 해당 국가의 언어로 번역되고 있습니다.
+대한민국에서는 표준어만을 사용하고 있습니다.
+대한민국에서는 사용자들이 검색 결과의 모든 페이지에 대하여 해당 국가의 언어로 번역되고 있습니다.<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12000)
+스냅샷 저장: checkpoints/base_1b/step_012000.pt
+step  12010 | loss 3.0143 | lr 3.00e-04 | 10K tok/s
+step  12020 | loss 3.0150 | lr 3.00e-04 | 10K tok/s
+step  12030 | loss 3.0018 | lr 3.00e-04 | 10K tok/s
+step  12040 | loss 2.9605 | lr 3.00e-04 | 11K tok/s
+step  12050 | loss 2.9855 | lr 3.00e-04 | 11K tok/s
+step  12060 | loss 2.9889 | lr 3.00e-04 | 11K tok/s
+step  12070 | loss 2.9977 | lr 3.00e-04 | 11K tok/s
+step  12080 | loss 2.9775 | lr 3.00e-04 | 11K tok/s
+step  12090 | loss 2.9635 | lr 3.00e-04 | 11K tok/s
+step  12100 | loss 3.0183 | lr 3.00e-04 | 11K tok/s
+step  12100 | val loss 3.0334
+샘플: 대한민국의 수도는 서울이라는 것을 깨닫게 되었다.
+그 후 서울로 돌아오면 사람들이나 변두리 사람들처럼, 아니 좀 더 정확하게 표현하면 바보 취급당했다.
+스스로 불쌍하고 비겁한 존재라고 생각했기에 나는 바보 취급을 받은 적도 있었다.
+어쨌든 나는 그때 한국의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12100)
+step  12110 | loss 3.0066 | lr 3.00e-04 | 10K tok/s
+step  12120 | loss 2.9818 | lr 3.00e-04 | 11K tok/s
+step  12130 | loss 2.9824 | lr 3.00e-04 | 11K tok/s
+step  12140 | loss 3.0176 | lr 3.00e-04 | 11K tok/s
+step  12150 | loss 3.0019 | lr 3.00e-04 | 11K tok/s
+step  12160 | loss 2.9891 | lr 3.00e-04 | 11K tok/s
+step  12170 | loss 2.9822 | lr 3.00e-04 | 11K tok/s
+step  12180 | loss 2.9871 | lr 3.00e-04 | 11K tok/s
+step  12190 | loss 3.0168 | lr 3.00e-04 | 11K tok/s
+step  12200 | loss 2.9965 | lr 3.00e-04 | 11K tok/s
+step  12200 | val loss 2.9787
+샘플: 대한민국의 수도는 서울이다. 서울의 면적은 605.7㎢로 서울시 면적의 약 3.2%에 해당한다. 서울의 인구는 2020년 9월 기준으로 3400만 명이다. 서울은 2020년 8월 기준, 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12200)
+step  12210 | loss 2.9918 | lr 3.00e-04 | 10K tok/s
+step  12220 | loss 2.9631 | lr 3.00e-04 | 11K tok/s
+step  12230 | loss 2.9926 | lr 3.00e-04 | 11K tok/s
+step  12240 | loss 2.9581 | lr 3.00e-04 | 11K tok/s
+step  12250 | loss 3.0230 | lr 3.00e-04 | 11K tok/s
+step  12260 | loss 2.9991 | lr 3.00e-04 | 11K tok/s
+step  12270 | loss 2.9979 | lr 3.00e-04 | 11K tok/s
+step  12280 | loss 2.9907 | lr 3.00e-04 | 11K tok/s
+step  12290 | loss 3.0204 | lr 3.00e-04 | 11K tok/s
+step  12300 | loss 2.9850 | lr 3.00e-04 | 10K tok/s
+step  12300 | val loss 3.0506
+샘플: 대한민국의 수도는 서울입니다. 그러나 2014년 10월, 서울이 대한민국의 수도에서 대한민국으로 강등되면서 대한민국의 수도 서울은 세계에서 유일하게 분단국가인 대한민국이 아닌 연방제 국가로 세계에서 유일하게 분단국가가 되었습니다. 현재 대한민국은 10년마다 열리는 세계지방
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12300)
+step  12310 | loss 3.0021 | lr 3.00e-04 | 10K tok/s
+step  12320 | loss 2.9859 | lr 3.00e-04 | 11K tok/s
+step  12330 | loss 2.9609 | lr 3.00e-04 | 11K tok/s
+step  12340 | loss 2.9707 | lr 3.00e-04 | 11K tok/s
+step  12350 | loss 3.0140 | lr 3.00e-04 | 11K tok/s
+step  12360 | loss 2.9903 | lr 3.00e-04 | 10K tok/s
+step  12370 | loss 2.9805 | lr 3.00e-04 | 10K tok/s
+step  12380 | loss 2.9859 | lr 3.00e-04 | 11K tok/s
+step  12390 | loss 2.9907 | lr 3.00e-04 | 11K tok/s
+step  12400 | loss 2.9701 | lr 3.00e-04 | 10K tok/s
+step  12400 | val loss 2.9236
+샘플: 대한민국의 수도는 서울이 아니라 청와대란 점을 망각하고 있다”고 비판했다.
+또 “청와대는 ‘한반도의 평화와 번영을 위한 특별조치법’ 제2조 3호의 4항과 ‘국회법’ 제128조 2항의 1호
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12400)
+step  12410 | loss 3.0314 | lr 3.00e-04 | 10K tok/s
+step  12420 | loss 2.9857 | lr 3.00e-04 | 11K tok/s
+step  12430 | loss 2.9742 | lr 3.00e-04 | 11K tok/s
+step  12440 | loss 2.9928 | lr 3.00e-04 | 11K tok/s
+step  12450 | loss 3.0159 | lr 3.00e-04 | 11K tok/s
+step  12460 | loss 2.9894 | lr 3.00e-04 | 10K tok/s
+step  12470 | loss 2.9783 | lr 3.00e-04 | 10K tok/s
+step  12480 | loss 3.0127 | lr 3.00e-04 | 11K tok/s
+step  12490 | loss 2.9984 | lr 3.00e-04 | 11K tok/s
+step  12500 | loss 2.9734 | lr 3.00e-04 | 11K tok/s
+step  12500 | val loss 3.0280
+샘플: 대한민국의 수도는 서울이며, 경기도와 인천광역시도 포함된다. 2019년 1월 1일부터 서울시는 미세먼지 비상저감조치 발령 시 수도권 지역의 배출가스 5등급 차량 운행을 제한하기로 하였다. 이 조치는 수도권 내 5등급 차량 운행
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12500)
+step  12510 | loss 3.0087 | lr 3.00e-04 | 10K tok/s
+step  12520 | loss 2.9718 | lr 3.00e-04 | 11K tok/s
+step  12530 | loss 2.9734 | lr 3.00e-04 | 11K tok/s
+step  12540 | loss 2.9803 | lr 3.00e-04 | 10K tok/s
+step  12550 | loss 2.9900 | lr 3.00e-04 | 10K tok/s
+step  12560 | loss 3.0139 | lr 3.00e-04 | 10K tok/s
+step  12570 | loss 3.0546 | lr 3.00e-04 | 11K tok/s
+step  12580 | loss 2.9584 | lr 3.00e-04 | 11K tok/s
+step  12590 | loss 3.0182 | lr 3.00e-04 | 11K tok/s
+step  12600 | loss 2.9535 | lr 3.00e-04 | 11K tok/s
+step  12600 | val loss 2.9375
+샘플: 대한민국의 수도는 서울이며, 서울 이외의 지역에서 대한민국으로 들어오는 여객기는 대한민국 국내선을 이용해 인천-제주, 대구-제주, 광주-제주, 인천-김포 노선을 운행한다.
+
+2002년에 인천공항이 개항한 이래 대한민국의 항공 운송망은 지속적으로 발달
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12600)
+step  12610 | loss 3.0102 | lr 3.00e-04 | 10K tok/s
+step  12620 | loss 2.9902 | lr 3.00e-04 | 10K tok/s
+step  12630 | loss 2.9989 | lr 3.00e-04 | 11K tok/s
+step  12640 | loss 2.9574 | lr 3.00e-04 | 11K tok/s
+step  12650 | loss 2.9920 | lr 3.00e-04 | 11K tok/s
+step  12660 | loss 2.9903 | lr 3.00e-04 | 11K tok/s
+step  12670 | loss 2.9954 | lr 3.00e-04 | 11K tok/s
+step  12680 | loss 3.0029 | lr 3.00e-04 | 11K tok/s
+step  12690 | loss 2.9793 | lr 3.00e-04 | 11K tok/s
+step  12700 | loss 2.9697 | lr 3.00e-04 | 11K tok/s
+step  12700 | val loss 2.9319
+샘플: 대한민국의 수도는 서울특별시다. 하지만 대한민국에서 가장 인구가 적은 도시 중 하나일 뿐이다. 그리고 얼마 전 2030년 서울의 인구밀집도 70% 감소 목표를 선언하면서 앞으로의 서울은 달라질 것이라는 전망이 나오고 있다. 과거 서울의 인구밀도는 가히 심각
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12700)
+step  12710 | loss 3.0012 | lr 3.00e-04 | 10K tok/s
+step  12720 | loss 2.9916 | lr 3.00e-04 | 11K tok/s
+step  12730 | loss 2.9941 | lr 3.00e-04 | 11K tok/s
+step  12740 | loss 2.9588 | lr 3.00e-04 | 10K tok/s
+step  12750 | loss 2.9764 | lr 3.00e-04 | 11K tok/s
+step  12760 | loss 2.9989 | lr 3.00e-04 | 11K tok/s
+step  12770 | loss 2.9474 | lr 3.00e-04 | 11K tok/s
+step  12780 | loss 2.9840 | lr 3.00e-04 | 11K tok/s
+step  12790 | loss 3.0000 | lr 3.00e-04 | 11K tok/s
+step  12800 | loss 2.9754 | lr 3.00e-04 | 11K tok/s
+step  12800 | val loss 2.9091
+샘플: 대한민국의 수도는 서울이면서도 서울보다 훨씬 작은 경기도 양평이다. 2019년 완공 예정인 서울-양평 고속도로로 서울에서도 서울 내 그 외 지역으로부터 이동시간이 20분 내외로 단축될 전망이다.
+[저작권자ⓒ 아시아타임즈. 무단전재-재배포
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12800)
+step  12810 | loss 2.9644 | lr 3.00e-04 | 10K tok/s
+step  12820 | loss 2.9595 | lr 3.00e-04 | 11K tok/s
+step  12830 | loss 2.9997 | lr 3.00e-04 | 11K tok/s
+step  12840 | loss 3.0247 | lr 3.00e-04 | 11K tok/s
+step  12850 | loss 3.0135 | lr 3.00e-04 | 11K tok/s
+step  12860 | loss 2.9937 | lr 3.00e-04 | 10K tok/s
+step  12870 | loss 2.9589 | lr 3.00e-04 | 11K tok/s
+step  12880 | loss 2.9521 | lr 3.00e-04 | 11K tok/s
+step  12890 | loss 2.9867 | lr 3.00e-04 | 10K tok/s
+step  12900 | loss 2.9815 | lr 3.00e-04 | 10K tok/s
+step  12900 | val loss 2.9189
+샘플: 대한민국의 수도는 서울특별시이며, 광역자치단체로 서울특별시가 설치되어 있다.
+
+1990년대 이후 서울이 도시화 및 도시집중 현상이 심화되면서, 이러한 현상을 효과적으로 제어하기 위해 지방자치제의 부활과 함께 서울시장의 직선제 부활이 논의되었다.
+
+1994
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 12900)
+step  12910 | loss 2.9593 | lr 3.00e-04 | 10K tok/s
+step  12920 | loss 2.9829 | lr 3.00e-04 | 11K tok/s
+step  12930 | loss 2.9988 | lr 3.00e-04 | 11K tok/s
+step  12940 | loss 2.9905 | lr 3.00e-04 | 11K tok/s
+step  12950 | loss 2.9890 | lr 3.00e-04 | 10K tok/s
+step  12960 | loss 2.9539 | lr 3.00e-04 | 10K tok/s
+step  12970 | loss 2.9795 | lr 3.00e-04 | 10K tok/s
+step  12980 | loss 2.9222 | lr 3.00e-04 | 10K tok/s
+step  12990 | loss 3.0075 | lr 3.00e-04 | 10K tok/s
+step  13000 | loss 2.9982 | lr 3.00e-04 | 11K tok/s
+step  13000 | val loss 3.0068
+샘플: 대한민국의 수도는 서울이 아닌 경기도로 더 잘 알려진 것이 사실이다. 하지만 경기도에 속한 수원, 용인에 이르는 지역은 수원, 용인, 성남, 안양, 의왕, 이천 등 경기도의 7개 행정구역 중 하나인 용인시가 있다. 용인시가 200
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13000)
+step  13010 | loss 2.9908 | lr 3.00e-04 | 10K tok/s
+step  13020 | loss 2.9852 | lr 3.00e-04 | 11K tok/s
+step  13030 | loss 2.9931 | lr 3.00e-04 | 11K tok/s
+step  13040 | loss 2.9320 | lr 3.00e-04 | 11K tok/s
+step  13050 | loss 2.9790 | lr 3.00e-04 | 11K tok/s
+step  13060 | loss 2.9682 | lr 3.00e-04 | 11K tok/s
+step  13070 | loss 3.0027 | lr 3.00e-04 | 11K tok/s
+step  13080 | loss 3.0077 | lr 3.00e-04 | 11K tok/s
+step  13090 | loss 2.9710 | lr 3.00e-04 | 11K tok/s
+step  13100 | loss 2.9387 | lr 3.00e-04 | 11K tok/s
+step  13100 | val loss 2.9550
+샘플: 대한민국의 수도는 서울이라고, 현 시국에서도 가장 낙후된 지역이고 현재 정부가 그토록 공을 들이는 지역이기도 하다. 가장 기본적으로, 서울은 대한민국 수도의 상징이다. 그런데 도시 공공성이 갖는 가장 중요한 원칙이 바로 이 일인데, 서울시는 거꾸로 훼손되는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13100)
+step  13110 | loss 2.9937 | lr 3.00e-04 | 10K tok/s
+step  13120 | loss 2.9642 | lr 3.00e-04 | 11K tok/s
+step  13130 | loss 2.9744 | lr 3.00e-04 | 11K tok/s
+step  13140 | loss 2.9888 | lr 3.00e-04 | 11K tok/s
+step  13150 | loss 3.0490 | lr 3.00e-04 | 11K tok/s
+step  13160 | loss 3.0294 | lr 3.00e-04 | 11K tok/s
+step  13170 | loss 2.9675 | lr 3.00e-04 | 10K tok/s
+step  13180 | loss 2.9212 | lr 3.00e-04 | 10K tok/s
+step  13190 | loss 2.9816 | lr 3.00e-04 | 10K tok/s
+step  13200 | loss 3.0115 | lr 3.00e-04 | 10K tok/s
+step  13200 | val loss 2.8961
+샘플: 대한민국의 수도는 서울의 동쪽이 된다.
+경기도의 사전적 의미는 <도(道)가 서울에서 북쪽으로 44km 떨어져 있다>이며, <한국 최초의 공식 행정구역인 경기·인천·강원·충청·전라·경상·제주·경기·강원 등 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13200)
+step  13210 | loss 2.9811 | lr 3.00e-04 | 10K tok/s
+step  13220 | loss 2.9809 | lr 3.00e-04 | 11K tok/s
+step  13230 | loss 2.9644 | lr 3.00e-04 | 10K tok/s
+step  13240 | loss 2.9485 | lr 3.00e-04 | 11K tok/s
+step  13250 | loss 2.9584 | lr 3.00e-04 | 10K tok/s
+step  13260 | loss 2.9538 | lr 3.00e-04 | 10K tok/s
+step  13270 | loss 2.9887 | lr 3.00e-04 | 11K tok/s
+step  13280 | loss 2.9570 | lr 3.00e-04 | 10K tok/s
+step  13290 | loss 3.0043 | lr 3.00e-04 | 10K tok/s
+step  13300 | loss 3.0072 | lr 3.00e-04 | 10K tok/s
+step  13300 | val loss 2.9738
+샘플: 대한민국의 수도는 서울이지만, 인천은 중요도 면에서는 경기도의 수도인 양주와 비슷한 면이 있다. 서울의 면적은 경기도에 비해 작지만, 인천은 그 중에서 가장 큰 도...
+-
+-
+-
+-
+-
+-
+-
+-
+-<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13300)
+step  13310 | loss 2.9933 | lr 3.00e-04 | 10K tok/s
+step  13320 | loss 2.9323 | lr 3.00e-04 | 10K tok/s
+step  13330 | loss 2.9573 | lr 3.00e-04 | 10K tok/s
+step  13340 | loss 2.9372 | lr 3.00e-04 | 10K tok/s
+step  13350 | loss 2.9453 | lr 3.00e-04 | 10K tok/s
+step  13360 | loss 2.9580 | lr 3.00e-04 | 10K tok/s
+step  13370 | loss 2.9697 | lr 3.00e-04 | 10K tok/s
+step  13380 | loss 2.9027 | lr 3.00e-04 | 10K tok/s
+step  13390 | loss 2.9457 | lr 3.00e-04 | 10K tok/s
+step  13400 | loss 2.9694 | lr 3.00e-04 | 10K tok/s
+step  13400 | val loss 2.9844
+샘플: 대한민국의 수도는 도쿄입니다. 일본의 수도이자 최대 도시인 도쿄에는 그 이름처럼 수많은 명품 샵이 있습니다. 그리고 그 유명 샵에 반드시 포함되는 한 명.
+그의 이름은 미야자키 마오. '유럽의 축소판'이라 불리는 이 가게의 특별함을 알고 있나요
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13400)
+step  13410 | loss 2.9758 | lr 3.00e-04 | 10K tok/s
+step  13420 | loss 2.9743 | lr 3.00e-04 | 10K tok/s
+step  13430 | loss 2.9655 | lr 3.00e-04 | 10K tok/s
+step  13440 | loss 2.9599 | lr 3.00e-04 | 10K tok/s
+step  13450 | loss 2.9697 | lr 3.00e-04 | 11K tok/s
+step  13460 | loss 3.0208 | lr 3.00e-04 | 11K tok/s
+step  13470 | loss 2.9494 | lr 3.00e-04 | 10K tok/s
+step  13480 | loss 2.9529 | lr 3.00e-04 | 10K tok/s
+step  13490 | loss 2.9701 | lr 3.00e-04 | 10K tok/s
+step  13500 | loss 3.0137 | lr 3.00e-04 | 10K tok/s
+step  13500 | val loss 2.9343
+샘플: 대한민국의 수도는?
+- 7 '스타세티티' 카푸치노, '프랑스'서 대박! 이유는?<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13500)
+step  13510 | loss 2.9753 | lr 3.00e-04 | 10K tok/s
+step  13520 | loss 2.9905 | lr 3.00e-04 | 10K tok/s
+step  13530 | loss 2.9491 | lr 3.00e-04 | 10K tok/s
+step  13540 | loss 2.9905 | lr 3.00e-04 | 11K tok/s
+step  13550 | loss 2.9903 | lr 3.00e-04 | 11K tok/s
+step  13560 | loss 2.9632 | lr 3.00e-04 | 11K tok/s
+step  13570 | loss 3.0067 | lr 3.00e-04 | 10K tok/s
+step  13580 | loss 2.9795 | lr 3.00e-04 | 10K tok/s
+step  13590 | loss 3.0018 | lr 3.00e-04 | 10K tok/s
+step  13600 | loss 2.9716 | lr 3.00e-04 | 11K tok/s
+step  13600 | val loss 2.8432
+샘플: 대한민국의 수도는 서울이라고 한다. 이곳엔 유난히 여러 개의 빌딩들이 빽빽이 들어서 있다. 이곳에서는 빌딩이 들어서기 전, 말 그대로 건축이라는 과정을 거친다. 건물 외벽이 만들어지고, 외벽이 뚫리는 동안 건물이 올라가고, 건물이 올라가고, 다시
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13600)
+step  13610 | loss 2.9847 | lr 3.00e-04 | 10K tok/s
+step  13620 | loss 2.9367 | lr 3.00e-04 | 11K tok/s
+step  13630 | loss 2.9761 | lr 3.00e-04 | 11K tok/s
+step  13640 | loss 2.9619 | lr 3.00e-04 | 11K tok/s
+step  13650 | loss 2.9605 | lr 3.00e-04 | 11K tok/s
+step  13660 | loss 2.9524 | lr 3.00e-04 | 11K tok/s
+step  13670 | loss 2.9777 | lr 3.00e-04 | 11K tok/s
+step  13680 | loss 3.0077 | lr 3.00e-04 | 10K tok/s
+step  13690 | loss 2.9713 | lr 3.00e-04 | 10K tok/s
+step  13700 | loss 2.9468 | lr 3.00e-04 | 10K tok/s
+step  13700 | val loss 2.8902
+샘플: 대한민국의 수도는 서울이다. 서울이라는 도시가 세계 5대 도시의 수도라는 타이틀을 가지고 있는 것은 서울이 전 세계에서 가장 도시화, 산업화가 가장 잘 되어있기 때문이다. 미국, 일본, 영국, 프랑스 등 선진국에서는 이미 지방 도시들의 생존
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13700)
+step  13710 | loss 2.9564 | lr 3.00e-04 | 10K tok/s
+step  13720 | loss 2.9876 | lr 3.00e-04 | 10K tok/s
+step  13730 | loss 2.9496 | lr 3.00e-04 | 10K tok/s
+step  13740 | loss 2.9462 | lr 3.00e-04 | 10K tok/s
+step  13750 | loss 2.9782 | lr 3.00e-04 | 10K tok/s
+step  13760 | loss 2.9622 | lr 3.00e-04 | 10K tok/s
+step  13770 | loss 2.9634 | lr 3.00e-04 | 10K tok/s
+step  13780 | loss 2.9715 | lr 3.00e-04 | 10K tok/s
+step  13790 | loss 2.9816 | lr 3.00e-04 | 10K tok/s
+step  13800 | loss 2.9443 | lr 3.00e-04 | 10K tok/s
+step  13800 | val loss 2.9747
+샘플: 대한민국의 수도는 서울이고, 서울은 서울공화국의 심장이다. 또 서울공화국이 대한민국의 수도라면, 대한민국은 서울공화국이 된다. ‘대한민국 국가정체성’ 그 자체이다. 수도가 서울이고, 대한민국의 수도이자 우리의 중심이다. 아니, 대한민국의 수도
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13800)
+step  13810 | loss 2.9762 | lr 3.00e-04 | 10K tok/s
+step  13820 | loss 2.9530 | lr 3.00e-04 | 10K tok/s
+step  13830 | loss 2.9638 | lr 3.00e-04 | 10K tok/s
+step  13840 | loss 2.9714 | lr 3.00e-04 | 10K tok/s
+step  13850 | loss 3.0324 | lr 3.00e-04 | 10K tok/s
+step  13860 | loss 2.9300 | lr 3.00e-04 | 10K tok/s
+step  13870 | loss 2.9628 | lr 3.00e-04 | 10K tok/s
+step  13880 | loss 2.9498 | lr 3.00e-04 | 10K tok/s
+step  13890 | loss 2.9964 | lr 3.00e-04 | 10K tok/s
+step  13900 | loss 2.9449 | lr 3.00e-04 | 10K tok/s
+step  13900 | val loss 2.8613
+샘플: 대한민국의 수도는 서울이다. 그러나 서울의 인구는 2017년 1월 1일 기준 5,232,201명으로 1,513,844,767명 (44.0%)의 인구를 보유하고 있다. (이
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 13900)
+step  13910 | loss 2.9804 | lr 3.00e-04 | 10K tok/s
+step  13920 | loss 2.9661 | lr 3.00e-04 | 10K tok/s
+step  13930 | loss 2.9313 | lr 3.00e-04 | 10K tok/s
+step  13940 | loss 2.9687 | lr 3.00e-04 | 10K tok/s
+step  13950 | loss 2.9600 | lr 3.00e-04 | 11K tok/s
+step  13960 | loss 2.9989 | lr 3.00e-04 | 10K tok/s
+step  13970 | loss 2.9991 | lr 3.00e-04 | 10K tok/s
+step  13980 | loss 3.0355 | lr 3.00e-04 | 10K tok/s
+step  13990 | loss 2.9771 | lr 3.00e-04 | 10K tok/s
+step  14000 | loss 2.9239 | lr 3.00e-04 | 10K tok/s
+step  14000 | val loss 2.9005
+샘플: 대한민국의 수도는 서울이라는 의미가 있었습니다. 그런데 제 기억 속의 서울은 세종대왕이 만든 조선의 수도였습니다. 그래서 성군이 나와서 조선의 수도는 서울이라고 말했을 뿐 아니라, 서울의 이름도 조선의 왕도 그 한양에서 태어났다는 의미에서 한양이라고 불렀고, 그
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14000)
+step  14010 | loss 3.0017 | lr 3.00e-04 | 10K tok/s
+step  14020 | loss 2.9848 | lr 3.00e-04 | 10K tok/s
+step  14030 | loss 2.9538 | lr 3.00e-04 | 10K tok/s
+step  14040 | loss 2.9933 | lr 3.00e-04 | 10K tok/s
+step  14050 | loss 2.9703 | lr 3.00e-04 | 10K tok/s
+step  14060 | loss 2.9310 | lr 3.00e-04 | 10K tok/s
+step  14070 | loss 3.0031 | lr 3.00e-04 | 10K tok/s
+step  14080 | loss 2.9062 | lr 3.00e-04 | 10K tok/s
+step  14090 | loss 2.9909 | lr 3.00e-04 | 10K tok/s
+step  14100 | loss 2.9603 | lr 3.00e-04 | 10K tok/s
+step  14100 | val loss 2.9769
+샘플: 대한민국의 수도는 평양이다.
+'청계천 시대'의 중심에 있는 청계천은 조선시대 서울의 중심부로 통하는 주요 통로였다. 세종 7년(1423년)에는 세종이 신하들과 함께 직접 청계천을 건너며 서울의 물가를 살피는 '청
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14100)
+step  14110 | loss 2.9501 | lr 3.00e-04 | 10K tok/s
+step  14120 | loss 2.9641 | lr 3.00e-04 | 10K tok/s
+step  14130 | loss 2.9301 | lr 3.00e-04 | 10K tok/s
+step  14140 | loss 2.9768 | lr 3.00e-04 | 10K tok/s
+step  14150 | loss 2.9534 | lr 3.00e-04 | 10K tok/s
+step  14160 | loss 2.9505 | lr 3.00e-04 | 10K tok/s
+step  14170 | loss 2.9328 | lr 3.00e-04 | 10K tok/s
+step  14180 | loss 3.0196 | lr 3.00e-04 | 10K tok/s
+step  14190 | loss 3.0045 | lr 3.00e-04 | 10K tok/s
+step  14200 | loss 2.9736 | lr 3.00e-04 | 10K tok/s
+step  14200 | val loss 3.0176
+샘플: 대한민국의 수도는 서울이 아니라 서울이 아닌 서울, 성남이 아니라 성남이 아닌 성남, 부산이 아니라 부산, 대구, 경북이 아니라 경북, 부산, 경남이 아니라 경남, 울산, 전북이 아니라 전북이 아니라 전북, 충북이 아니라
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14200)
+step  14210 | loss 2.9356 | lr 3.00e-04 | 10K tok/s
+step  14220 | loss 2.9414 | lr 3.00e-04 | 10K tok/s
+step  14230 | loss 2.9004 | lr 3.00e-04 | 10K tok/s
+step  14240 | loss 2.9828 | lr 3.00e-04 | 10K tok/s
+step  14250 | loss 2.9857 | lr 3.00e-04 | 10K tok/s
+step  14260 | loss 2.9874 | lr 3.00e-04 | 10K tok/s
+step  14270 | loss 2.9515 | lr 3.00e-04 | 10K tok/s
+step  14280 | loss 2.9641 | lr 3.00e-04 | 10K tok/s
+step  14290 | loss 2.9306 | lr 3.00e-04 | 10K tok/s
+step  14300 | loss 3.0111 | lr 3.00e-04 | 10K tok/s
+step  14300 | val loss 2.8576
+샘플: 대한민국의 수도는 아니지만, 그래도 서울이라는 대도시가 자랑스럽다.
+장마철에는 엄청난 비가 쏟아지기도 하는 대한민국. 이 비와 함께 태풍이 지나가면 얼마나 좋을까. 우리나라는 태풍이 길기 때문에 비 걱정 없이 안전하게 여행을 즐길 수 있다.
+비오는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14300)
+step  14310 | loss 2.9634 | lr 3.00e-04 | 10K tok/s
+step  14320 | loss 3.0008 | lr 3.00e-04 | 10K tok/s
+step  14330 | loss 2.9803 | lr 3.00e-04 | 10K tok/s
+step  14340 | loss 2.9550 | lr 3.00e-04 | 10K tok/s
+step  14350 | loss 2.9910 | lr 3.00e-04 | 10K tok/s
+step  14360 | loss 2.9270 | lr 3.00e-04 | 10K tok/s
+step  14370 | loss 2.9625 | lr 3.00e-04 | 10K tok/s
+step  14380 | loss 2.9391 | lr 3.00e-04 | 11K tok/s
+step  14390 | loss 2.9334 | lr 3.00e-04 | 11K tok/s
+step  14400 | loss 2.9900 | lr 3.00e-04 | 11K tok/s
+step  14400 | val loss 2.9348
+샘플: 대한민국의 수도는 서울이 아니라 평야지대인 평원(平原)으로, 반도(半島)의 서쪽에 있다. 한(汗), 한(韓), 한(韓), 한(韓), 한(韓), 한(韓), 한(韓), 한(韓), 한(韓
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14400)
+step  14410 | loss 2.9760 | lr 3.00e-04 | 10K tok/s
+step  14420 | loss 2.9712 | lr 3.00e-04 | 11K tok/s
+step  14430 | loss 2.9456 | lr 3.00e-04 | 11K tok/s
+step  14440 | loss 2.9344 | lr 3.00e-04 | 11K tok/s
+step  14450 | loss 2.9693 | lr 3.00e-04 | 11K tok/s
+step  14460 | loss 2.9521 | lr 3.00e-04 | 11K tok/s
+step  14470 | loss 2.9226 | lr 3.00e-04 | 11K tok/s
+step  14480 | loss 2.9410 | lr 3.00e-04 | 11K tok/s
+step  14490 | loss 2.9729 | lr 3.00e-04 | 11K tok/s
+step  14500 | loss 2.9659 | lr 3.00e-04 | 11K tok/s
+step  14500 | val loss 2.8856
+샘플: 대한민국의 수도는 서울특별시라고 볼 수 있다.
+7.1. 인구수
+7.2. 행정구역
+서울특별시 서남부에 위치한 송파, 서초, 노원구를 제외한 16개 구의 구명과 서울특별시의 행정구역은 서울특별시 특별시와 서울특별시가 모두 해당된다.
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14500)
+step  14510 | loss 2.9957 | lr 3.00e-04 | 10K tok/s
+step  14520 | loss 2.9620 | lr 3.00e-04 | 11K tok/s
+step  14530 | loss 2.9330 | lr 3.00e-04 | 11K tok/s
+step  14540 | loss 2.9636 | lr 3.00e-04 | 11K tok/s
+step  14550 | loss 2.9516 | lr 3.00e-04 | 11K tok/s
+step  14560 | loss 2.9537 | lr 3.00e-04 | 11K tok/s
+step  14570 | loss 2.9501 | lr 3.00e-04 | 11K tok/s
+step  14580 | loss 2.9329 | lr 3.00e-04 | 11K tok/s
+step  14590 | loss 2.9486 | lr 3.00e-04 | 11K tok/s
+step  14600 | loss 2.9264 | lr 3.00e-04 | 11K tok/s
+step  14600 | val loss 3.0190
+샘플: 대한민국의 수도는 역사적·지리적으로 대한민국의 수도이자 심장부로, 2·28민주운동, 3·15민주화운동, 4·19혁명, 부마민주항쟁, 5·18민주화운동, 6·10민주항쟁
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14600)
+step  14610 | loss 2.9685 | lr 3.00e-04 | 10K tok/s
+step  14620 | loss 2.9497 | lr 3.00e-04 | 11K tok/s
+step  14630 | loss 2.9459 | lr 3.00e-04 | 11K tok/s
+step  14640 | loss 2.9327 | lr 3.00e-04 | 11K tok/s
+step  14650 | loss 2.9264 | lr 3.00e-04 | 11K tok/s
+step  14660 | loss 2.9420 | lr 3.00e-04 | 11K tok/s
+step  14670 | loss 2.9215 | lr 3.00e-04 | 11K tok/s
+step  14680 | loss 2.9643 | lr 3.00e-04 | 11K tok/s
+step  14690 | loss 2.9504 | lr 3.00e-04 | 11K tok/s
+step  14700 | loss 2.9263 | lr 3.00e-04 | 11K tok/s
+step  14700 | val loss 2.8824
+샘플: 대한민국의 수도는 어떤 곳이죠? 서울을 정확하게 알기 위해서 서울에 대해 어떻게 생각하세요? (서울시민 또는 서울이 궁금한 시민을 대상으로 1:1로 문의해 주세요.)
+어린 시절, 우리 집에 있던 가게의 간판, 혹은 지금 사용하고 있는 컴퓨터 바탕화면
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14700)
+step  14710 | loss 2.9666 | lr 3.00e-04 | 10K tok/s
+step  14720 | loss 2.9628 | lr 3.00e-04 | 11K tok/s
+step  14730 | loss 2.9613 | lr 3.00e-04 | 11K tok/s
+step  14740 | loss 2.9585 | lr 3.00e-04 | 11K tok/s
+step  14750 | loss 2.9668 | lr 3.00e-04 | 11K tok/s
+step  14760 | loss 2.9885 | lr 3.00e-04 | 11K tok/s
+step  14770 | loss 2.9548 | lr 3.00e-04 | 11K tok/s
+step  14780 | loss 2.9288 | lr 3.00e-04 | 11K tok/s
+step  14790 | loss 2.9412 | lr 3.00e-04 | 11K tok/s
+step  14800 | loss 2.9194 | lr 3.00e-04 | 11K tok/s
+step  14800 | val loss 2.8690
+샘플: 대한민국의 수도는 정치적으로는 북성(北城)이다. 8.15 광복 이후 이승만 정부는 북성(北城)을 북성(北城)으로 고치고, 9.3 사건 이후 북한 정권은 북성(北城)을 공산군 점령시기의 이름인 ‘
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14800)
+step  14810 | loss 2.9698 | lr 3.00e-04 | 10K tok/s
+step  14820 | loss 2.9406 | lr 3.00e-04 | 10K tok/s
+step  14830 | loss 2.9799 | lr 3.00e-04 | 10K tok/s
+step  14840 | loss 3.0269 | lr 3.00e-04 | 10K tok/s
+step  14850 | loss 2.9348 | lr 3.00e-04 | 10K tok/s
+step  14860 | loss 2.9477 | lr 3.00e-04 | 10K tok/s
+step  14870 | loss 2.9804 | lr 3.00e-04 | 10K tok/s
+step  14880 | loss 2.9122 | lr 3.00e-04 | 10K tok/s
+step  14890 | loss 2.9177 | lr 3.00e-04 | 11K tok/s
+step  14900 | loss 2.9384 | lr 3.00e-04 | 11K tok/s
+step  14900 | val loss 2.8805
+샘플: 대한민국의 수도는 서울인데, 그에 따른 1인당 GDP는 1.26배이다.
+3.1운동 이후의 대한민국
+3.1운동 이후에는 일제의 식민통치를 크게 받은 상태로, 조선국민회, 신민회, 조선귀족회,
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 14900)
+step  14910 | loss 2.9841 | lr 3.00e-04 | 10K tok/s
+step  14920 | loss 2.9267 | lr 3.00e-04 | 11K tok/s
+step  14930 | loss 2.9386 | lr 3.00e-04 | 11K tok/s
+step  14940 | loss 2.9274 | lr 3.00e-04 | 10K tok/s
+step  14950 | loss 2.9780 | lr 3.00e-04 | 11K tok/s
+step  14960 | loss 2.9745 | lr 3.00e-04 | 11K tok/s
+step  14970 | loss 2.9303 | lr 3.00e-04 | 11K tok/s
+step  14980 | loss 2.9125 | lr 3.00e-04 | 10K tok/s
+step  14990 | loss 2.9418 | lr 3.00e-04 | 11K tok/s
+step  15000 | loss 2.9830 | lr 3.00e-04 | 10K tok/s
+step  15000 | val loss 2.8244
+샘플: 대한민국의 수도는 서울! 그런 서울이, 여러 도시들의 수도이자 한 나라의 수도라면, 서울이 가장 번화한 대도시들이 모인 곳이어야 마땅하지 않을까? 예컨대 더 많은 사람들이 서울의 도시에 모여들어야 서울의 이미지가 더 좋아지지 않겠는가? 이렇게 생각하면
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15000)
+step  15010 | loss 2.9304 | lr 3.00e-04 | 10K tok/s
+step  15020 | loss 2.8908 | lr 3.00e-04 | 11K tok/s
+step  15030 | loss 2.9313 | lr 3.00e-04 | 11K tok/s
+step  15040 | loss 2.9517 | lr 3.00e-04 | 11K tok/s
+step  15050 | loss 2.9174 | lr 3.00e-04 | 11K tok/s
+step  15060 | loss 2.9603 | lr 3.00e-04 | 11K tok/s
+step  15070 | loss 2.9640 | lr 3.00e-04 | 11K tok/s
+step  15080 | loss 2.9702 | lr 3.00e-04 | 11K tok/s
+step  15090 | loss 2.9437 | lr 3.00e-04 | 11K tok/s
+step  15100 | loss 2.9443 | lr 3.00e-04 | 11K tok/s
+step  15100 | val loss 2.9548
+샘플: 대한민국의 수도는 대한민국이다. 대한민국은 신생 국가이다. 1948년 8월 15일, 대한민국 정부의 수립을 선언하면서, 바로 그 자축하는 8월 15일 정오에 일본 제국주의의 전범을 처단하는 만행을 감행
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15100)
+step  15110 | loss 2.9269 | lr 3.00e-04 | 10K tok/s
+step  15120 | loss 2.9570 | lr 3.00e-04 | 10K tok/s
+step  15130 | loss 2.9663 | lr 3.00e-04 | 10K tok/s
+step  15140 | loss 2.9857 | lr 3.00e-04 | 10K tok/s
+step  15150 | loss 2.9574 | lr 3.00e-04 | 11K tok/s
+step  15160 | loss 2.9318 | lr 3.00e-04 | 11K tok/s
+step  15170 | loss 2.9657 | lr 3.00e-04 | 11K tok/s
+step  15180 | loss 2.9847 | lr 3.00e-04 | 11K tok/s
+step  15190 | loss 2.9572 | lr 3.00e-04 | 11K tok/s
+step  15200 | loss 2.9596 | lr 3.00e-04 | 10K tok/s
+step  15200 | val loss 2.9194
+샘플: 대한민국의 수도는 베이징과 상하이를 잇는 고속철도 개통으로 더욱 가까워졌다. 2017년 말 일본의 트위터 사용자 ‘펑화(27)’가 발표한 ‘중국인이 자주 사용하는 도시 순위’에 따르면 베이징, 상하이, 광저우, 칭다오, 선전
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15200)
+step  15210 | loss 2.9520 | lr 3.00e-04 | 10K tok/s
+step  15220 | loss 2.9149 | lr 3.00e-04 | 10K tok/s
+step  15230 | loss 2.9058 | lr 3.00e-04 | 11K tok/s
+step  15240 | loss 2.9623 | lr 3.00e-04 | 11K tok/s
+step  15250 | loss 2.9433 | lr 3.00e-04 | 11K tok/s
+step  15260 | loss 2.9423 | lr 3.00e-04 | 11K tok/s
+step  15270 | loss 2.9289 | lr 3.00e-04 | 11K tok/s
+step  15280 | loss 2.9732 | lr 3.00e-04 | 11K tok/s
+step  15290 | loss 2.9417 | lr 3.00e-04 | 11K tok/s
+step  15300 | loss 2.9784 | lr 3.00e-04 | 11K tok/s
+step  15300 | val loss 2.9191
+샘플: 대한민국의 수도는 베이징(北京)이다.
+칭다오(청도), 광저우(广州), 선전(深圳), 청두(成都), 베이징(北京), 상하이(上海), 베이징(北京) 등의 도시가 베이징(北京)에 있다.
+청
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15300)
+step  15310 | loss 2.9505 | lr 3.00e-04 | 10K tok/s
+step  15320 | loss 2.9476 | lr 3.00e-04 | 11K tok/s
+step  15330 | loss 2.9267 | lr 3.00e-04 | 11K tok/s
+step  15340 | loss 2.9275 | lr 3.00e-04 | 11K tok/s
+step  15350 | loss 2.9696 | lr 3.00e-04 | 11K tok/s
+step  15360 | loss 2.9648 | lr 3.00e-04 | 11K tok/s
+step  15370 | loss 2.9722 | lr 3.00e-04 | 11K tok/s
+step  15380 | loss 2.9190 | lr 3.00e-04 | 11K tok/s
+step  15390 | loss 2.9667 | lr 3.00e-04 | 11K tok/s
+step  15400 | loss 2.8995 | lr 3.00e-04 | 11K tok/s
+step  15400 | val loss 2.8536
+샘플: 대한민국의 수도는 당연히 중국땅이지만 중화민국은 중국땅이다.
+1. 개요
+2. 국기
+3. 국가 상징
+4. 정치
+5. 경제
+6. 외교
+7. 군사
+8. 스포츠
+9. 연예
+10
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15400)
+step  15410 | loss 2.9336 | lr 3.00e-04 | 10K tok/s
+step  15420 | loss 2.9504 | lr 3.00e-04 | 11K tok/s
+step  15430 | loss 2.9293 | lr 3.00e-04 | 11K tok/s
+step  15440 | loss 2.9085 | lr 3.00e-04 | 10K tok/s
+step  15450 | loss 2.9490 | lr 3.00e-04 | 10K tok/s
+step  15460 | loss 2.9385 | lr 3.00e-04 | 11K tok/s
+step  15470 | loss 2.9438 | lr 3.00e-04 | 11K tok/s
+step  15480 | loss 2.9560 | lr 3.00e-04 | 10K tok/s
+step  15490 | loss 2.9655 | lr 3.00e-04 | 10K tok/s
+step  15500 | loss 2.9724 | lr 3.00e-04 | 11K tok/s
+step  15500 | val loss 2.9376
+샘플: 대한민국의 수도는 서울이 아니다.<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15500)
+step  15510 | loss 2.9654 | lr 3.00e-04 | 10K tok/s
+step  15520 | loss 2.9091 | lr 3.00e-04 | 11K tok/s
+step  15530 | loss 2.9483 | lr 3.00e-04 | 10K tok/s
+step  15540 | loss 2.9569 | lr 3.00e-04 | 10K tok/s
+step  15550 | loss 2.9647 | lr 3.00e-04 | 11K tok/s
+step  15560 | loss 2.9765 | lr 3.00e-04 | 10K tok/s
+step  15570 | loss 2.9329 | lr 3.00e-04 | 10K tok/s
+step  15580 | loss 2.9456 | lr 3.00e-04 | 11K tok/s
+step  15590 | loss 2.9491 | lr 3.00e-04 | 10K tok/s
+step  15600 | loss 2.9427 | lr 3.00e-04 | 11K tok/s
+step  15600 | val loss 2.8629
+샘플: 대한민국의 수도는 종로구만, 공식 명칭이 '대한민국 서울', 국제통화기구가 'G7서울'이라고 표기하는 걸 감안하면 서울이 맞긴 맞다. 그런데 프랑스 파리에 있는 유럽 의회 (European Parliament)의 관할권에 속하지 않는다. 2015년 현재
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15600)
+step  15610 | loss 2.9170 | lr 3.00e-04 | 10K tok/s
+step  15620 | loss 2.9272 | lr 3.00e-04 | 11K tok/s
+step  15630 | loss 2.9309 | lr 3.00e-04 | 11K tok/s
+step  15640 | loss 2.9672 | lr 3.00e-04 | 11K tok/s
+step  15650 | loss 2.9509 | lr 3.00e-04 | 11K tok/s
+step  15660 | loss 2.9357 | lr 3.00e-04 | 11K tok/s
+step  15670 | loss 2.9407 | lr 3.00e-04 | 11K tok/s
+step  15680 | loss 2.9488 | lr 3.00e-04 | 11K tok/s
+step  15690 | loss 2.9610 | lr 3.00e-04 | 11K tok/s
+step  15700 | loss 2.9468 | lr 3.00e-04 | 11K tok/s
+step  15700 | val loss 2.8471
+샘플: 대한민국의 수도는 서울이 아닌 지역입니다
+서울이냐, 경기도냐에 따라서
+택하는 방법이 다르긴 한데
+경기도의 경우
+서울에 비해서 인프라가
+많이 떨어지는 편입니다
+대부분은 강남이나 종로 등의 중심지에
+위치해 있고,
+상권이
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15700)
+step  15710 | loss 2.8929 | lr 3.00e-04 | 10K tok/s
+step  15720 | loss 2.9248 | lr 3.00e-04 | 11K tok/s
+step  15730 | loss 2.9811 | lr 3.00e-04 | 11K tok/s
+step  15740 | loss 2.9410 | lr 3.00e-04 | 11K tok/s
+step  15750 | loss 2.9418 | lr 3.00e-04 | 11K tok/s
+step  15760 | loss 2.8845 | lr 3.00e-04 | 11K tok/s
+step  15770 | loss 2.9547 | lr 3.00e-04 | 11K tok/s
+step  15780 | loss 2.9568 | lr 3.00e-04 | 11K tok/s
+step  15790 | loss 2.9723 | lr 3.00e-04 | 11K tok/s
+step  15800 | loss 2.9345 | lr 3.00e-04 | 11K tok/s
+step  15800 | val loss 2.8652
+샘플: 대한민국의 수도는 서울이다. 이는 경기도와 3개시가 있다. 행정구역상 서울특별시는 광역시에 속하나 경기도의 행정구역과 인구는 서울특별시가 광역시에 속한다. 2017년 6월 17일 기준 대한민국의 광역자치단체 중 하나인 서울특별
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15800)
+step  15810 | loss 2.9421 | lr 3.00e-04 | 10K tok/s
+step  15820 | loss 2.8997 | lr 3.00e-04 | 10K tok/s
+step  15830 | loss 2.9082 | lr 3.00e-04 | 10K tok/s
+step  15840 | loss 2.9553 | lr 3.00e-04 | 10K tok/s
+step  15850 | loss 2.8833 | lr 3.00e-04 | 10K tok/s
+step  15860 | loss 2.8805 | lr 3.00e-04 | 10K tok/s
+step  15870 | loss 2.9788 | lr 3.00e-04 | 11K tok/s
+step  15880 | loss 2.9211 | lr 3.00e-04 | 11K tok/s
+step  15890 | loss 2.9053 | lr 3.00e-04 | 11K tok/s
+step  15900 | loss 2.9550 | lr 3.00e-04 | 11K tok/s
+step  15900 | val loss 2.9129
+샘플: 대한민국의 수도는 서울이다. 한반도는 지상낙원, 모든 것이 있는 나라이다. 여행으로 지친 심신을 재충전하고, 힐링의 기회를 가져보자.
+2. 관광, 음식, 쇼핑 천국, 다낭
+수많은 즐길거리와 볼거리가 가득한 여행지, 바로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 15900)
+step  15910 | loss 2.9276 | lr 3.00e-04 | 10K tok/s
+step  15920 | loss 2.9348 | lr 3.00e-04 | 11K tok/s
+step  15930 | loss 2.9452 | lr 3.00e-04 | 11K tok/s
+step  15940 | loss 2.9851 | lr 3.00e-04 | 11K tok/s
+step  15950 | loss 2.9422 | lr 3.00e-04 | 11K tok/s
+step  15960 | loss 2.9345 | lr 3.00e-04 | 11K tok/s
+step  15970 | loss 2.9830 | lr 3.00e-04 | 11K tok/s
+step  15980 | loss 2.9313 | lr 3.00e-04 | 11K tok/s
+step  15990 | loss 2.9325 | lr 3.00e-04 | 11K tok/s
+step  16000 | loss 2.9685 | lr 3.00e-04 | 11K tok/s
+step  16000 | val loss 2.9730
+샘플: 대한민국의 수도는 서울이며, 경기도는 과천이다.
+대한민국의 기타
+대한민국의 도시
+대한민국의 브랜드<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16000)
+스냅샷 저장: checkpoints/base_1b/step_016000.pt
+step  16010 | loss 2.9476 | lr 3.00e-04 | 10K tok/s
+step  16020 | loss 2.9511 | lr 3.00e-04 | 11K tok/s
+step  16030 | loss 2.9209 | lr 3.00e-04 | 11K tok/s
+step  16040 | loss 2.9143 | lr 3.00e-04 | 11K tok/s
+step  16050 | loss 2.9615 | lr 3.00e-04 | 11K tok/s
+step  16060 | loss 2.9485 | lr 3.00e-04 | 11K tok/s
+step  16070 | loss 2.9448 | lr 3.00e-04 | 11K tok/s
+step  16080 | loss 2.9239 | lr 3.00e-04 | 11K tok/s
+step  16090 | loss 2.9605 | lr 3.00e-04 | 11K tok/s
+step  16100 | loss 2.9389 | lr 3.00e-04 | 11K tok/s
+step  16100 | val loss 2.9034
+샘플: 대한민국의 수도는 서울이다. 서울시의 본 이름은 대한민국 서울특별시다. 그리고 서울특별시는 대한민국의 도이다. 서울특별시에는 5개의 구가 있다. 서울특별시 종로구와 서울특별시 용산구 그리고 서울특별시 마포구이다. 서울특별시 북부와 서울특별시 남부는 서울특별시 자치구이다. 서울특별시 중랑구는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16100)
+step  16110 | loss 3.0064 | lr 3.00e-04 | 10K tok/s
+step  16120 | loss 2.9551 | lr 3.00e-04 | 11K tok/s
+step  16130 | loss 2.9518 | lr 3.00e-04 | 11K tok/s
+step  16140 | loss 2.9272 | lr 3.00e-04 | 11K tok/s
+step  16150 | loss 2.9190 | lr 3.00e-04 | 11K tok/s
+step  16160 | loss 2.9436 | lr 3.00e-04 | 11K tok/s
+step  16170 | loss 2.8999 | lr 3.00e-04 | 11K tok/s
+step  16180 | loss 2.8906 | lr 3.00e-04 | 11K tok/s
+step  16190 | loss 2.9078 | lr 3.00e-04 | 10K tok/s
+step  16200 | loss 2.9680 | lr 3.00e-04 | 11K tok/s
+step  16200 | val loss 2.8318
+샘플: 대한민국의 수도는 서울이다. 지방자치제로 한 치의 힘겨움이 없는 수도의 아름다운 경관에 우리는 경이로움을 느낀다. 참고로 서울특별시는 우리나라 지방자치의 최전선이다.
+제3대 서울특별시의 초대 시장은 1960년 4월 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16200)
+step  16210 | loss 2.9575 | lr 3.00e-04 | 10K tok/s
+step  16220 | loss 2.9392 | lr 3.00e-04 | 10K tok/s
+step  16230 | loss 2.9454 | lr 3.00e-04 | 10K tok/s
+step  16240 | loss 2.9359 | lr 3.00e-04 | 11K tok/s
+step  16250 | loss 2.9265 | lr 3.00e-04 | 11K tok/s
+step  16260 | loss 2.9268 | lr 3.00e-04 | 11K tok/s
+step  16270 | loss 2.9591 | lr 3.00e-04 | 11K tok/s
+step  16280 | loss 2.9414 | lr 3.00e-04 | 11K tok/s
+step  16290 | loss 2.9529 | lr 3.00e-04 | 11K tok/s
+step  16300 | loss 2.9076 | lr 3.00e-04 | 10K tok/s
+step  16300 | val loss 2.7682
+샘플: 대한민국의 수도는 서울이다. 출처 : 위키백과|
+|대한민국의 수도는 서울이다. 출처 : 위키백과|
+|대한민국의 수도는 서울이다. 출처 : 위키백과|
+|대한민국의 수도는 서울이다. 출처 : 위키백과|
+|대한민국의 수도는 서울이다. 출처 : 위키백과|
+|
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16300)
+step  16310 | loss 2.9429 | lr 3.00e-04 | 10K tok/s
+step  16320 | loss 2.9316 | lr 3.00e-04 | 11K tok/s
+step  16330 | loss 2.9338 | lr 3.00e-04 | 11K tok/s
+step  16340 | loss 2.9330 | lr 3.00e-04 | 11K tok/s
+step  16350 | loss 2.9450 | lr 3.00e-04 | 11K tok/s
+step  16360 | loss 2.9001 | lr 3.00e-04 | 11K tok/s
+step  16370 | loss 2.9418 | lr 3.00e-04 | 11K tok/s
+step  16380 | loss 2.8899 | lr 3.00e-04 | 11K tok/s
+step  16390 | loss 2.9126 | lr 3.00e-04 | 11K tok/s
+step  16400 | loss 2.9809 | lr 3.00e-04 | 11K tok/s
+step  16400 | val loss 2.8878
+샘플: 대한민국의 수도는 서울특별시이다.
+
+대한민국의 행정 구역 
+서울특별시의 행정 구역은 6개동 7개 행정동으로 구성되어 있다. 2014년 12월 1일을 기준으로 서울특별시 25개 행정동이 관할 구역으로 지정되었다. 신설 행정동으로 서울문
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16400)
+step  16410 | loss 2.9592 | lr 3.00e-04 | 10K tok/s
+step  16420 | loss 2.9221 | lr 3.00e-04 | 11K tok/s
+step  16430 | loss 2.9330 | lr 3.00e-04 | 11K tok/s
+step  16440 | loss 2.9452 | lr 3.00e-04 | 11K tok/s
+step  16450 | loss 2.9260 | lr 3.00e-04 | 11K tok/s
+step  16460 | loss 2.9574 | lr 3.00e-04 | 11K tok/s
+step  16470 | loss 2.9304 | lr 3.00e-04 | 11K tok/s
+step  16480 | loss 2.9534 | lr 3.00e-04 | 11K tok/s
+step  16490 | loss 2.9320 | lr 3.00e-04 | 11K tok/s
+step  16500 | loss 2.9184 | lr 3.00e-04 | 11K tok/s
+step  16500 | val loss 2.9139
+샘플: 대한민국의 수도는 서울로, 대한민국의 자치 행정 구역 중 하나이다.
+
+면적은 33,678 km²이며, 인구는 2020년 12월 기준 18,835,528명이다.
+
+서울특별시 
+
+서울특별시
+ 강서구
+ 관악구
+ 동작구
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16500)
+step  16510 | loss 2.9361 | lr 3.00e-04 | 10K tok/s
+step  16520 | loss 2.9670 | lr 3.00e-04 | 11K tok/s
+step  16530 | loss 2.9638 | lr 3.00e-04 | 11K tok/s
+step  16540 | loss 2.9367 | lr 3.00e-04 | 11K tok/s
+step  16550 | loss 2.9469 | lr 3.00e-04 | 11K tok/s
+step  16560 | loss 2.9625 | lr 3.00e-04 | 11K tok/s
+step  16570 | loss 2.9249 | lr 3.00e-04 | 11K tok/s
+step  16580 | loss 2.9193 | lr 3.00e-04 | 11K tok/s
+step  16590 | loss 2.9186 | lr 3.00e-04 | 11K tok/s
+step  16600 | loss 2.9591 | lr 3.00e-04 | 11K tok/s
+step  16600 | val loss 2.8130
+샘플: 대한민국의 수도는 서울일 것이다. 이는 중국이나 동남아에서 한국으로 오는 길에도 그대로 적용된다. 평양을 가더라도 평양을 중심으로 한 도(道)가 서울이 될 것이다. 하지만 그 도에 도달하는 길은 서울이 될 것이다. 그러면 도에서 서울 또는 수도권으로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16600)
+step  16610 | loss 2.9295 | lr 3.00e-04 | 10K tok/s
+step  16620 | loss 3.0021 | lr 3.00e-04 | 11K tok/s
+step  16630 | loss 2.9189 | lr 3.00e-04 | 11K tok/s
+step  16640 | loss 2.9466 | lr 3.00e-04 | 11K tok/s
+step  16650 | loss 2.9584 | lr 3.00e-04 | 11K tok/s
+step  16660 | loss 2.9452 | lr 3.00e-04 | 11K tok/s
+step  16670 | loss 2.9132 | lr 3.00e-04 | 11K tok/s
+step  16680 | loss 2.9174 | lr 3.00e-04 | 11K tok/s
+step  16690 | loss 3.0001 | lr 3.00e-04 | 11K tok/s
+step  16700 | loss 2.9722 | lr 3.00e-04 | 11K tok/s
+step  16700 | val loss 3.0080
+샘플: 대한민국의 수도는 서울이다. 서울의 인구와 면적은 2016년 기준으로 7,200만 명이다. 1945년 지금의 서울이 처음 형성된 이후로 역사가 길게 이어지고 있다.
+
+조선시대에는 한성부의 관할이였다. 일제시대에는 서울의 부(府
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16700)
+step  16710 | loss 2.9188 | lr 3.00e-04 | 10K tok/s
+step  16720 | loss 2.9470 | lr 3.00e-04 | 11K tok/s
+step  16730 | loss 2.9407 | lr 3.00e-04 | 11K tok/s
+step  16740 | loss 2.9229 | lr 3.00e-04 | 11K tok/s
+step  16750 | loss 2.9417 | lr 3.00e-04 | 11K tok/s
+step  16760 | loss 2.9342 | lr 3.00e-04 | 11K tok/s
+step  16770 | loss 2.8623 | lr 3.00e-04 | 11K tok/s
+step  16780 | loss 2.9325 | lr 3.00e-04 | 11K tok/s
+step  16790 | loss 2.9385 | lr 3.00e-04 | 11K tok/s
+step  16800 | loss 2.9203 | lr 3.00e-04 | 11K tok/s
+step  16800 | val loss 2.8847
+샘플: 대한민국의 수도는 서울이다. 세계 최초의 수도는 로마로 알려져 있다. 한국은 고대 한국의 수도였던 부여에서 시작됐다.
+부여는 우리나라의 고대 수도였다. 신라시대 6부에 속했던 부여는 562년에 세워졌다. 이후 고려 현종 9년인
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16800)
+step  16810 | loss 2.9287 | lr 3.00e-04 | 10K tok/s
+step  16820 | loss 2.9359 | lr 3.00e-04 | 11K tok/s
+step  16830 | loss 2.9169 | lr 3.00e-04 | 11K tok/s
+step  16840 | loss 2.9628 | lr 3.00e-04 | 11K tok/s
+step  16850 | loss 2.9256 | lr 3.00e-04 | 11K tok/s
+step  16860 | loss 2.9337 | lr 3.00e-04 | 10K tok/s
+step  16870 | loss 2.9560 | lr 3.00e-04 | 11K tok/s
+step  16880 | loss 2.8994 | lr 3.00e-04 | 11K tok/s
+step  16890 | loss 2.8907 | lr 3.00e-04 | 10K tok/s
+step  16900 | loss 2.9470 | lr 3.00e-04 | 11K tok/s
+step  16900 | val loss 2.8164
+샘플: 대한민국의 수도는 서울이지만 실제로는 서울답지 않게 많이 발전하였으며, 2번째로 큰 대도시이다. 인구는 약 9천2백만 명이다.
+육상 경기
+인구는 약 10만 명 정도이지만 올림픽 개최국 답게 육상경기 종목도 활발하게
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 16900)
+step  16910 | loss 2.9619 | lr 3.00e-04 | 10K tok/s
+step  16920 | loss 2.9596 | lr 3.00e-04 | 10K tok/s
+step  16930 | loss 2.8896 | lr 3.00e-04 | 10K tok/s
+step  16940 | loss 2.9002 | lr 3.00e-04 | 11K tok/s
+step  16950 | loss 2.9335 | lr 3.00e-04 | 10K tok/s
+step  16960 | loss 2.9618 | lr 3.00e-04 | 10K tok/s
+step  16970 | loss 2.9224 | lr 3.00e-04 | 10K tok/s
+step  16980 | loss 2.9259 | lr 3.00e-04 | 10K tok/s
+step  16990 | loss 2.9481 | lr 3.00e-04 | 11K tok/s
+step  17000 | loss 2.8978 | lr 3.00e-04 | 11K tok/s
+step  17000 | val loss 2.9225
+샘플: 대한민국의 수도는 서울특별시다. 2006년 6월 4일 지방자치단체에 통합되었으며, 2020년 6월 기준 22개 자치구, 1개 특별·광역시, 1개 시, 8개 군으로
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17000)
+step  17010 | loss 2.8755 | lr 3.00e-04 | 10K tok/s
+step  17020 | loss 2.9174 | lr 3.00e-04 | 11K tok/s
+step  17030 | loss 2.9148 | lr 3.00e-04 | 11K tok/s
+step  17040 | loss 2.9267 | lr 3.00e-04 | 11K tok/s
+step  17050 | loss 2.9049 | lr 3.00e-04 | 11K tok/s
+step  17060 | loss 2.9299 | lr 3.00e-04 | 11K tok/s
+step  17070 | loss 2.9742 | lr 3.00e-04 | 11K tok/s
+step  17080 | loss 2.8795 | lr 3.00e-04 | 11K tok/s
+step  17090 | loss 2.9067 | lr 3.00e-04 | 11K tok/s
+step  17100 | loss 2.9310 | lr 3.00e-04 | 11K tok/s
+step  17100 | val loss 2.9294
+샘플: 대한민국의 수도는 서울이다. 한국에서 가장 큰 도시이며, 서울이 21세기 세계의 수도로 불리는 데에는 그만한 이유가 있다.
+- 홍콩 – 아시아 중심 도시이자 세계의 수도로 불릴 만큼 세계적으로 주목받고 있는 도시. 홍콩은 200만 이상의 인구에 
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17100)
+step  17110 | loss 2.8827 | lr 3.00e-04 | 10K tok/s
+step  17120 | loss 2.9238 | lr 3.00e-04 | 11K tok/s
+step  17130 | loss 2.9129 | lr 3.00e-04 | 11K tok/s
+step  17140 | loss 2.9321 | lr 3.00e-04 | 11K tok/s
+step  17150 | loss 2.9215 | lr 3.00e-04 | 11K tok/s
+step  17160 | loss 2.8974 | lr 3.00e-04 | 11K tok/s
+step  17170 | loss 2.9246 | lr 3.00e-04 | 11K tok/s
+step  17180 | loss 2.9447 | lr 3.00e-04 | 11K tok/s
+step  17190 | loss 2.8989 | lr 3.00e-04 | 11K tok/s
+step  17200 | loss 2.9226 | lr 3.00e-04 | 11K tok/s
+step  17200 | val loss 2.8429
+샘플: 대한민국의 수도는 서울특별시이며, 인구는 2018년 9월 28일 기준으로 1,217,431명이다.
+지리[편집]
+한강의 동쪽, 경기도와 경계를 이루는 남한강 유역에 위치한다. 북쪽과 서쪽으로는 임진강, 남쪽으로는
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17200)
+step  17210 | loss 2.9530 | lr 3.00e-04 | 10K tok/s
+step  17220 | loss 2.9344 | lr 3.00e-04 | 11K tok/s
+step  17230 | loss 2.9136 | lr 3.00e-04 | 11K tok/s
+step  17240 | loss 2.9029 | lr 3.00e-04 | 11K tok/s
+step  17250 | loss 2.9364 | lr 3.00e-04 | 11K tok/s
+step  17260 | loss 2.9097 | lr 3.00e-04 | 11K tok/s
+step  17270 | loss 2.9765 | lr 3.00e-04 | 11K tok/s
+step  17280 | loss 2.9458 | lr 3.00e-04 | 11K tok/s
+step  17290 | loss 2.9358 | lr 3.00e-04 | 11K tok/s
+step  17300 | loss 2.9683 | lr 3.00e-04 | 11K tok/s
+step  17300 | val loss 2.8939
+샘플: 대한민국의 수도는 경기도, 강원도, 충청도, 경상북도, 전라남도, 경상남도, 제주도.
+서울특별시, 인천광역시, 대전광역시, 울산광역시, 세종특별자치시, 경기도, 충청북도, 충청남도, 전라북도, 전라남도, 경상북도, 경상남도, 제주도.
+국회, 대법원, 헌법재판소 등
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17300)
+step  17310 | loss 2.9089 | lr 3.00e-04 | 10K tok/s
+step  17320 | loss 2.9423 | lr 3.00e-04 | 11K tok/s
+step  17330 | loss 2.9069 | lr 3.00e-04 | 11K tok/s
+step  17340 | loss 2.9218 | lr 3.00e-04 | 11K tok/s
+step  17350 | loss 2.9388 | lr 3.00e-04 | 11K tok/s
+step  17360 | loss 2.9589 | lr 3.00e-04 | 11K tok/s
+step  17370 | loss 2.9287 | lr 3.00e-04 | 11K tok/s
+step  17380 | loss 2.9026 | lr 3.00e-04 | 11K tok/s
+step  17390 | loss 2.9467 | lr 3.00e-04 | 11K tok/s
+step  17400 | loss 2.9166 | lr 3.00e-04 | 11K tok/s
+step  17400 | val loss 2.9103
+샘플: 대한민국의 수도는 서울로 1919년 1월 1일 경성부, 경성부로 개칭하였다.
+
+ 1919년 2월 28일 : 경성부(慶性府) 대구군(大邱郡) 편입, 대구부
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17400)
+step  17410 | loss 2.9115 | lr 3.00e-04 | 10K tok/s
+step  17420 | loss 2.8897 | lr 3.00e-04 | 11K tok/s
+step  17430 | loss 2.9341 | lr 3.00e-04 | 11K tok/s
+step  17440 | loss 2.9320 | lr 3.00e-04 | 11K tok/s
+step  17450 | loss 2.8993 | lr 3.00e-04 | 11K tok/s
+step  17460 | loss 2.9606 | lr 3.00e-04 | 11K tok/s
+step  17470 | loss 2.9116 | lr 3.00e-04 | 11K tok/s
+step  17480 | loss 2.9384 | lr 3.00e-04 | 11K tok/s
+step  17490 | loss 2.9702 | lr 3.00e-04 | 11K tok/s
+step  17500 | loss 2.8798 | lr 3.00e-04 | 11K tok/s
+step  17500 | val loss 2.7386
+샘플: 대한민국의 수도는 3일 만에 트래픽이 급증한 평양이다. 평양과 서울이 같은 시간대에 트래픽이 가장 많은 것으로 나타났다.
+10일 한국인터넷진흥원(KISA) 인터넷침해대응센터에 따르면 이날 오전 0시부터 8일 오전 8시까지
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17500)
+step  17510 | loss 2.9045 | lr 3.00e-04 | 10K tok/s
+step  17520 | loss 2.9036 | lr 3.00e-04 | 11K tok/s
+step  17530 | loss 2.9162 | lr 3.00e-04 | 11K tok/s
+step  17540 | loss 2.9103 | lr 3.00e-04 | 11K tok/s
+step  17550 | loss 2.9104 | lr 3.00e-04 | 11K tok/s
+step  17560 | loss 2.9333 | lr 3.00e-04 | 11K tok/s
+step  17570 | loss 2.9133 | lr 3.00e-04 | 11K tok/s
+step  17580 | loss 2.8930 | lr 3.00e-04 | 11K tok/s
+step  17590 | loss 2.8871 | lr 3.00e-04 | 11K tok/s
+step  17600 | loss 2.9282 | lr 3.00e-04 | 11K tok/s
+step  17600 | val loss 2.8006
+샘플: 대한민국의 수도는 충청북도 청주시입니다. 2019년 2월 21일 행정중심복합도시건설청과 공동으로 구성한 연구팀이 대통령 소속 국가균형발전위원회에서 주최한 '국가균형발전 성과와 전략' 콘퍼런스에서 국가균형발전 우수사례에 선정됐다.
+국가균형
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17600)
+step  17610 | loss 2.9317 | lr 3.00e-04 | 10K tok/s
+step  17620 | loss 2.9315 | lr 3.00e-04 | 11K tok/s
+step  17630 | loss 2.9348 | lr 3.00e-04 | 11K tok/s
+step  17640 | loss 2.9135 | lr 3.00e-04 | 11K tok/s
+step  17650 | loss 2.9142 | lr 3.00e-04 | 11K tok/s
+step  17660 | loss 2.8860 | lr 3.00e-04 | 11K tok/s
+step  17670 | loss 2.8867 | lr 3.00e-04 | 11K tok/s
+step  17680 | loss 2.9146 | lr 3.00e-04 | 11K tok/s
+step  17690 | loss 2.8944 | lr 3.00e-04 | 11K tok/s
+step  17700 | loss 2.8985 | lr 3.00e-04 | 11K tok/s
+step  17700 | val loss 2.8535
+샘플: 대한민국의 수도는 서울.
+2.2. 대한민국의 주요 지역
+대한민국은 서울특별시, 인천광역시, 부산광역시, 대구광역시, 대전광역시, 광주광역시, 대구광역시 동구, 부산광역시 영도구, 부산광역시 중구, 부산광역시 서구, 부산광역시 동구, 부산광역시 영도구, 부산광역시 북구, 부산광역시
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17700)
+step  17710 | loss 2.9241 | lr 3.00e-04 | 10K tok/s
+step  17720 | loss 2.9384 | lr 3.00e-04 | 11K tok/s
+step  17730 | loss 2.9631 | lr 3.00e-04 | 11K tok/s
+step  17740 | loss 2.9155 | lr 3.00e-04 | 11K tok/s
+step  17750 | loss 2.9072 | lr 3.00e-04 | 11K tok/s
+step  17760 | loss 2.9247 | lr 3.00e-04 | 11K tok/s
+step  17770 | loss 2.9553 | lr 3.00e-04 | 11K tok/s
+step  17780 | loss 2.9472 | lr 3.00e-04 | 11K tok/s
+step  17790 | loss 2.8787 | lr 3.00e-04 | 11K tok/s
+step  17800 | loss 2.8833 | lr 3.00e-04 | 11K tok/s
+step  17800 | val loss 2.8514
+샘플: 대한민국의 수도는 서울로 한 번에 볼 수 있는 3개의 터미널 중 한 곳을 이용해야 한다.
+인천공항 국제 여객 터미널은 국내선 전용 터미널로 건물 번호 G301과 301번이다.
+대한민국의 항공사로는 대한항공이 인천국제공항을 이용하며 대한항공은 인천국제공항
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17800)
+step  17810 | loss 2.9594 | lr 3.00e-04 | 10K tok/s
+step  17820 | loss 2.9365 | lr 3.00e-04 | 11K tok/s
+step  17830 | loss 2.9164 | lr 3.00e-04 | 11K tok/s
+step  17840 | loss 2.9222 | lr 3.00e-04 | 11K tok/s
+step  17850 | loss 2.9241 | lr 3.00e-04 | 11K tok/s
+step  17860 | loss 2.9761 | lr 3.00e-04 | 11K tok/s
+step  17870 | loss 2.9069 | lr 3.00e-04 | 11K tok/s
+step  17880 | loss 2.9057 | lr 3.00e-04 | 11K tok/s
+step  17890 | loss 2.9070 | lr 3.00e-04 | 11K tok/s
+step  17900 | loss 2.9250 | lr 3.00e-04 | 11K tok/s
+step  17900 | val loss 2.8617
+샘플: 대한민국의 수도는 서울이 맞다. 서울이라는 지명을 공식적으로 통일한 것은 1899년 9월 22일 한성부 고적 제18호로 서울특별시라고 한 것에서 나온 것이다.
+오늘날의 서울을 중심으로 하는 대동맥은 산동반도와 만주
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 17900)
+step  17910 | loss 2.8967 | lr 3.00e-04 | 10K tok/s
+step  17920 | loss 2.9224 | lr 3.00e-04 | 11K tok/s
+step  17930 | loss 2.9392 | lr 3.00e-04 | 11K tok/s
+step  17940 | loss 2.9259 | lr 3.00e-04 | 11K tok/s
+step  17950 | loss 2.9203 | lr 3.00e-04 | 11K tok/s
+step  17960 | loss 2.8911 | lr 3.00e-04 | 11K tok/s
+step  17970 | loss 2.8816 | lr 3.00e-04 | 11K tok/s
+step  17980 | loss 2.8929 | lr 3.00e-04 | 11K tok/s
+step  17990 | loss 2.8712 | lr 3.00e-04 | 11K tok/s
+step  18000 | loss 2.9440 | lr 3.00e-04 | 11K tok/s
+step  18000 | val loss 2.8359
+샘플: 대한민국의 수도는 서울특별시이지만 서울부의 행정수도이다. 대한민국의 행정수도이다.
+
+법률은 1950년 3월 1일에 법률 제176호로, 서울특별시 설치 등에 관한 법률로 제정되어, 1961년 1월 1
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18000)
+step  18010 | loss 2.9268 | lr 3.00e-04 | 10K tok/s
+step  18020 | loss 2.8947 | lr 3.00e-04 | 11K tok/s
+step  18030 | loss 2.9095 | lr 3.00e-04 | 11K tok/s
+step  18040 | loss 2.9056 | lr 3.00e-04 | 11K tok/s
+step  18050 | loss 2.9068 | lr 3.00e-04 | 11K tok/s
+step  18060 | loss 2.8775 | lr 3.00e-04 | 11K tok/s
+step  18070 | loss 2.9095 | lr 3.00e-04 | 11K tok/s
+step  18080 | loss 2.9006 | lr 3.00e-04 | 11K tok/s
+step  18090 | loss 2.8878 | lr 3.00e-04 | 11K tok/s
+step  18100 | loss 2.9380 | lr 3.00e-04 | 11K tok/s
+step  18100 | val loss 2.9873
+샘플: 대한민국의 수도는 서울이다. 헌법상 대한민국의 수도는 서울이지만, 대한민국 국회, 헌법 제1조, 제2조, 제3조의 규정에 의하여 국회의 선거권, 국민투표권의 행사가 제한되고 있어 3개월 전부터 시행될 예정이다. 다만, 재외
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18100)
+step  18110 | loss 2.9072 | lr 3.00e-04 | 10K tok/s
+step  18120 | loss 2.8925 | lr 3.00e-04 | 11K tok/s
+step  18130 | loss 2.9345 | lr 3.00e-04 | 11K tok/s
+step  18140 | loss 2.8718 | lr 3.00e-04 | 11K tok/s
+step  18150 | loss 2.8998 | lr 3.00e-04 | 11K tok/s
+step  18160 | loss 2.9317 | lr 3.00e-04 | 11K tok/s
+step  18170 | loss 2.9256 | lr 3.00e-04 | 11K tok/s
+step  18180 | loss 2.9219 | lr 3.00e-04 | 11K tok/s
+step  18190 | loss 2.8818 | lr 3.00e-04 | 11K tok/s
+step  18200 | loss 2.9190 | lr 3.00e-04 | 11K tok/s
+step  18200 | val loss 2.8585
+샘플: 대한민국의 수도는 서울이다. 온라인에서는 크게 두 가지 일이 일어나고 있다. 하나는 ‘서울을 제외한 지역’에서의 온라인 거래이고, 또 하나는 ‘서울 외의 지역’에서의 온라인 거래이다. 이 둘은 거의 쌍으로 일어나며, 둘다 ‘서울을
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18200)
+step  18210 | loss 2.8947 | lr 3.00e-04 | 10K tok/s
+step  18220 | loss 2.9356 | lr 3.00e-04 | 11K tok/s
+step  18230 | loss 2.9581 | lr 3.00e-04 | 11K tok/s
+step  18240 | loss 2.9333 | lr 3.00e-04 | 11K tok/s
+step  18250 | loss 2.8986 | lr 3.00e-04 | 11K tok/s
+step  18260 | loss 2.8838 | lr 3.00e-04 | 11K tok/s
+step  18270 | loss 2.8763 | lr 3.00e-04 | 11K tok/s
+step  18280 | loss 2.9453 | lr 3.00e-04 | 11K tok/s
+step  18290 | loss 2.9162 | lr 3.00e-04 | 11K tok/s
+step  18300 | loss 2.9086 | lr 3.00e-04 | 11K tok/s
+step  18300 | val loss 2.8325
+샘플: 대한민국의 수도는 서울이며, 이 중 가장 많은 인구가 거주하는 서울의 인구는 약 540만 명으로, 대한민국 전체 인구의 약 25%를 차지한다. 인구 1,000만 명 이상의 전국 14개 광역지방자치단체 중 하나가 서울특별시이다. 20대
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18300)
+step  18310 | loss 2.8950 | lr 3.00e-04 | 10K tok/s
+step  18320 | loss 2.9137 | lr 3.00e-04 | 11K tok/s
+step  18330 | loss 2.9300 | lr 3.00e-04 | 11K tok/s
+step  18340 | loss 2.8947 | lr 3.00e-04 | 11K tok/s
+step  18350 | loss 2.9160 | lr 3.00e-04 | 11K tok/s
+step  18360 | loss 2.8930 | lr 3.00e-04 | 11K tok/s
+step  18370 | loss 2.8974 | lr 3.00e-04 | 11K tok/s
+step  18380 | loss 2.8995 | lr 3.00e-04 | 11K tok/s
+step  18390 | loss 2.9310 | lr 3.00e-04 | 11K tok/s
+step  18400 | loss 2.9108 | lr 3.00e-04 | 11K tok/s
+step  18400 | val loss 2.9679
+샘플: 대한민국의 수도는아이스하키중계, 아프리카티비, MLB중계 등 다양한 서비스를 제공하고 있습니다. “MLB중계”는 한국의 대표적인 스포츠 중 하나로, 메이저 리그 야구, 미국 프로야구, 한국프로야구 등 다양한 리그를 중계하는 곳입니다.
+다양한 방송 채널과
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18400)
+step  18410 | loss 2.9303 | lr 3.00e-04 | 10K tok/s
+step  18420 | loss 2.9255 | lr 3.00e-04 | 11K tok/s
+step  18430 | loss 2.8893 | lr 3.00e-04 | 11K tok/s
+step  18440 | loss 2.9154 | lr 3.00e-04 | 11K tok/s
+step  18450 | loss 2.8568 | lr 3.00e-04 | 10K tok/s
+step  18460 | loss 2.9429 | lr 3.00e-04 | 10K tok/s
+step  18470 | loss 2.8920 | lr 3.00e-04 | 10K tok/s
+step  18480 | loss 2.8828 | lr 3.00e-04 | 11K tok/s
+step  18490 | loss 2.9178 | lr 3.00e-04 | 11K tok/s
+step  18500 | loss 2.8861 | lr 3.00e-04 | 11K tok/s
+step  18500 | val loss 2.8731
+샘플: 대한민국의 수도는 서울특별시다. 다른 뜻은 없다. 혹자는 평양시를 서울특별시에 편입시킨다지만, 서울특별시의 인구가 4000만 명 정도 되고, 2010년 현재 인구가 900만 명 정도다. 대략 서울시민이 대략 6천만 명
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18500)
+step  18510 | loss 2.8858 | lr 3.00e-04 | 10K tok/s
+step  18520 | loss 2.9030 | lr 3.00e-04 | 11K tok/s
+step  18530 | loss 2.8949 | lr 3.00e-04 | 11K tok/s
+step  18540 | loss 2.8728 | lr 3.00e-04 | 11K tok/s
+step  18550 | loss 2.9080 | lr 3.00e-04 | 11K tok/s
+step  18560 | loss 2.9152 | lr 3.00e-04 | 11K tok/s
+step  18570 | loss 2.9613 | lr 3.00e-04 | 11K tok/s
+step  18580 | loss 2.9202 | lr 3.00e-04 | 11K tok/s
+step  18590 | loss 2.9083 | lr 3.00e-04 | 11K tok/s
+step  18600 | loss 2.9324 | lr 3.00e-04 | 11K tok/s
+step  18600 | val loss 2.9962
+샘플: 대한민국의 수도는 서울이다. 서울남부지방법원, 서울남부지방법원 및 서울남부지방법원 북부지원, 서울남부지방법원 남부지원, 서울남부지방법원 서부지원 및 서울남부지방법원 북부지원, 서울남부지방법원 남부지원 및
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18600)
+step  18610 | loss 2.9348 | lr 3.00e-04 | 10K tok/s
+step  18620 | loss 2.9311 | lr 3.00e-04 | 11K tok/s
+step  18630 | loss 2.9290 | lr 3.00e-04 | 11K tok/s
+step  18640 | loss 2.9185 | lr 3.00e-04 | 11K tok/s
+step  18650 | loss 2.8902 | lr 3.00e-04 | 11K tok/s
+step  18660 | loss 2.9553 | lr 3.00e-04 | 11K tok/s
+step  18670 | loss 2.9321 | lr 3.00e-04 | 11K tok/s
+step  18680 | loss 2.8944 | lr 3.00e-04 | 11K tok/s
+step  18690 | loss 2.9292 | lr 3.00e-04 | 11K tok/s
+step  18700 | loss 2.9165 | lr 3.00e-04 | 11K tok/s
+step  18700 | val loss 2.9787
+샘플: 대한민국의 수도는 서울이다. 제주도와 마찬가지로 서울특별시도 행정구역이 두 군데로 나뉜다. 서울과 지방의 구별은 아직까진 명확하게 규정되지 않고 있다. 서울특별시와 경기도가 하나의 서울특별시를 이루고 있는 것이 그 증거. 그나마 경기도에서는 서울특별시처럼 두 개 이상의
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18700)
+step  18710 | loss 2.9252 | lr 3.00e-04 | 10K tok/s
+step  18720 | loss 2.9307 | lr 3.00e-04 | 11K tok/s
+step  18730 | loss 2.9026 | lr 3.00e-04 | 11K tok/s
+step  18740 | loss 2.9248 | lr 3.00e-04 | 11K tok/s
+step  18750 | loss 2.9199 | lr 3.00e-04 | 11K tok/s
+step  18760 | loss 2.8879 | lr 3.00e-04 | 11K tok/s
+step  18770 | loss 2.8681 | lr 3.00e-04 | 11K tok/s
+step  18780 | loss 2.9168 | lr 3.00e-04 | 11K tok/s
+step  18790 | loss 2.9515 | lr 3.00e-04 | 11K tok/s
+step  18800 | loss 2.8718 | lr 3.00e-04 | 11K tok/s
+step  18800 | val loss 2.9369
+샘플: 대한민국의 수도는 서울특별시입니다.
+대전에 살고 싶은 사람은 30일 동안 대전광역시를 떠나야 합니다.
+대전은 1914년에 제정, 1989년에 개정, 1995년에 폐지된 지방자치법 제6조의 규정에 따라 대한민국의 수도
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18800)
+step  18810 | loss 2.9038 | lr 3.00e-04 | 10K tok/s
+step  18820 | loss 2.9390 | lr 3.00e-04 | 11K tok/s
+step  18830 | loss 2.9191 | lr 3.00e-04 | 11K tok/s
+step  18840 | loss 2.9386 | lr 3.00e-04 | 11K tok/s
+step  18850 | loss 2.8971 | lr 3.00e-04 | 11K tok/s
+step  18860 | loss 2.9081 | lr 3.00e-04 | 11K tok/s
+step  18870 | loss 2.9181 | lr 3.00e-04 | 11K tok/s
+step  18880 | loss 2.9006 | lr 3.00e-04 | 11K tok/s
+step  18890 | loss 2.8860 | lr 3.00e-04 | 11K tok/s
+step  18900 | loss 2.8924 | lr 3.00e-04 | 11K tok/s
+step  18900 | val loss 2.8978
+샘플: 대한민국의 수도는?"
+"음, 실제로 온다면?"
+"진짜로 온다면?"
+"아니, 일단 한 번 정도."
+상혁이는 팔짱을 낀다.
+"내가 원래 소속사에서 제일 먼저 다단계 판매 아르바이트 관련 잡지를 낼 예정이었다
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 18900)
+step  18910 | loss 2.9414 | lr 3.00e-04 | 10K tok/s
+step  18920 | loss 2.9303 | lr 3.00e-04 | 11K tok/s
+step  18930 | loss 2.9029 | lr 3.00e-04 | 11K tok/s
+step  18940 | loss 2.9458 | lr 3.00e-04 | 11K tok/s
+step  18950 | loss 2.9069 | lr 3.00e-04 | 11K tok/s
+step  18960 | loss 2.8870 | lr 3.00e-04 | 11K tok/s
+step  18970 | loss 2.9084 | lr 3.00e-04 | 11K tok/s
+step  18980 | loss 2.8838 | lr 3.00e-04 | 11K tok/s
+step  18990 | loss 2.9524 | lr 3.00e-04 | 11K tok/s
+step  19000 | loss 2.9312 | lr 3.00e-04 | 11K tok/s
+step  19000 | val loss 2.8557
+샘플: 대한민국의 수도는 서울이며, 영어명인 United Kingdom of Great Britain and Northern Ireland, 줄여서 UK 또는 EU라고도 한다.
+EU의 회원국은 다음과 같다.
+<div align="right" class="B" style="font-family: Arial, Hel
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 19000)
+step  19010 | loss 2.9382 | lr 3.00e-04 | 10K tok/s
+step  19020 | loss 2.9085 | lr 3.00e-04 | 11K tok/s
+step  19030 | loss 2.8941 | lr 3.00e-04 | 11K tok/s
+step  19040 | loss 2.8902 | lr 3.00e-04 | 11K tok/s
+step  19050 | loss 2.9353 | lr 3.00e-04 | 11K tok/s
+step  19060 | loss 2.8732 | lr 3.00e-04 | 11K tok/s
+step  19070 | loss 2.9022 | lr 3.00e-04 | 11K tok/s
+step  19080 | loss 2.9047 | lr 3.00e-04 | 11K tok/s
+step  19090 | loss 2.9206 | lr 3.00e-04 | 11K tok/s
+step  19100 | loss 2.9099 | lr 3.00e-04 | 11K tok/s
+step  19100 | val loss 2.9985
+샘플: 대한민국의 수도는 대한민국입니다. (코레일)
+대한민국의 지방도시[편집]
+- 서울특별시
+- 부산광역시
+- 대구광역시
+- 인천광역시
+- 광주광역시
+- 대전광역시
+- 울산광역시
+- 경기도
+- 강원도
+- 충청북도와 충청북도 사이를 잇는 대한민국의 주요
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 19100)
+step  19110 | loss 2.8954 | lr 3.00e-04 | 10K tok/s
+step  19120 | loss 2.9293 | lr 3.00e-04 | 11K tok/s
+step  19130 | loss 2.9401 | lr 3.00e-04 | 11K tok/s
+step  19140 | loss 2.8972 | lr 3.00e-04 | 11K tok/s
+step  19150 | loss 2.8824 | lr 3.00e-04 | 11K tok/s
+step  19160 | loss 2.9126 | lr 3.00e-04 | 11K tok/s
+step  19170 | loss 2.9479 | lr 3.00e-04 | 11K tok/s
+step  19180 | loss 2.9331 | lr 3.00e-04 | 11K tok/s
+step  19190 | loss 2.9483 | lr 3.00e-04 | 11K tok/s
+=== step 19200: annealing 데이터로 전환 (data/shards_anneal) ===
+step  19200 | loss 2.6144 | lr 3.00e-04 | 11K tok/s
+step  19200 | val loss 2.9422
+샘플: 대한민국의 수도는 서울"이라고 말했다.
+하지만, 서울시는 지난달 26일 외국인을 포함한 모든 외국인의 서울 출입을 제한하고, 서울 내 다중이용시설을 24시간 폐쇄하겠다고 밝힌 상황이다.<|eos|>
+체크포인트 저장: checkpoints/base_1b/latest.pt (step 19200)

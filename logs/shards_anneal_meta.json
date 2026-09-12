@@ -1,0 +1,177 @@
+{
+  "purpose": "annealing (LR decay 구간용 고품질 혼합)",
+  "tokenizer": "tokenizer/tokenizer.json",
+  "quality_model": "data/quality_ko.npz",
+  "shard_tokens": 50000000,
+  "train_tokens": 4940122956,
+  "val_tokens": 20803649,
+  "docs": 28260207,
+  "filtered": 21282500,
+  "duplicates": 277757,
+  "sources": [
+    {
+      "label": "교과서",
+      "parts": [
+        [
+          "maywell/korean_textbooks",
+          "ko_wikidata"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "tiny-textbooks"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "claude_evol"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "normal_instructions"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "helpsteer"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "code-alpaca"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_all"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_abstract_algebra"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_anatomy"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_astronomy"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_business_ethics"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_clinical_knowledge"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_college_biology"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_college_chemistry"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_college_computer_science"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_college_mathematics"
+        ],
+        [
+          "maywell/korean_textbooks",
+          "mmlu_college_medicine"
+        ]
+      ],
+      "ratio": 0.33,
+      "threshold": null,
+      "repeat": 3,
+      "dedup": false,
+      "got": 1716137887,
+      "seen": 2791407,
+      "kept": 2768292
+    },
+    {
+      "label": "위키백과",
+      "parts": [
+        [
+          "wikimedia/wikipedia",
+          "20231101.ko"
+        ]
+      ],
+      "ratio": 0.15,
+      "threshold": null,
+      "repeat": 5,
+      "dedup": false,
+      "got": 780018909,
+      "seen": 1931511,
+      "kept": 1378590
+    },
+    {
+      "label": "나무위키",
+      "parts": [
+        [
+          "heegyu/namuwiki-extracted",
+          null
+        ]
+      ],
+      "ratio": 0.15,
+      "threshold": 0.3,
+      "repeat": 2,
+      "dedup": true,
+      "got": 540536136,
+      "seen": 1130586,
+      "kept": 253609
+    },
+    {
+      "label": "선별 웹",
+      "parts": [
+        [
+          "HuggingFaceFW/fineweb-2",
+          "kor_Hang"
+        ]
+      ],
+      "ratio": 0.23,
+      "threshold": 0.3,
+      "repeat": 1,
+      "dedup": true,
+      "got": 1196055168,
+      "seen": 21284238,
+      "kept": 1178660
+    },
+    {
+      "label": "영어 Edu",
+      "parts": [
+        [
+          "HuggingFaceFW/fineweb-edu",
+          "sample-10BT"
+        ]
+      ],
+      "ratio": 0.1,
+      "threshold": null,
+      "repeat": 1,
+      "dedup": true,
+      "got": 520102084,
+      "seen": 458964,
+      "kept": 457298
+    },
+    {
+      "label": "instruction",
+      "parts": [
+        [
+          "nlpai-lab/kullm-v2",
+          null
+        ],
+        [
+          "beomi/KoAlpaca-v1.1a",
+          null
+        ]
+      ],
+      "ratio": 0.04,
+      "threshold": null,
+      "repeat": 4,
+      "dedup": false,
+      "got": 208076421,
+      "seen": 663501,
+      "kept": 663501
+    }
+  ]
+}

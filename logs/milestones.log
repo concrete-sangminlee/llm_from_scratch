@@ -1,0 +1,36 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+step   4000 (4.2B tokens) | ppl  24.18 | COPA 54.7% BoolQ 53.3% HellaSwag 32.0% | 1416초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+step   8000 (8.4B tokens) | ppl  19.33 | COPA 58.7% BoolQ 53.3% HellaSwag 30.7% | 1097초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+step  12000 (12.6B tokens) | ppl  17.77 | COPA 61.3% BoolQ 53.3% HellaSwag 32.7% | 1089초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    경고: boolq 예측이 한쪽으로 쏠림 {0: 150}
+step   4000 (4.2B tokens) | ppl  24.18 | COPA 58.0% BoolQ 46.7% HellaSwag 36.0% | 1366초
+    경고: boolq 예측이 한쪽으로 쏠림 {0: 150}
+step   8000 (8.4B tokens) | ppl  19.33 | COPA 60.7% BoolQ 46.7% HellaSwag 40.7% | 1356초
+    경고: boolq 예측이 한쪽으로 쏠림 {0: 150}
+step  12000 (12.6B tokens) | ppl  17.77 | COPA 60.7% BoolQ 46.7% HellaSwag 40.7% | 1350초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    경고: boolq 예측이 한쪽으로 쏠림 {0: 150}
+step  16000 (16.8B tokens) | ppl  16.62 | COPA 64.0% BoolQ 46.7% HellaSwag 43.3% | 1335초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+step  19200 (20.1B tokens) | ppl  17.02 | COPA 62.7% BoolQ 56.7% HellaSwag 46.7% | 970초
+
+결과: checkpoints/base_1b/milestones.csv
+무작위 기준: COPA 50% / BoolQ 50% / HellaSwag 25%
